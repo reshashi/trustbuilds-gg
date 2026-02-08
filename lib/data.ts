@@ -65,6 +65,8 @@ export function getAlternatives(componentId: string): Component[] {
  * Get lowest price for a component across all retailers
  */
 export function getLowestPrice(component: Component): number {
+  if (component.retailers.length === 0) return 0;
+
   const inStockPrices = component.retailers
     .filter((r) => r.inStock)
     .map((r) => r.price);

@@ -9,27 +9,11 @@ import ComponentList from "@/components/ComponentList";
 import { BuyAllButton } from "@/components/AffiliateButton";
 import buildsData from "@/data/builds.json";
 import { getAllParts } from "@/lib/partsLoader";
+import { getLowestPrice, formatPrice } from "@/lib/data";
 import type { Build, Component, EnrichedBuild } from "@/lib/types";
 
 const builds = buildsData as unknown as Build[];
 const components = getAllParts();
-
-function getLowestPrice(component: Component): number {
-  const inStockRetailers = component.retailers.filter((r) => r.inStock);
-  if (inStockRetailers.length === 0) {
-    return Math.min(...component.retailers.map((r) => r.price));
-  }
-  return Math.min(...inStockRetailers.map((r) => r.price));
-}
-
-function formatPrice(price: number): string {
-  return new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: "USD",
-    minimumFractionDigits: 0,
-    maximumFractionDigits: 0,
-  }).format(price);
-}
 
 function getEnrichedBuild(build: Build): EnrichedBuild {
   const enrichedComponents = build.componentIds

@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TrustScore from "@/components/TrustScore";
 import { getAllParts } from "@/lib/partsLoader";
+import { getLowestPrice, formatPrice } from "@/lib/data";
 import type { Component } from "@/lib/types";
 
 const allComponents = getAllParts();
@@ -49,23 +50,6 @@ const categoryPlaceholders: Record<string, string> = {
 };
 
 const categoryOrder = ["cpu", "gpu", "motherboard", "ram", "storage", "psu", "case", "cooler", "monitor", "keyboard", "mouse", "headset"];
-
-function getLowestPrice(component: Component): number {
-  const inStockRetailers = component.retailers.filter((r) => r.inStock);
-  if (inStockRetailers.length === 0) {
-    return Math.min(...component.retailers.map((r) => r.price));
-  }
-  return Math.min(...inStockRetailers.map((r) => r.price));
-}
-
-function formatPrice(price: number): string {
-  return new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency: "USD",
-    minimumFractionDigits: 0,
-    maximumFractionDigits: 0,
-  }).format(price);
-}
 
 // --- Autocomplete Component ---
 
