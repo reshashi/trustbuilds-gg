@@ -178,22 +178,52 @@
     "alternativeIds": ["cpu-r7-7700x", "cpu-r9-7900x3d"]
   },
   {
-    "id": "cpu-r9-7900x3d",
+    "id": "cpu-r9-9850x3d",
     "category": "cpu",
-    "name": "AMD Ryzen 9 7900X3D",
+    "name": "AMD Ryzen 9 9850X3D",
     "brand": "AMD",
-    "model": "Ryzen 9 7900X3D",
+    "model": "Ryzen 9 9850X3D",
     "specs": {
-      "cores": 12,
-      "threads": 24,
-      "baseClock": "4.4 GHz",
-      "boostClock": "5.6 GHz",
+      "cores": 16,
+      "threads": 32,
+      "baseClock": "4.5 GHz",
+      "boostClock": "5.7 GHz",
       "socket": "AM5",
       "tdp": 120,
-      "cache": "140MB",
-      "note": "3D V-Cache for gaming + productivity"
+      "cache": "144MB",
+      "note": "3D V-Cache for ultimate gaming"
     },
-    "trustScore": 93,
+    "trustScore": 95,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 3,
+      "brandReputation": 96,
+      "rmaRating": 4.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 599, "inStock": true, "url": "https://amazon.com/dp/B0D9850X3D", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 589, "inStock": true, "url": "https://newegg.com/amd-ryzen-9-9850x3d", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 569, "inStock": true, "url": "https://microcenter.com/product/amd-ryzen-9-9850x3d", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-r7-7800x3d", "cpu-r7-9800x3d"]
+  },
+  {
+    "id": "cpu-r7-9800x3d",
+    "category": "cpu",
+    "name": "AMD Ryzen 7 9800X3D",
+    "brand": "AMD",
+    "model": "Ryzen 7 9800X3D",
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": "4.7 GHz",
+      "boostClock": "5.2 GHz",
+      "socket": "AM5",
+      "tdp": 120,
+      "cache": "104MB",
+      "note": "3D V-Cache for gaming"
+    },
+    "trustScore": 94,
     "trustFactors": {
       "failureRate": 0.4,
       "warrantyYears": 3,
@@ -201,10 +231,11 @@
       "rmaRating": 4.8
     },
     "retailers": [
-      { "retailer": "amazon", "price": 499, "inStock": true, "url": "https://amazon.com/dp/B0BVN6P3WN", "lastUpdated": "2026-02-08" },
-      { "retailer": "newegg", "price": 489, "inStock": true, "url": "https://newegg.com/amd-ryzen-9-7900x3d", "lastUpdated": "2026-02-08" }
+      { "retailer": "amazon", "price": 479, "inStock": true, "url": "https://amazon.com/dp/B0D9800X3D", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 469, "inStock": true, "url": "https://newegg.com/amd-ryzen-7-9800x3d", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 449, "inStock": true, "url": "https://microcenter.com/product/amd-ryzen-7-9800x3d", "lastUpdated": "2026-02-08" }
     ],
-    "alternativeIds": ["cpu-r7-7800x3d", "cpu-r9-7950x3d"]
+    "alternativeIds": ["cpu-r7-7800x3d", "cpu-r9-9850x3d"]
   },
   {
     "id": "gpu-rtx4060",
@@ -446,7 +477,35 @@
       { "retailer": "newegg", "price": 1579, "inStock": true, "url": "https://newegg.com/nvidia-rtx-4090", "lastUpdated": "2026-02-08" },
       { "retailer": "bhphoto", "price": 1599, "inStock": true, "url": "https://bhphotovideo.com/c/product/nvidia-rtx-4090", "lastUpdated": "2026-02-08" }
     ],
-    "alternativeIds": ["gpu-rtx4080super"]
+    "alternativeIds": ["gpu-rtx4080super", "gpu-rtx5090"]
+  },
+  {
+    "id": "gpu-rtx5090",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 5090",
+    "brand": "NVIDIA",
+    "model": "RTX 5090",
+    "specs": {
+      "vram": "32GB GDDR7",
+      "coreClock": "2407 MHz",
+      "boostClock": "2900 MHz",
+      "tdp": 575,
+      "ports": "HDMI 2.1a, 3x DP 2.1"
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 3,
+      "brandReputation": 96,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 1999, "inStock": true, "url": "https://amazon.com/dp/B0DRTX5090", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 1989, "inStock": true, "url": "https://newegg.com/nvidia-rtx-5090", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 1999, "inStock": true, "url": "https://bestbuy.com/site/nvidia-rtx-5090", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 1999, "inStock": true, "url": "https://bhphotovideo.com/c/product/nvidia-rtx-5090", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-rtx4090"]
   },
   {
     "id": "mobo-b650-gaming-wifi",
@@ -886,7 +945,34 @@
       { "retailer": "amazon", "price": 179, "inStock": true, "url": "https://amazon.com/dp/B08R5WJ5RY", "lastUpdated": "2026-02-08" },
       { "retailer": "newegg", "price": 169, "inStock": true, "url": "https://newegg.com/corsair-rm1000x", "lastUpdated": "2026-02-08" }
     ],
-    "alternativeIds": ["psu-850w-rm850x"]
+    "alternativeIds": ["psu-850w-rm850x", "psu-1200w-hx1200"]
+  },
+  {
+    "id": "psu-1200w-hx1200",
+    "category": "psu",
+    "name": "Corsair HX1200 Platinum",
+    "brand": "Corsair",
+    "model": "HX1200",
+    "specs": {
+      "wattage": 1200,
+      "efficiency": "80+ Platinum",
+      "modular": "Fully Modular",
+      "fanSize": "135mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 96,
+    "trustFactors": {
+      "failureRate": 0.2,
+      "warrantyYears": 10,
+      "brandReputation": 95,
+      "rmaRating": 4.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 249, "inStock": true, "url": "https://amazon.com/dp/B01N5NWKHJ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 239, "inStock": true, "url": "https://newegg.com/corsair-hx1200", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 249, "inStock": true, "url": "https://bhphotovideo.com/c/product/corsair-hx1200", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-1000w-rm1000x"]
   },
   {
     "id": "case-4000d-airflow",
@@ -968,7 +1054,36 @@
       { "retailer": "amazon", "price": 164, "inStock": true, "url": "https://amazon.com/dp/B08JGY4FX2", "lastUpdated": "2026-02-08" },
       { "retailer": "newegg", "price": 154, "inStock": true, "url": "https://newegg.com/corsair-5000d-airflow", "lastUpdated": "2026-02-08" }
     ],
-    "alternativeIds": ["case-4000d-airflow", "case-h7-flow"]
+    "alternativeIds": ["case-4000d-airflow", "case-fractal-north"]
+  },
+  {
+    "id": "case-fractal-north",
+    "category": "case",
+    "name": "Fractal Design North",
+    "brand": "Fractal Design",
+    "model": "North",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "355mm",
+      "cpuCoolerHeight": "170mm",
+      "frontIO": "USB-C, 2x USB-A, Audio",
+      "includedFans": 2,
+      "material": "Walnut wood front panel"
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.2,
+      "warrantyYears": 2,
+      "brandReputation": 94,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 179, "inStock": true, "url": "https://amazon.com/dp/B0BPQXJL7G", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 169, "inStock": true, "url": "https://newegg.com/fractal-design-north", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 179, "inStock": true, "url": "https://bhphotovideo.com/c/product/fractal-north", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-5000d-airflow", "case-h7-flow"]
   },
   {
     "id": "cooler-ak400",

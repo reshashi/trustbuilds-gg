@@ -12,7 +12,7 @@ export default function Header() {
             </span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-6">
             <Link
               href="/"
               className="text-sm font-medium text-[var(--muted)] hover:text-white transition-colors"
@@ -20,10 +20,22 @@ export default function Header() {
               Builds
             </Link>
             <Link
+              href="/budget"
+              className="text-sm font-medium text-[var(--muted)] hover:text-white transition-colors"
+            >
+              Budget Builder
+            </Link>
+            <Link
+              href="/upgrade"
+              className="text-sm font-medium text-[var(--accent)] hover:text-[var(--accent-light)] transition-colors"
+            >
+              Upgrade Advisor
+            </Link>
+            <Link
               href="/about"
               className="text-sm font-medium text-[var(--muted)] hover:text-white transition-colors"
             >
-              Trust Methodology
+              Methodology
             </Link>
             <Link
               href="/faq"
