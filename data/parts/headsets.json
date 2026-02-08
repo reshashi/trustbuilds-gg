@@ -1,0 +1,293 @@
+[
+  {
+    "id": "headset-hyperx-cloud-iii-wireless",
+    "category": "headset",
+    "name": "HyperX Cloud III Wireless",
+    "brand": "HyperX",
+    "model": "Cloud III Wireless",
+    "specs": {
+      "type": "Over-ear (Closed-back)",
+      "connection": "Wireless 2.4GHz / USB-C",
+      "driver": "53mm",
+      "microphone": "Detachable boom (noise-cancelling)",
+      "battery": "120 hours",
+      "surround": "DTS Headphone:X"
+    },
+    "trustScore": 92,
+    "trustFactors": { "failureRate": 0.7, "warrantyYears": 2, "brandReputation": 93, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 139, "inStock": true, "url": "https://amazon.com/dp/B0CBPYTT6L", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 139, "inStock": true, "url": "https://bestbuy.com/site/hyperx-cloud-iii-wireless/6543810", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 139, "inStock": true, "url": "https://bhphotovideo.com/c/product/1793125", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-steelseries-arctis-nova-7", "headset-corsair-hs80"]
+  },
+  {
+    "id": "headset-hyperx-cloud-alpha-wireless",
+    "category": "headset",
+    "name": "HyperX Cloud Alpha Wireless",
+    "brand": "HyperX",
+    "model": "Cloud Alpha Wireless",
+    "specs": {
+      "type": "Over-ear (Closed-back)",
+      "connection": "Wireless 2.4GHz",
+      "driver": "50mm (Dual Chamber)",
+      "microphone": "Detachable boom (noise-cancelling)",
+      "battery": "300 hours",
+      "surround": "DTS Headphone:X"
+    },
+    "trustScore": 93,
+    "trustFactors": { "failureRate": 0.5, "warrantyYears": 2, "brandReputation": 93, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 159, "inStock": true, "url": "https://amazon.com/dp/B09SB5FLCJ", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 159, "inStock": true, "url": "https://bestbuy.com/site/hyperx-cloud-alpha-wireless/6499909", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-hyperx-cloud-iii-wireless", "headset-steelseries-arctis-nova-pro"]
+  },
+  {
+    "id": "headset-steelseries-arctis-nova-pro",
+    "category": "headset",
+    "name": "SteelSeries Arctis Nova Pro Wireless",
+    "brand": "SteelSeries",
+    "model": "Arctis Nova Pro Wireless",
+    "specs": {
+      "type": "Over-ear (Closed-back)",
+      "connection": "Wireless 2.4GHz / Bluetooth / USB-C",
+      "driver": "40mm (Premium Hi-Fi)",
+      "microphone": "Retractable ClearCast Gen 2 (AI noise-cancelling)",
+      "battery": "22 hours per battery (hot-swappable dual battery)",
+      "surround": "360 Spatial Audio"
+    },
+    "trustScore": 94,
+    "trustFactors": { "failureRate": 0.5, "warrantyYears": 2, "brandReputation": 92, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 349, "inStock": true, "url": "https://amazon.com/dp/B09ZWFFX88", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 349, "inStock": true, "url": "https://bestbuy.com/site/steelseries-arctis-nova-pro/6506498", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 349, "inStock": true, "url": "https://bhphotovideo.com/c/product/1716580", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-hyperx-cloud-alpha-wireless", "headset-beyerdynamic-mmx300"]
+  },
+  {
+    "id": "headset-steelseries-arctis-nova-7",
+    "category": "headset",
+    "name": "SteelSeries Arctis Nova 7",
+    "brand": "SteelSeries",
+    "model": "Arctis Nova 7",
+    "specs": {
+      "type": "Over-ear (Closed-back)",
+      "connection": "Wireless 2.4GHz / Bluetooth / USB-C",
+      "driver": "40mm",
+      "microphone": "Retractable ClearCast (AI noise-cancelling)",
+      "battery": "38 hours",
+      "surround": "Tempest 3D / 360 Spatial Audio"
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.8, "warrantyYears": 2, "brandReputation": 92, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 179, "inStock": true, "url": "https://amazon.com/dp/B0B15QMQ4K", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 179, "inStock": true, "url": "https://bestbuy.com/site/steelseries-arctis-nova-7/6506503", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-hyperx-cloud-iii-wireless", "headset-corsair-hs80"]
+  },
+  {
+    "id": "headset-logitech-g-pro-x-2",
+    "category": "headset",
+    "name": "Logitech G Pro X 2 LIGHTSPEED",
+    "brand": "Logitech",
+    "model": "G Pro X 2",
+    "specs": {
+      "type": "Over-ear (Closed-back)",
+      "connection": "Wireless LIGHTSPEED / Bluetooth / 3.5mm / USB-C",
+      "driver": "50mm (Graphene)",
+      "microphone": "Detachable boom (Blue VO!CE technology)",
+      "battery": "50 hours",
+      "surround": "DTS Headphone:X 2.0"
+    },
+    "trustScore": 92,
+    "trustFactors": { "failureRate": 0.6, "warrantyYears": 2, "brandReputation": 94, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 199, "inStock": true, "url": "https://amazon.com/dp/B0C4N7ZKWZ", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 199, "inStock": true, "url": "https://bestbuy.com/site/logitech-g-pro-x-2/6541488", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 199, "inStock": true, "url": "https://bhphotovideo.com/c/product/1789145", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-steelseries-arctis-nova-7", "headset-razer-blackshark-v2-pro"]
+  },
+  {
+    "id": "headset-logitech-g435",
+    "category": "headset",
+    "name": "Logitech G435 LIGHTSPEED",
+    "brand": "Logitech",
+    "model": "G435",
+    "specs": {
+      "type": "Over-ear (Closed-back)",
+      "connection": "Wireless LIGHTSPEED / Bluetooth",
+      "driver": "40mm",
+      "microphone": "Built-in dual beamforming",
+      "battery": "18 hours",
+      "surround": "Dolby Atmos"
+    },
+    "trustScore": 85,
+    "trustFactors": { "failureRate": 1.2, "warrantyYears": 2, "brandReputation": 94, "rmaRating": 4.2 },
+    "retailers": [
+      { "retailer": "amazon", "price": 49, "inStock": true, "url": "https://amazon.com/dp/B09N39FX86", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 49, "inStock": true, "url": "https://bestbuy.com/site/logitech-g435/6477831", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-razer-kraken-v4", "headset-corsair-hs80"]
+  },
+  {
+    "id": "headset-corsair-virtuoso-rgb-xt",
+    "category": "headset",
+    "name": "Corsair Virtuoso RGB Wireless XT",
+    "brand": "Corsair",
+    "model": "Virtuoso RGB Wireless XT",
+    "specs": {
+      "type": "Over-ear (Closed-back)",
+      "connection": "Wireless (SLIPSTREAM) / Bluetooth / 3.5mm / USB-C",
+      "driver": "50mm",
+      "microphone": "Detachable broadcast-grade (omnidirectional)",
+      "battery": "15 hours",
+      "surround": "Dolby Atmos"
+    },
+    "trustScore": 88,
+    "trustFactors": { "failureRate": 1.0, "warrantyYears": 2, "brandReputation": 91, "rmaRating": 4.3 },
+    "retailers": [
+      { "retailer": "amazon", "price": 219, "inStock": true, "url": "https://amazon.com/dp/B09BHTG3NR", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 219, "inStock": true, "url": "https://bestbuy.com/site/corsair-virtuoso-rgb-xt/6474188", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 209, "inStock": true, "url": "https://newegg.com/corsair-virtuoso-rgb-xt/p/N82E16826816288", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-logitech-g-pro-x-2", "headset-steelseries-arctis-nova-pro"]
+  },
+  {
+    "id": "headset-corsair-hs80",
+    "category": "headset",
+    "name": "Corsair HS80 Max Wireless",
+    "brand": "Corsair",
+    "model": "HS80 Max Wireless",
+    "specs": {
+      "type": "Over-ear (Closed-back)",
+      "connection": "Wireless (SLIPSTREAM) / Bluetooth / USB-C",
+      "driver": "50mm",
+      "microphone": "Flip-to-mute omnidirectional",
+      "battery": "65 hours",
+      "surround": "Dolby Atmos"
+    },
+    "trustScore": 90,
+    "trustFactors": { "failureRate": 0.8, "warrantyYears": 2, "brandReputation": 91, "rmaRating": 4.4 },
+    "retailers": [
+      { "retailer": "amazon", "price": 149, "inStock": true, "url": "https://amazon.com/dp/B0CPSJF1KV", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 149, "inStock": true, "url": "https://bestbuy.com/site/corsair-hs80-max/6571240", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-hyperx-cloud-iii-wireless", "headset-steelseries-arctis-nova-7"]
+  },
+  {
+    "id": "headset-razer-blackshark-v2-pro",
+    "category": "headset",
+    "name": "Razer BlackShark V2 Pro (2023)",
+    "brand": "Razer",
+    "model": "BlackShark V2 Pro (2023)",
+    "specs": {
+      "type": "Over-ear (Closed-back)",
+      "connection": "Wireless 2.4GHz / Bluetooth / USB-C",
+      "driver": "50mm (Titanium-coated)",
+      "microphone": "Detachable HyperClear Super Wideband",
+      "battery": "70 hours",
+      "surround": "THX Spatial Audio"
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.7, "warrantyYears": 2, "brandReputation": 89, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 179, "inStock": true, "url": "https://amazon.com/dp/B0CGXCBZZQ", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 179, "inStock": true, "url": "https://bestbuy.com/site/razer-blackshark-v2-pro/6544641", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 174, "inStock": true, "url": "https://newegg.com/razer-blackshark-v2-pro/p/N82E16826153395", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-logitech-g-pro-x-2", "headset-steelseries-arctis-nova-7"]
+  },
+  {
+    "id": "headset-razer-kraken-v4",
+    "category": "headset",
+    "name": "Razer Kraken V4",
+    "brand": "Razer",
+    "model": "Kraken V4",
+    "specs": {
+      "type": "Over-ear (Closed-back)",
+      "connection": "Wireless 2.4GHz / Bluetooth / USB-C",
+      "driver": "40mm (TriForce Titanium)",
+      "microphone": "Detachable HyperClear",
+      "battery": "70 hours",
+      "surround": "THX Spatial Audio"
+    },
+    "trustScore": 88,
+    "trustFactors": { "failureRate": 0.9, "warrantyYears": 2, "brandReputation": 89, "rmaRating": 4.3 },
+    "retailers": [
+      { "retailer": "amazon", "price": 149, "inStock": true, "url": "https://amazon.com/dp/B0DFLVZQVR", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 149, "inStock": true, "url": "https://bestbuy.com/site/razer-kraken-v4/6592433", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-corsair-hs80", "headset-hyperx-cloud-iii-wireless"]
+  },
+  {
+    "id": "headset-sennheiser-game-one",
+    "category": "headset",
+    "name": "Sennheiser Game One (HD 560S Gaming)",
+    "brand": "Sennheiser",
+    "model": "Game One",
+    "specs": {
+      "type": "Over-ear (Open-back)",
+      "connection": "3.5mm (Wired)",
+      "driver": "50mm",
+      "microphone": "Flip-to-mute boom (noise-cancelling)",
+      "battery": "N/A (Wired)",
+      "surround": "Stereo (open-back natural soundstage)"
+    },
+    "trustScore": 90,
+    "trustFactors": { "failureRate": 0.6, "warrantyYears": 2, "brandReputation": 95, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 119, "inStock": true, "url": "https://amazon.com/dp/B00KK8ZLEC", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-beyerdynamic-mmx300", "headset-audio-technica-m50xbt2"]
+  },
+  {
+    "id": "headset-beyerdynamic-mmx300",
+    "category": "headset",
+    "name": "Beyerdynamic MMX 300 (2nd Gen)",
+    "brand": "Beyerdynamic",
+    "model": "MMX 300 (2nd Generation)",
+    "specs": {
+      "type": "Over-ear (Closed-back)",
+      "connection": "3.5mm / USB (with cable remote)",
+      "driver": "Dynamic Tesla (300 ohm)",
+      "microphone": "Detachable condenser boom (cardioid)",
+      "battery": "N/A (Wired)",
+      "surround": "Stereo (audiophile-grade)"
+    },
+    "trustScore": 92,
+    "trustFactors": { "failureRate": 0.4, "warrantyYears": 2, "brandReputation": 96, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 279, "inStock": true, "url": "https://amazon.com/dp/B06WGVJ9GY", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 279, "inStock": true, "url": "https://bhphotovideo.com/c/product/1317834", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-sennheiser-game-one", "headset-steelseries-arctis-nova-pro"]
+  },
+  {
+    "id": "headset-audio-technica-m50xbt2",
+    "category": "headset",
+    "name": "Audio-Technica ATH-M50xBT2",
+    "brand": "Audio-Technica",
+    "model": "ATH-M50xBT2",
+    "specs": {
+      "type": "Over-ear (Closed-back)",
+      "connection": "Wireless Bluetooth 5.0 / 3.5mm / USB-C",
+      "driver": "45mm (Large-aperture)",
+      "microphone": "Built-in beamforming",
+      "battery": "50 hours",
+      "surround": "Stereo (studio reference)"
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.5, "warrantyYears": 2, "brandReputation": 95, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 179, "inStock": true, "url": "https://amazon.com/dp/B09BP5S2Q3", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 179, "inStock": true, "url": "https://bestbuy.com/site/audio-technica-ath-m50xbt2/6500147", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 179, "inStock": true, "url": "https://bhphotovideo.com/c/product/1670548", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["headset-sennheiser-game-one", "headset-beyerdynamic-mmx300"]
+  }
+]

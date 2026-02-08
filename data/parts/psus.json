@@ -1,0 +1,480 @@
+[
+  {
+    "id": "psu-corsair-rm650",
+    "category": "psu",
+    "name": "Corsair RM650 (2023)",
+    "brand": "Corsair",
+    "model": "RM650",
+    "specs": {
+      "wattage": 650,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "140mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 92,
+    "trustFactors": {
+      "failureRate": 0.6,
+      "warrantyYears": 10,
+      "brandReputation": 91,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 89, "inStock": true, "url": "https://amazon.com/dp/B0BYK37NMC", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 94, "inStock": true, "url": "https://newegg.com/corsair-rm650/p/N82E16817139296", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 89, "inStock": true, "url": "https://bestbuy.com/site/corsair-rm650/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-seasonic-focus-gx650", "psu-evga-supernova-650-g7"]
+  },
+  {
+    "id": "psu-corsair-rm750x",
+    "category": "psu",
+    "name": "Corsair RM750x (2024)",
+    "brand": "Corsair",
+    "model": "RM750x",
+    "specs": {
+      "wattage": 750,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "140mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 95,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 10,
+      "brandReputation": 93,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B0BYKCQBRN", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 114, "inStock": true, "url": "https://newegg.com/corsair-rm750x/p/N82E16817139297", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 109, "inStock": true, "url": "https://bestbuy.com/site/corsair-rm750x/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 109, "inStock": true, "url": "https://bhphotovideo.com/c/product/PLACEHOLDER/corsair-rm750x.html", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-seasonic-focus-gx750", "psu-bequiet-straight-power-12-750"]
+  },
+  {
+    "id": "psu-corsair-rm850x",
+    "category": "psu",
+    "name": "Corsair RM850x (2024)",
+    "brand": "Corsair",
+    "model": "RM850x",
+    "specs": {
+      "wattage": 850,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "140mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 96,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 10,
+      "brandReputation": 93,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 129, "inStock": true, "url": "https://amazon.com/dp/B0BYKCN3R5", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 134, "inStock": true, "url": "https://newegg.com/corsair-rm850x/p/N82E16817139298", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 124, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER/corsair-rm850x", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-seasonic-focus-gx850", "psu-evga-supernova-850-g7"]
+  },
+  {
+    "id": "psu-corsair-hx1000",
+    "category": "psu",
+    "name": "Corsair HX1000 Platinum",
+    "brand": "Corsair",
+    "model": "HX1000",
+    "specs": {
+      "wattage": 1000,
+      "efficiency": "80+ Platinum",
+      "modular": "Fully Modular",
+      "fanSize": "135mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 95,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 10,
+      "brandReputation": 94,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 219, "inStock": true, "url": "https://amazon.com/dp/B0BYKCLZ7F", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 224, "inStock": true, "url": "https://newegg.com/corsair-hx1000/p/N82E16817139310", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 219, "inStock": false, "url": "https://bhphotovideo.com/c/product/PLACEHOLDER/corsair-hx1000.html", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-seasonic-prime-tx1000", "psu-bequiet-dark-power-13-1000"]
+  },
+  {
+    "id": "psu-corsair-rm1000x",
+    "category": "psu",
+    "name": "Corsair RM1000x (2024)",
+    "brand": "Corsair",
+    "model": "RM1000x",
+    "specs": {
+      "wattage": 1000,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "140mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 10,
+      "brandReputation": 93,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 179, "inStock": true, "url": "https://amazon.com/dp/B0BYKD1CHJ", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 179, "inStock": true, "url": "https://bestbuy.com/site/corsair-rm1000x/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-corsair-hx1000", "psu-seasonic-focus-gx1000"]
+  },
+  {
+    "id": "psu-seasonic-focus-gx650",
+    "category": "psu",
+    "name": "Seasonic Focus GX-650",
+    "brand": "Seasonic",
+    "model": "Focus GX-650",
+    "specs": {
+      "wattage": 650,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "120mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 93,
+    "trustFactors": {
+      "failureRate": 0.5,
+      "warrantyYears": 10,
+      "brandReputation": 94,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 93, "inStock": true, "url": "https://amazon.com/dp/B0B6F7YHKL", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 99, "inStock": true, "url": "https://newegg.com/seasonic-focus-gx650/p/N82E16817151243", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-corsair-rm650", "psu-evga-supernova-650-g7"]
+  },
+  {
+    "id": "psu-seasonic-focus-gx750",
+    "category": "psu",
+    "name": "Seasonic Focus GX-750",
+    "brand": "Seasonic",
+    "model": "Focus GX-750",
+    "specs": {
+      "wattage": 750,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "120mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 10,
+      "brandReputation": 94,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 105, "inStock": true, "url": "https://amazon.com/dp/B0B6F8LZ1Q", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 109, "inStock": true, "url": "https://newegg.com/seasonic-focus-gx750/p/N82E16817151244", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 105, "inStock": true, "url": "https://bhphotovideo.com/c/product/PLACEHOLDER/seasonic-focus-gx750.html", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-corsair-rm750x", "psu-bequiet-straight-power-12-750"]
+  },
+  {
+    "id": "psu-seasonic-focus-gx850",
+    "category": "psu",
+    "name": "Seasonic Focus GX-850",
+    "brand": "Seasonic",
+    "model": "Focus GX-850",
+    "specs": {
+      "wattage": 850,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "120mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 10,
+      "brandReputation": 94,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 129, "inStock": true, "url": "https://amazon.com/dp/B0B6F9N3QC", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 134, "inStock": true, "url": "https://newegg.com/seasonic-focus-gx850/p/N82E16817151245", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-corsair-rm850x", "psu-evga-supernova-850-g7"]
+  },
+  {
+    "id": "psu-seasonic-prime-tx1000",
+    "category": "psu",
+    "name": "Seasonic Prime TX-1000",
+    "brand": "Seasonic",
+    "model": "Prime TX-1000",
+    "specs": {
+      "wattage": 1000,
+      "efficiency": "80+ Titanium",
+      "modular": "Fully Modular",
+      "fanSize": "135mm",
+      "warranty": "12 years"
+    },
+    "trustScore": 97,
+    "trustFactors": {
+      "failureRate": 0.2,
+      "warrantyYears": 12,
+      "brandReputation": 96,
+      "rmaRating": 4.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 299, "inStock": true, "url": "https://amazon.com/dp/B0B6FBNTK8", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 309, "inStock": true, "url": "https://newegg.com/seasonic-prime-tx1000/p/N82E16817151260", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 299, "inStock": false, "url": "https://bhphotovideo.com/c/product/PLACEHOLDER/seasonic-prime-tx1000.html", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-corsair-hx1000", "psu-bequiet-dark-power-13-1000"]
+  },
+  {
+    "id": "psu-bequiet-straight-power-12-750",
+    "category": "psu",
+    "name": "be quiet! Straight Power 12 750W",
+    "brand": "be quiet!",
+    "model": "Straight Power 12 750W",
+    "specs": {
+      "wattage": 750,
+      "efficiency": "80+ Platinum",
+      "modular": "Fully Modular",
+      "fanSize": "135mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 10,
+      "brandReputation": 92,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 139, "inStock": true, "url": "https://amazon.com/dp/B0C3FHYKR6", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 144, "inStock": true, "url": "https://newegg.com/bequiet-straight-power-12-750/p/N82E16817194226", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-corsair-rm750x", "psu-seasonic-focus-gx750"]
+  },
+  {
+    "id": "psu-bequiet-dark-power-13-1000",
+    "category": "psu",
+    "name": "be quiet! Dark Power Pro 13 1000W",
+    "brand": "be quiet!",
+    "model": "Dark Power Pro 13 1000W",
+    "specs": {
+      "wattage": 1000,
+      "efficiency": "80+ Titanium",
+      "modular": "Fully Modular",
+      "fanSize": "135mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 96,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 10,
+      "brandReputation": 93,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 289, "inStock": true, "url": "https://amazon.com/dp/B0C3FJ7ZKX", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 294, "inStock": true, "url": "https://newegg.com/bequiet-dark-power-pro-13-1000/p/N82E16817194230", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-seasonic-prime-tx1000", "psu-corsair-hx1000"]
+  },
+  {
+    "id": "psu-evga-supernova-650-g7",
+    "category": "psu",
+    "name": "EVGA SuperNOVA 650 G7",
+    "brand": "EVGA",
+    "model": "SuperNOVA 650 G7",
+    "specs": {
+      "wattage": 650,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "130mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.6,
+      "warrantyYears": 10,
+      "brandReputation": 89,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 84, "inStock": true, "url": "https://amazon.com/dp/B09V3FHYKR", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 89, "inStock": true, "url": "https://newegg.com/evga-supernova-650-g7/p/N82E16817438216", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-corsair-rm650", "psu-seasonic-focus-gx650"]
+  },
+  {
+    "id": "psu-evga-supernova-850-g7",
+    "category": "psu",
+    "name": "EVGA SuperNOVA 850 G7",
+    "brand": "EVGA",
+    "model": "SuperNOVA 850 G7",
+    "specs": {
+      "wattage": 850,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "130mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.5,
+      "warrantyYears": 10,
+      "brandReputation": 89,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 119, "inStock": true, "url": "https://amazon.com/dp/B09V3G8KLM", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 124, "inStock": true, "url": "https://newegg.com/evga-supernova-850-g7/p/N82E16817438218", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 114, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER/evga-supernova-850-g7", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-corsair-rm850x", "psu-seasonic-focus-gx850"]
+  },
+  {
+    "id": "psu-thermaltake-toughpower-gf3-850",
+    "category": "psu",
+    "name": "Thermaltake Toughpower GF3 850W",
+    "brand": "Thermaltake",
+    "model": "Toughpower GF3 850W",
+    "specs": {
+      "wattage": 850,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "140mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 0.7,
+      "warrantyYears": 10,
+      "brandReputation": 86,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B0C5YN9TZH", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 114, "inStock": true, "url": "https://newegg.com/thermaltake-toughpower-gf3-850/p/N82E16817153456", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-corsair-rm850x", "psu-evga-supernova-850-g7"]
+  },
+  {
+    "id": "psu-thermaltake-toughpower-gf3-1600",
+    "category": "psu",
+    "name": "Thermaltake Toughpower GF3 1600W",
+    "brand": "Thermaltake",
+    "model": "Toughpower GF3 1600W",
+    "specs": {
+      "wattage": 1600,
+      "efficiency": "80+ Titanium",
+      "modular": "Fully Modular",
+      "fanSize": "140mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.6,
+      "warrantyYears": 10,
+      "brandReputation": 86,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 349, "inStock": true, "url": "https://amazon.com/dp/B0C5YP8WRL", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 359, "inStock": false, "url": "https://newegg.com/thermaltake-toughpower-gf3-1600/p/N82E16817153460", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-seasonic-prime-tx1000", "psu-bequiet-dark-power-13-1000"]
+  },
+  {
+    "id": "psu-nzxt-c850",
+    "category": "psu",
+    "name": "NZXT C850 (2024)",
+    "brand": "NZXT",
+    "model": "C850",
+    "specs": {
+      "wattage": 850,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "120mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.6,
+      "warrantyYears": 10,
+      "brandReputation": 88,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 119, "inStock": true, "url": "https://amazon.com/dp/B0D3FH7YKR", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 119, "inStock": true, "url": "https://bestbuy.com/site/nzxt-c850/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 124, "inStock": true, "url": "https://newegg.com/nzxt-c850/p/N82E16817116045", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-corsair-rm850x", "psu-thermaltake-toughpower-gf3-850"]
+  },
+  {
+    "id": "psu-corsair-cv550",
+    "category": "psu",
+    "name": "Corsair CV550",
+    "brand": "Corsair",
+    "model": "CV550",
+    "specs": {
+      "wattage": 550,
+      "efficiency": "80+ Bronze",
+      "modular": "Non-Modular",
+      "fanSize": "120mm",
+      "warranty": "3 years"
+    },
+    "trustScore": 78,
+    "trustFactors": {
+      "failureRate": 1.5,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.1
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 49, "inStock": true, "url": "https://amazon.com/dp/B0BCR7DNWY", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 54, "inStock": true, "url": "https://newegg.com/corsair-cv550/p/N82E16817139280", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-evga-supernova-650-g7", "psu-thermaltake-toughpower-gf3-850"]
+  },
+  {
+    "id": "psu-seasonic-focus-gx1000",
+    "category": "psu",
+    "name": "Seasonic Focus GX-1000",
+    "brand": "Seasonic",
+    "model": "Focus GX-1000",
+    "specs": {
+      "wattage": 1000,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "120mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 10,
+      "brandReputation": 94,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 169, "inStock": true, "url": "https://amazon.com/dp/B0B6FC2QRN", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 174, "inStock": true, "url": "https://newegg.com/seasonic-focus-gx1000/p/N82E16817151250", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 169, "inStock": true, "url": "https://bhphotovideo.com/c/product/PLACEHOLDER/seasonic-focus-gx1000.html", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-corsair-rm1000x", "psu-bequiet-dark-power-13-1000"]
+  }
+]

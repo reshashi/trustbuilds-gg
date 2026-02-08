@@ -5,12 +5,11 @@ import type {
   EnrichedBuild,
 } from "./types";
 import buildsData from "@/data/builds.json";
-import componentsData from "@/data/components.json";
 import retailersData from "@/data/retailers.json";
+import { getAllParts, getPartById } from "./partsLoader";
 
-// Type assertions for JSON imports (use unknown first to avoid strict type checking on JSON)
+// Type assertions for JSON imports
 const builds = buildsData as unknown as Build[];
-const components = componentsData as unknown as Component[];
 const retailers = retailersData as unknown as RetailerInfo[];
 
 /**
@@ -28,17 +27,17 @@ export function getBuildBySlug(slug: string): Build | undefined {
 }
 
 /**
- * Get all components
+ * Get all components (from expanded parts database)
  */
 export function getAllComponents(): Component[] {
-  return components;
+  return getAllParts();
 }
 
 /**
  * Get a component by ID
  */
 export function getComponentById(id: string): Component | undefined {
-  return components.find((c) => c.id === id);
+  return getPartById(id);
 }
 
 /**
@@ -47,7 +46,7 @@ export function getComponentById(id: string): Component | undefined {
 export function getComponentsByCategory(
   category: Component["category"]
 ): Component[] {
-  return components.filter((c) => c.category === category);
+  return getAllParts().filter((c) => c.category === category);
 }
 
 /**

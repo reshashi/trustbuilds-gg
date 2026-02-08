@@ -1,0 +1,469 @@
+[
+  {
+    "id": "cooler-noctua-nh-d15",
+    "category": "cooler",
+    "name": "Noctua NH-D15 chromax.black",
+    "brand": "Noctua",
+    "model": "NH-D15 chromax.black",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "165mm",
+      "fanSize": "2x 140mm",
+      "rpm": "300-1500",
+      "tdpRating": "250W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 97,
+    "trustFactors": {
+      "failureRate": 0.2,
+      "warrantyYears": 6,
+      "brandReputation": 97,
+      "rmaRating": 4.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B07Y87YHRH", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 114, "inStock": true, "url": "https://newegg.com/noctua-nh-d15-chromax-black/p/N82E16835608069", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 109, "inStock": true, "url": "https://bhphotovideo.com/c/product/PLACEHOLDER/noctua-nh-d15.html", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-deepcool-assassin-iv", "cooler-bequiet-dark-rock-pro-5"]
+  },
+  {
+    "id": "cooler-noctua-nh-u12s",
+    "category": "cooler",
+    "name": "Noctua NH-U12S chromax.black",
+    "brand": "Noctua",
+    "model": "NH-U12S chromax.black",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "158mm",
+      "fanSize": "120mm",
+      "rpm": "300-1500",
+      "tdpRating": "180W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 95,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 6,
+      "brandReputation": 97,
+      "rmaRating": 4.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 79, "inStock": true, "url": "https://amazon.com/dp/B07Y88BNYZ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 84, "inStock": true, "url": "https://newegg.com/noctua-nh-u12s-chromax-black/p/N82E16835608066", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-bequiet-pure-rock-2", "cooler-deepcool-ak400"]
+  },
+  {
+    "id": "cooler-noctua-nh-l9i",
+    "category": "cooler",
+    "name": "Noctua NH-L9i chromax.black",
+    "brand": "Noctua",
+    "model": "NH-L9i chromax.black",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "37mm",
+      "fanSize": "92mm",
+      "rpm": "600-2500",
+      "tdpRating": "65W",
+      "socket": "LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 6,
+      "brandReputation": 97,
+      "rmaRating": 4.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 49, "inStock": true, "url": "https://amazon.com/dp/B07Y892M38", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 54, "inStock": true, "url": "https://newegg.com/noctua-nh-l9i-chromax-black/p/N82E16835608072", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-noctua-nh-u12s", "cooler-thermalright-peerless-assassin"]
+  },
+  {
+    "id": "cooler-corsair-h100i-elite",
+    "category": "cooler",
+    "name": "Corsair iCUE H100i Elite Capellix XT",
+    "brand": "Corsair",
+    "model": "iCUE H100i Elite Capellix XT",
+    "specs": {
+      "type": "AIO Liquid Cooler",
+      "radiatorSize": "240mm",
+      "fanSize": "2x 120mm",
+      "rpm": "400-2400",
+      "tdpRating": "250W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.8,
+      "warrantyYears": 5,
+      "brandReputation": 91,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 149, "inStock": true, "url": "https://amazon.com/dp/B0CDCNRW13", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 149, "inStock": true, "url": "https://bestbuy.com/site/corsair-h100i-elite/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 154, "inStock": true, "url": "https://newegg.com/corsair-h100i-elite/p/N82E16835181326", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-arctic-liquid-freezer-ii-240", "cooler-nzxt-kraken-240"]
+  },
+  {
+    "id": "cooler-corsair-h150i-elite",
+    "category": "cooler",
+    "name": "Corsair iCUE H150i Elite Capellix XT",
+    "brand": "Corsair",
+    "model": "iCUE H150i Elite Capellix XT",
+    "specs": {
+      "type": "AIO Liquid Cooler",
+      "radiatorSize": "360mm",
+      "fanSize": "3x 120mm",
+      "rpm": "400-2400",
+      "tdpRating": "300W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 93,
+    "trustFactors": {
+      "failureRate": 0.7,
+      "warrantyYears": 5,
+      "brandReputation": 91,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 189, "inStock": true, "url": "https://amazon.com/dp/B0CDCQ2VBN", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 189, "inStock": true, "url": "https://bestbuy.com/site/corsair-h150i-elite/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 194, "inStock": true, "url": "https://newegg.com/corsair-h150i-elite/p/N82E16835181328", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-arctic-liquid-freezer-ii-360", "cooler-nzxt-kraken-360"]
+  },
+  {
+    "id": "cooler-corsair-h170i-elite",
+    "category": "cooler",
+    "name": "Corsair iCUE H170i Elite Capellix XT",
+    "brand": "Corsair",
+    "model": "iCUE H170i Elite Capellix XT",
+    "specs": {
+      "type": "AIO Liquid Cooler",
+      "radiatorSize": "420mm",
+      "fanSize": "3x 140mm",
+      "rpm": "400-2000",
+      "tdpRating": "350W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 92,
+    "trustFactors": {
+      "failureRate": 0.8,
+      "warrantyYears": 5,
+      "brandReputation": 91,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 219, "inStock": true, "url": "https://amazon.com/dp/B0CDCR7KLP", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 224, "inStock": false, "url": "https://newegg.com/corsair-h170i-elite/p/N82E16835181330", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-corsair-h150i-elite", "cooler-arctic-liquid-freezer-ii-360"]
+  },
+  {
+    "id": "cooler-deepcool-ak400",
+    "category": "cooler",
+    "name": "DeepCool AK400",
+    "brand": "DeepCool",
+    "model": "AK400",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "155mm",
+      "fanSize": "120mm",
+      "rpm": "500-1850",
+      "tdpRating": "220W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 88,
+    "trustFactors": {
+      "failureRate": 0.8,
+      "warrantyYears": 5,
+      "brandReputation": 85,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 29, "inStock": true, "url": "https://amazon.com/dp/B0BN1JKLY7", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 34, "inStock": true, "url": "https://newegg.com/deepcool-ak400/p/N82E16835856251", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-thermalright-peerless-assassin", "cooler-bequiet-pure-rock-2"]
+  },
+  {
+    "id": "cooler-deepcool-ak620",
+    "category": "cooler",
+    "name": "DeepCool AK620",
+    "brand": "DeepCool",
+    "model": "AK620",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "160mm",
+      "fanSize": "2x 120mm",
+      "rpm": "500-1850",
+      "tdpRating": "260W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.6,
+      "warrantyYears": 5,
+      "brandReputation": 85,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 54, "inStock": true, "url": "https://amazon.com/dp/B0BN1JZ7FC", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 59, "inStock": true, "url": "https://newegg.com/deepcool-ak620/p/N82E16835856253", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 49, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER/deepcool-ak620", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-thermalright-peerless-assassin", "cooler-noctua-nh-u12s"]
+  },
+  {
+    "id": "cooler-deepcool-assassin-iv",
+    "category": "cooler",
+    "name": "DeepCool Assassin IV",
+    "brand": "DeepCool",
+    "model": "Assassin IV",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "164mm",
+      "fanSize": "1x 140mm + 1x 120mm",
+      "rpm": "400-1500",
+      "tdpRating": "280W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 93,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 5,
+      "brandReputation": 85,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 89, "inStock": true, "url": "https://amazon.com/dp/B0C3FHYKLM", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 94, "inStock": true, "url": "https://newegg.com/deepcool-assassin-iv/p/N82E16835856260", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-noctua-nh-d15", "cooler-bequiet-dark-rock-pro-5"]
+  },
+  {
+    "id": "cooler-bequiet-dark-rock-pro-5",
+    "category": "cooler",
+    "name": "be quiet! Dark Rock Pro 5",
+    "brand": "be quiet!",
+    "model": "Dark Rock Pro 5",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "168mm",
+      "fanSize": "1x 135mm + 1x 120mm",
+      "rpm": "400-1500",
+      "tdpRating": "270W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 95,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 3,
+      "brandReputation": 93,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 89, "inStock": true, "url": "https://amazon.com/dp/B0C3G8LKJQ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 94, "inStock": true, "url": "https://newegg.com/bequiet-dark-rock-pro-5/p/N82E16835205022", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 89, "inStock": true, "url": "https://bhphotovideo.com/c/product/PLACEHOLDER/bequiet-dark-rock-pro-5.html", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-noctua-nh-d15", "cooler-deepcool-assassin-iv"]
+  },
+  {
+    "id": "cooler-bequiet-pure-rock-2",
+    "category": "cooler",
+    "name": "be quiet! Pure Rock 2 Black",
+    "brand": "be quiet!",
+    "model": "Pure Rock 2 Black",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "155mm",
+      "fanSize": "120mm",
+      "rpm": "500-1500",
+      "tdpRating": "150W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 0.5,
+      "warrantyYears": 3,
+      "brandReputation": 93,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 39, "inStock": true, "url": "https://amazon.com/dp/B087VM2FJG", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 44, "inStock": true, "url": "https://newegg.com/bequiet-pure-rock-2/p/N82E16835205016", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-deepcool-ak400", "cooler-thermalright-peerless-assassin"]
+  },
+  {
+    "id": "cooler-arctic-liquid-freezer-ii-240",
+    "category": "cooler",
+    "name": "Arctic Liquid Freezer II 240",
+    "brand": "Arctic",
+    "model": "Liquid Freezer II 240",
+    "specs": {
+      "type": "AIO Liquid Cooler",
+      "radiatorSize": "240mm",
+      "fanSize": "2x 120mm",
+      "rpm": "200-1800",
+      "tdpRating": "250W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.5,
+      "warrantyYears": 6,
+      "brandReputation": 90,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 94, "inStock": true, "url": "https://amazon.com/dp/B07WP6M7P7", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 99, "inStock": true, "url": "https://newegg.com/arctic-liquid-freezer-ii-240/p/N82E16835186253", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-corsair-h100i-elite", "cooler-nzxt-kraken-240"]
+  },
+  {
+    "id": "cooler-arctic-liquid-freezer-ii-360",
+    "category": "cooler",
+    "name": "Arctic Liquid Freezer II 360",
+    "brand": "Arctic",
+    "model": "Liquid Freezer II 360",
+    "specs": {
+      "type": "AIO Liquid Cooler",
+      "radiatorSize": "360mm",
+      "fanSize": "3x 120mm",
+      "rpm": "200-1800",
+      "tdpRating": "300W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 95,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 6,
+      "brandReputation": 90,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 114, "inStock": true, "url": "https://amazon.com/dp/B07WNJCVNW", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 119, "inStock": true, "url": "https://newegg.com/arctic-liquid-freezer-ii-360/p/N82E16835186255", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 109, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER/arctic-liquid-freezer-ii-360", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-corsair-h150i-elite", "cooler-nzxt-kraken-360"]
+  },
+  {
+    "id": "cooler-thermalright-peerless-assassin",
+    "category": "cooler",
+    "name": "Thermalright Peerless Assassin 120 SE",
+    "brand": "Thermalright",
+    "model": "Peerless Assassin 120 SE",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "155mm",
+      "fanSize": "2x 120mm",
+      "rpm": "300-1550",
+      "tdpRating": "260W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 92,
+    "trustFactors": {
+      "failureRate": 0.5,
+      "warrantyYears": 5,
+      "brandReputation": 87,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 35, "inStock": true, "url": "https://amazon.com/dp/B0BRN5ZCZV", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 39, "inStock": true, "url": "https://newegg.com/thermalright-peerless-assassin-120-se/p/13C-003J-00062", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-deepcool-ak620", "cooler-deepcool-ak400"]
+  },
+  {
+    "id": "cooler-nzxt-kraken-240",
+    "category": "cooler",
+    "name": "NZXT Kraken 240",
+    "brand": "NZXT",
+    "model": "Kraken 240",
+    "specs": {
+      "type": "AIO Liquid Cooler",
+      "radiatorSize": "240mm",
+      "fanSize": "2x 120mm",
+      "rpm": "500-2000",
+      "tdpRating": "250W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.9,
+      "warrantyYears": 5,
+      "brandReputation": 90,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 149, "inStock": true, "url": "https://amazon.com/dp/B0CRQN7KLB", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 149, "inStock": true, "url": "https://bestbuy.com/site/nzxt-kraken-240/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-corsair-h100i-elite", "cooler-arctic-liquid-freezer-ii-240"]
+  },
+  {
+    "id": "cooler-nzxt-kraken-360",
+    "category": "cooler",
+    "name": "NZXT Kraken 360",
+    "brand": "NZXT",
+    "model": "Kraken 360",
+    "specs": {
+      "type": "AIO Liquid Cooler",
+      "radiatorSize": "360mm",
+      "fanSize": "3x 120mm",
+      "rpm": "500-2000",
+      "tdpRating": "300W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.8,
+      "warrantyYears": 5,
+      "brandReputation": 90,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 199, "inStock": true, "url": "https://amazon.com/dp/B0CRQP8MKJ", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 199, "inStock": true, "url": "https://bestbuy.com/site/nzxt-kraken-360/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 204, "inStock": true, "url": "https://newegg.com/nzxt-kraken-360/p/N82E16835146118", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-corsair-h150i-elite", "cooler-arctic-liquid-freezer-ii-360"]
+  },
+  {
+    "id": "cooler-coolermaster-hyper-212",
+    "category": "cooler",
+    "name": "Cooler Master Hyper 212 Halo Black",
+    "brand": "Cooler Master",
+    "model": "Hyper 212 Halo Black",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "158mm",
+      "fanSize": "120mm",
+      "rpm": "650-2050",
+      "tdpRating": "150W",
+      "socket": "AM5, AM4, LGA1700, LGA1200, LGA115x"
+    },
+    "trustScore": 86,
+    "trustFactors": {
+      "failureRate": 0.9,
+      "warrantyYears": 2,
+      "brandReputation": 88,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 24, "inStock": true, "url": "https://amazon.com/dp/B0CHM2NQRV", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 29, "inStock": true, "url": "https://newegg.com/coolermaster-hyper-212-halo/p/N82E16835103342", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 22, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER/coolermaster-hyper-212-halo", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-deepcool-ak400", "cooler-bequiet-pure-rock-2"]
+  }
+]

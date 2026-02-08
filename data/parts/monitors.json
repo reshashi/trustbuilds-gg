@@ -1,0 +1,406 @@
+[
+  {
+    "id": "monitor-lg-27gp850-b",
+    "category": "monitor",
+    "name": "LG 27GP850-B UltraGear",
+    "brand": "LG",
+    "model": "27GP850-B",
+    "specs": {
+      "size": "27\"",
+      "resolution": "2560x1440",
+      "refreshRate": "165Hz (OC 180Hz)",
+      "panelType": "Nano IPS",
+      "responseTime": "1ms",
+      "hdr": "HDR 400",
+      "adaptive": "G-Sync Compatible / FreeSync Premium"
+    },
+    "trustScore": 92,
+    "trustFactors": { "failureRate": 0.7, "warrantyYears": 3, "brandReputation": 93, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 349, "inStock": true, "url": "https://amazon.com/dp/B093MTSLT5", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 349, "inStock": true, "url": "https://bestbuy.com/site/lg-27gp850-b/6451081", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 339, "inStock": true, "url": "https://bhphotovideo.com/c/product/1645763", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-asus-vg27aq1a", "monitor-msi-mag274qrf-qd"]
+  },
+  {
+    "id": "monitor-lg-27gn800-b",
+    "category": "monitor",
+    "name": "LG 27GN800-B UltraGear",
+    "brand": "LG",
+    "model": "27GN800-B",
+    "specs": {
+      "size": "27\"",
+      "resolution": "2560x1440",
+      "refreshRate": "144Hz",
+      "panelType": "IPS",
+      "responseTime": "1ms",
+      "hdr": "HDR 10",
+      "adaptive": "G-Sync Compatible / FreeSync Premium"
+    },
+    "trustScore": 90,
+    "trustFactors": { "failureRate": 0.9, "warrantyYears": 3, "brandReputation": 93, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 249, "inStock": true, "url": "https://amazon.com/dp/B09JBLHBWJ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 259, "inStock": true, "url": "https://newegg.com/lg-27gn800-b/p/N82E16824026195", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-lg-27gp850-b", "monitor-benq-ex2780q"]
+  },
+  {
+    "id": "monitor-lg-27gr95qe-b",
+    "category": "monitor",
+    "name": "LG 27GR95QE-B UltraGear OLED",
+    "brand": "LG",
+    "model": "27GR95QE-B",
+    "specs": {
+      "size": "27\"",
+      "resolution": "2560x1440",
+      "refreshRate": "240Hz",
+      "panelType": "OLED",
+      "responseTime": "0.03ms",
+      "hdr": "HDR 10",
+      "adaptive": "G-Sync Compatible / FreeSync Premium Pro"
+    },
+    "trustScore": 93,
+    "trustFactors": { "failureRate": 0.6, "warrantyYears": 3, "brandReputation": 93, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 799, "inStock": true, "url": "https://amazon.com/dp/B0BZRKQG5S", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 799, "inStock": true, "url": "https://bestbuy.com/site/lg-27gr95qe-b/6535728", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 789, "inStock": false, "url": "https://bhphotovideo.com/c/product/1774590", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-asus-pg27aqdp", "monitor-alienware-aw3423dwf"]
+  },
+  {
+    "id": "monitor-samsung-odyssey-g5-27",
+    "category": "monitor",
+    "name": "Samsung Odyssey G5 27\"",
+    "brand": "Samsung",
+    "model": "LC27G55TQWNXZA",
+    "specs": {
+      "size": "27\"",
+      "resolution": "2560x1440",
+      "refreshRate": "144Hz",
+      "panelType": "VA",
+      "responseTime": "1ms",
+      "hdr": "HDR 10",
+      "adaptive": "FreeSync Premium"
+    },
+    "trustScore": 86,
+    "trustFactors": { "failureRate": 1.2, "warrantyYears": 3, "brandReputation": 88, "rmaRating": 4.2 },
+    "retailers": [
+      { "retailer": "amazon", "price": 259, "inStock": true, "url": "https://amazon.com/dp/B08FF3HDW5", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 269, "inStock": true, "url": "https://bestbuy.com/site/samsung-odyssey-g5/6457433", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-lg-27gn800-b", "monitor-acer-predator-xb273u"]
+  },
+  {
+    "id": "monitor-samsung-odyssey-g7-32",
+    "category": "monitor",
+    "name": "Samsung Odyssey G7 32\" 4K",
+    "brand": "Samsung",
+    "model": "LS32BG702ENXGO",
+    "specs": {
+      "size": "32\"",
+      "resolution": "3840x2160",
+      "refreshRate": "144Hz",
+      "panelType": "IPS",
+      "responseTime": "1ms",
+      "hdr": "HDR 400",
+      "adaptive": "G-Sync Compatible / FreeSync Premium Pro"
+    },
+    "trustScore": 89,
+    "trustFactors": { "failureRate": 1.0, "warrantyYears": 3, "brandReputation": 88, "rmaRating": 4.3 },
+    "retailers": [
+      { "retailer": "amazon", "price": 549, "inStock": true, "url": "https://amazon.com/dp/B0B3DRWM6K", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 549, "inStock": true, "url": "https://bestbuy.com/site/samsung-odyssey-g7/6510917", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 539, "inStock": true, "url": "https://bhphotovideo.com/c/product/1716042", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-lg-27gr95qe-b", "monitor-asus-pg27aqdp"]
+  },
+  {
+    "id": "monitor-samsung-odyssey-g9-49",
+    "category": "monitor",
+    "name": "Samsung Odyssey G9 49\" Super Ultrawide",
+    "brand": "Samsung",
+    "model": "LC49G95TSSNXZA",
+    "specs": {
+      "size": "49\"",
+      "resolution": "5120x1440",
+      "refreshRate": "240Hz",
+      "panelType": "VA",
+      "responseTime": "1ms",
+      "hdr": "HDR 1000",
+      "adaptive": "G-Sync Compatible / FreeSync Premium Pro"
+    },
+    "trustScore": 85,
+    "trustFactors": { "failureRate": 1.5, "warrantyYears": 3, "brandReputation": 88, "rmaRating": 4.0 },
+    "retailers": [
+      { "retailer": "amazon", "price": 1099, "inStock": true, "url": "https://amazon.com/dp/B088HH6LW5", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 1099, "inStock": true, "url": "https://bestbuy.com/site/samsung-odyssey-g9/6425569", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 1079, "inStock": false, "url": "https://microcenter.com/product/626948", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-alienware-aw3423dwf"]
+  },
+  {
+    "id": "monitor-asus-vg27aq1a",
+    "category": "monitor",
+    "name": "ASUS TUF Gaming VG27AQ1A",
+    "brand": "ASUS",
+    "model": "VG27AQ1A",
+    "specs": {
+      "size": "27\"",
+      "resolution": "2560x1440",
+      "refreshRate": "170Hz",
+      "panelType": "IPS",
+      "responseTime": "1ms",
+      "hdr": "HDR 10",
+      "adaptive": "G-Sync Compatible / FreeSync Premium"
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.8, "warrantyYears": 3, "brandReputation": 91, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 289, "inStock": true, "url": "https://amazon.com/dp/B09FP2DWJ9", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 279, "inStock": true, "url": "https://newegg.com/asus-vg27aq1a/p/N82E16824281132", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 289, "inStock": true, "url": "https://bhphotovideo.com/c/product/1667293", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-lg-27gp850-b", "monitor-msi-mag274qrf-qd"]
+  },
+  {
+    "id": "monitor-asus-pg27aqdp",
+    "category": "monitor",
+    "name": "ASUS ROG Swift PG27AQDP",
+    "brand": "ASUS",
+    "model": "PG27AQDP",
+    "specs": {
+      "size": "27\"",
+      "resolution": "2560x1440",
+      "refreshRate": "360Hz",
+      "panelType": "OLED",
+      "responseTime": "0.03ms",
+      "hdr": "HDR True Black 400",
+      "adaptive": "G-Sync Compatible / FreeSync Premium Pro"
+    },
+    "trustScore": 94,
+    "trustFactors": { "failureRate": 0.5, "warrantyYears": 3, "brandReputation": 91, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 999, "inStock": true, "url": "https://amazon.com/dp/B0DB6GW1VZ", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 999, "inStock": false, "url": "https://bestbuy.com/site/asus-rog-swift-pg27aqdp/6594210", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 999, "inStock": true, "url": "https://newegg.com/asus-pg27aqdp/p/N82E16824281400", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-lg-27gr95qe-b", "monitor-alienware-aw3423dwf"]
+  },
+  {
+    "id": "monitor-dell-s2722dgm",
+    "category": "monitor",
+    "name": "Dell S2722DGM Curved Gaming Monitor",
+    "brand": "Dell",
+    "model": "S2722DGM",
+    "specs": {
+      "size": "27\"",
+      "resolution": "2560x1440",
+      "refreshRate": "165Hz",
+      "panelType": "VA",
+      "responseTime": "1ms",
+      "hdr": "HDR 400",
+      "adaptive": "FreeSync Premium"
+    },
+    "trustScore": 88,
+    "trustFactors": { "failureRate": 1.0, "warrantyYears": 3, "brandReputation": 89, "rmaRating": 4.4 },
+    "retailers": [
+      { "retailer": "amazon", "price": 249, "inStock": true, "url": "https://amazon.com/dp/B09PVZD75K", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 259, "inStock": true, "url": "https://bestbuy.com/site/dell-s2722dgm/6496094", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 249, "inStock": true, "url": "https://bhphotovideo.com/c/product/1688456", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-samsung-odyssey-g5-27", "monitor-lg-27gn800-b"]
+  },
+  {
+    "id": "monitor-alienware-aw3423dwf",
+    "category": "monitor",
+    "name": "Alienware AW3423DWF QD-OLED Ultrawide",
+    "brand": "Alienware",
+    "model": "AW3423DWF",
+    "specs": {
+      "size": "34\"",
+      "resolution": "3440x1440",
+      "refreshRate": "165Hz",
+      "panelType": "QD-OLED",
+      "responseTime": "0.1ms",
+      "hdr": "HDR True Black 400",
+      "adaptive": "FreeSync Premium Pro"
+    },
+    "trustScore": 95,
+    "trustFactors": { "failureRate": 0.4, "warrantyYears": 3, "brandReputation": 90, "rmaRating": 4.8 },
+    "retailers": [
+      { "retailer": "amazon", "price": 899, "inStock": true, "url": "https://amazon.com/dp/B0CZNS2D9M", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 899, "inStock": true, "url": "https://bestbuy.com/site/alienware-aw3423dwf/6536990", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 879, "inStock": true, "url": "https://microcenter.com/product/672048", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-lg-27gr95qe-b", "monitor-asus-pg27aqdp"]
+  },
+  {
+    "id": "monitor-benq-ex2780q",
+    "category": "monitor",
+    "name": "BenQ EX2780Q Entertainment Monitor",
+    "brand": "BenQ",
+    "model": "EX2780Q",
+    "specs": {
+      "size": "27\"",
+      "resolution": "2560x1440",
+      "refreshRate": "144Hz",
+      "panelType": "IPS",
+      "responseTime": "5ms",
+      "hdr": "HDR 400",
+      "adaptive": "FreeSync"
+    },
+    "trustScore": 89,
+    "trustFactors": { "failureRate": 0.9, "warrantyYears": 3, "brandReputation": 90, "rmaRating": 4.4 },
+    "retailers": [
+      { "retailer": "amazon", "price": 349, "inStock": true, "url": "https://amazon.com/dp/B07X8HBHJP", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 339, "inStock": true, "url": "https://bhphotovideo.com/c/product/1498098", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-lg-27gp850-b", "monitor-dell-s2722dgm"]
+  },
+  {
+    "id": "monitor-acer-predator-xb273u",
+    "category": "monitor",
+    "name": "Acer Predator XB273U GS",
+    "brand": "Acer",
+    "model": "XB273U GS",
+    "specs": {
+      "size": "27\"",
+      "resolution": "2560x1440",
+      "refreshRate": "165Hz (OC 170Hz)",
+      "panelType": "IPS",
+      "responseTime": "0.5ms",
+      "hdr": "HDR 400",
+      "adaptive": "G-Sync Compatible"
+    },
+    "trustScore": 88,
+    "trustFactors": { "failureRate": 1.1, "warrantyYears": 3, "brandReputation": 86, "rmaRating": 4.2 },
+    "retailers": [
+      { "retailer": "amazon", "price": 329, "inStock": true, "url": "https://amazon.com/dp/B09V2KHNML", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 319, "inStock": true, "url": "https://newegg.com/acer-xb273u-gs/p/N82E16824011505", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 309, "inStock": true, "url": "https://microcenter.com/product/649236", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-lg-27gp850-b", "monitor-asus-vg27aq1a"]
+  },
+  {
+    "id": "monitor-msi-mag274qrf-qd",
+    "category": "monitor",
+    "name": "MSI MAG274QRF-QD",
+    "brand": "MSI",
+    "model": "MAG274QRF-QD",
+    "specs": {
+      "size": "27\"",
+      "resolution": "2560x1440",
+      "refreshRate": "165Hz",
+      "panelType": "Rapid IPS (Quantum Dot)",
+      "responseTime": "1ms",
+      "hdr": "HDR Ready",
+      "adaptive": "G-Sync Compatible / FreeSync Premium"
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.8, "warrantyYears": 3, "brandReputation": 87, "rmaRating": 4.4 },
+    "retailers": [
+      { "retailer": "amazon", "price": 309, "inStock": true, "url": "https://amazon.com/dp/B0BXK4ZCNZ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 299, "inStock": true, "url": "https://newegg.com/msi-mag274qrf-qd/p/N82E16824475142", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 309, "inStock": true, "url": "https://bestbuy.com/site/msi-mag274qrf-qd/6505221", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-lg-27gp850-b", "monitor-asus-vg27aq1a"]
+  },
+  {
+    "id": "monitor-gigabyte-m27u",
+    "category": "monitor",
+    "name": "Gigabyte M27U 4K Gaming Monitor",
+    "brand": "Gigabyte",
+    "model": "M27U",
+    "specs": {
+      "size": "27\"",
+      "resolution": "3840x2160",
+      "refreshRate": "160Hz",
+      "panelType": "IPS",
+      "responseTime": "1ms",
+      "hdr": "HDR 400",
+      "adaptive": "G-Sync Compatible / FreeSync Premium Pro"
+    },
+    "trustScore": 90,
+    "trustFactors": { "failureRate": 0.9, "warrantyYears": 3, "brandReputation": 85, "rmaRating": 4.3 },
+    "retailers": [
+      { "retailer": "amazon", "price": 479, "inStock": true, "url": "https://amazon.com/dp/B0B9YJCJZ2", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 469, "inStock": true, "url": "https://newegg.com/gigabyte-m27u/p/N82E16824012046", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 479, "inStock": true, "url": "https://bhphotovideo.com/c/product/1725841", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-samsung-odyssey-g7-32", "monitor-asus-pg27aqdp"]
+  },
+  {
+    "id": "monitor-acer-nitro-xv240y-m3",
+    "category": "monitor",
+    "name": "Acer Nitro XV240Y M3 Budget Gaming",
+    "brand": "Acer",
+    "model": "XV240Y M3",
+    "specs": {
+      "size": "24\"",
+      "resolution": "1920x1080",
+      "refreshRate": "180Hz",
+      "panelType": "IPS",
+      "responseTime": "0.5ms",
+      "hdr": "HDR 10",
+      "adaptive": "FreeSync Premium"
+    },
+    "trustScore": 85,
+    "trustFactors": { "failureRate": 1.3, "warrantyYears": 3, "brandReputation": 86, "rmaRating": 4.1 },
+    "retailers": [
+      { "retailer": "amazon", "price": 139, "inStock": true, "url": "https://amazon.com/dp/B0BTLB5T12", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 144, "inStock": true, "url": "https://newegg.com/acer-xv240y-m3/p/N82E16824011645", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 149, "inStock": true, "url": "https://bestbuy.com/site/acer-nitro-xv240y/6541290", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-asus-vg246h1a"]
+  },
+  {
+    "id": "monitor-asus-vg246h1a",
+    "category": "monitor",
+    "name": "ASUS TUF Gaming VG246H1A",
+    "brand": "ASUS",
+    "model": "VG246H1A",
+    "specs": {
+      "size": "24\"",
+      "resolution": "1920x1080",
+      "refreshRate": "100Hz",
+      "panelType": "IPS",
+      "responseTime": "0.5ms",
+      "hdr": "No",
+      "adaptive": "FreeSync"
+    },
+    "trustScore": 84,
+    "trustFactors": { "failureRate": 1.4, "warrantyYears": 3, "brandReputation": 91, "rmaRating": 4.2 },
+    "retailers": [
+      { "retailer": "amazon", "price": 129, "inStock": true, "url": "https://amazon.com/dp/B0CC4HZCSY", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 129, "inStock": true, "url": "https://bestbuy.com/site/asus-vg246h1a/6557843", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-acer-nitro-xv240y-m3"]
+  },
+  {
+    "id": "monitor-lg-34gp83a-b",
+    "category": "monitor",
+    "name": "LG 34GP83A-B UltraGear Ultrawide",
+    "brand": "LG",
+    "model": "34GP83A-B",
+    "specs": {
+      "size": "34\"",
+      "resolution": "3440x1440",
+      "refreshRate": "160Hz",
+      "panelType": "Nano IPS",
+      "responseTime": "1ms",
+      "hdr": "HDR 400",
+      "adaptive": "G-Sync Compatible / FreeSync Premium"
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.8, "warrantyYears": 3, "brandReputation": 93, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 649, "inStock": true, "url": "https://amazon.com/dp/B09J9HY13P", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 649, "inStock": true, "url": "https://bestbuy.com/site/lg-34gp83a-b/6481724", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 639, "inStock": true, "url": "https://bhphotovideo.com/c/product/1672410", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["monitor-alienware-aw3423dwf", "monitor-samsung-odyssey-g9-49"]
+  }
+]

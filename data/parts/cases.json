@@ -1,0 +1,415 @@
+[
+  {
+    "id": "case-corsair-4000d-airflow",
+    "category": "case",
+    "name": "Corsair 4000D Airflow",
+    "brand": "Corsair",
+    "model": "4000D Airflow",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "360mm",
+      "cpuCoolerHeight": "170mm",
+      "frontIO": "USB-C, USB-A, Audio",
+      "includedFans": 2
+    },
+    "trustScore": 93,
+    "trustFactors": {
+      "failureRate": 0.2,
+      "warrantyYears": 2,
+      "brandReputation": 91,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 104, "inStock": true, "url": "https://amazon.com/dp/B08C76JDSG", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 109, "inStock": true, "url": "https://newegg.com/corsair-4000d-airflow/p/N82E16811139160", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 104, "inStock": true, "url": "https://bestbuy.com/site/corsair-4000d-airflow/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-nzxt-h5-flow", "case-phanteks-g360a"]
+  },
+  {
+    "id": "case-corsair-5000d-airflow",
+    "category": "case",
+    "name": "Corsair 5000D Airflow",
+    "brand": "Corsair",
+    "model": "5000D Airflow",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "400mm",
+      "cpuCoolerHeight": "170mm",
+      "frontIO": "USB-C, 2x USB-A, Audio",
+      "includedFans": 2
+    },
+    "trustScore": 92,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 2,
+      "brandReputation": 91,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 164, "inStock": true, "url": "https://amazon.com/dp/B09FP8K3NJ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 169, "inStock": true, "url": "https://newegg.com/corsair-5000d-airflow/p/N82E16811139163", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 159, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER/corsair-5000d-airflow", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-lian-li-lancool-iii", "case-fractal-torrent"]
+  },
+  {
+    "id": "case-nzxt-h5-flow",
+    "category": "case",
+    "name": "NZXT H5 Flow",
+    "brand": "NZXT",
+    "model": "H5 Flow",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "365mm",
+      "cpuCoolerHeight": "165mm",
+      "frontIO": "USB-C, USB-A, Audio",
+      "includedFans": 2
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 2,
+      "brandReputation": 90,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 94, "inStock": true, "url": "https://amazon.com/dp/B0BGQFQVKL", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 94, "inStock": true, "url": "https://bestbuy.com/site/nzxt-h5-flow/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 99, "inStock": true, "url": "https://newegg.com/nzxt-h5-flow/p/N82E16811146366", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-corsair-4000d-airflow", "case-phanteks-g360a"]
+  },
+  {
+    "id": "case-nzxt-h7-flow",
+    "category": "case",
+    "name": "NZXT H7 Flow (2024)",
+    "brand": "NZXT",
+    "model": "H7 Flow",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "400mm",
+      "cpuCoolerHeight": "185mm",
+      "frontIO": "USB-C, 2x USB-A, Audio",
+      "includedFans": 2
+    },
+    "trustScore": 92,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 2,
+      "brandReputation": 90,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 129, "inStock": true, "url": "https://amazon.com/dp/B0CRQ6FYML", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 129, "inStock": true, "url": "https://bestbuy.com/site/nzxt-h7-flow/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-corsair-4000d-airflow", "case-fractal-pop-xl"]
+  },
+  {
+    "id": "case-nzxt-h9-flow",
+    "category": "case",
+    "name": "NZXT H9 Flow",
+    "brand": "NZXT",
+    "model": "H9 Flow",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "435mm",
+      "cpuCoolerHeight": "185mm",
+      "frontIO": "USB-C, 2x USB-A, Audio",
+      "includedFans": 4
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 2,
+      "brandReputation": 90,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 159, "inStock": true, "url": "https://amazon.com/dp/B0CRQT8NKJ", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 159, "inStock": true, "url": "https://bestbuy.com/site/nzxt-h9-flow/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 164, "inStock": true, "url": "https://newegg.com/nzxt-h9-flow/p/N82E16811146380", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-lian-li-o11-dynamic-evo", "case-corsair-5000d-airflow"]
+  },
+  {
+    "id": "case-fractal-north",
+    "category": "case",
+    "name": "Fractal Design North",
+    "brand": "Fractal Design",
+    "model": "North",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "355mm",
+      "cpuCoolerHeight": "170mm",
+      "frontIO": "USB-C, USB-A, Audio",
+      "includedFans": 2
+    },
+    "trustScore": 93,
+    "trustFactors": {
+      "failureRate": 0.2,
+      "warrantyYears": 2,
+      "brandReputation": 93,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 129, "inStock": true, "url": "https://amazon.com/dp/B0BYBHM3LV", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 134, "inStock": true, "url": "https://newegg.com/fractal-design-north/p/N82E16811352178", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 129, "inStock": true, "url": "https://bhphotovideo.com/c/product/PLACEHOLDER/fractal-design-north.html", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-nzxt-h7-flow", "case-bequiet-pure-base-500dx"]
+  },
+  {
+    "id": "case-fractal-torrent",
+    "category": "case",
+    "name": "Fractal Design Torrent",
+    "brand": "Fractal Design",
+    "model": "Torrent",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "461mm",
+      "cpuCoolerHeight": "188mm",
+      "frontIO": "USB-C, 2x USB-A, Audio",
+      "includedFans": 5
+    },
+    "trustScore": 95,
+    "trustFactors": {
+      "failureRate": 0.2,
+      "warrantyYears": 2,
+      "brandReputation": 93,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 189, "inStock": true, "url": "https://amazon.com/dp/B09MBLPHCX", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 194, "inStock": true, "url": "https://newegg.com/fractal-design-torrent/p/N82E16811352175", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-corsair-5000d-airflow", "case-lian-li-lancool-iii"]
+  },
+  {
+    "id": "case-fractal-pop-xl",
+    "category": "case",
+    "name": "Fractal Design Pop XL Air",
+    "brand": "Fractal Design",
+    "model": "Pop XL Air",
+    "specs": {
+      "formFactor": "Full Tower",
+      "motherboardSupport": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "405mm",
+      "cpuCoolerHeight": "185mm",
+      "frontIO": "USB-C, 2x USB-A, Audio",
+      "includedFans": 4
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 2,
+      "brandReputation": 93,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 139, "inStock": true, "url": "https://amazon.com/dp/B0BYBKTNR7", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 144, "inStock": true, "url": "https://newegg.com/fractal-design-pop-xl/p/N82E16811352180", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-coolermaster-haf-700", "case-corsair-5000d-airflow"]
+  },
+  {
+    "id": "case-lian-li-o11-dynamic-evo",
+    "category": "case",
+    "name": "Lian Li O11 Dynamic EVO",
+    "brand": "Lian Li",
+    "model": "O11 Dynamic EVO",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "422mm",
+      "cpuCoolerHeight": "167mm",
+      "frontIO": "USB-C, 2x USB-A, Audio",
+      "includedFans": 0
+    },
+    "trustScore": 93,
+    "trustFactors": {
+      "failureRate": 0.2,
+      "warrantyYears": 2,
+      "brandReputation": 92,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 169, "inStock": true, "url": "https://amazon.com/dp/B09QLHFCBM", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 174, "inStock": true, "url": "https://newegg.com/lian-li-o11-dynamic-evo/p/N82E16811112612", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 164, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER/lian-li-o11-dynamic-evo", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-nzxt-h9-flow", "case-phanteks-p400a"]
+  },
+  {
+    "id": "case-lian-li-lancool-iii",
+    "category": "case",
+    "name": "Lian Li Lancool III",
+    "brand": "Lian Li",
+    "model": "Lancool III",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "420mm",
+      "cpuCoolerHeight": "187mm",
+      "frontIO": "USB-C, 2x USB-A, Audio",
+      "includedFans": 3
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.2,
+      "warrantyYears": 2,
+      "brandReputation": 92,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 139, "inStock": true, "url": "https://amazon.com/dp/B0BG6LNQFL", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 144, "inStock": true, "url": "https://newegg.com/lian-li-lancool-iii/p/N82E16811112620", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 139, "inStock": true, "url": "https://bhphotovideo.com/c/product/PLACEHOLDER/lian-li-lancool-iii.html", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-fractal-torrent", "case-corsair-5000d-airflow"]
+  },
+  {
+    "id": "case-phanteks-g360a",
+    "category": "case",
+    "name": "Phanteks Eclipse G360A",
+    "brand": "Phanteks",
+    "model": "Eclipse G360A",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "380mm",
+      "cpuCoolerHeight": "163mm",
+      "frontIO": "USB-C, USB-A, Audio",
+      "includedFans": 3
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 2,
+      "brandReputation": 89,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 89, "inStock": true, "url": "https://amazon.com/dp/B0BQJCGLY8", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 94, "inStock": true, "url": "https://newegg.com/phanteks-eclipse-g360a/p/N82E16811854118", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-nzxt-h5-flow", "case-corsair-4000d-airflow"]
+  },
+  {
+    "id": "case-phanteks-p400a",
+    "category": "case",
+    "name": "Phanteks Eclipse P400A Digital",
+    "brand": "Phanteks",
+    "model": "Eclipse P400A Digital",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "420mm",
+      "cpuCoolerHeight": "160mm",
+      "frontIO": "USB-C, 2x USB-A, Audio",
+      "includedFans": 3
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 2,
+      "brandReputation": 89,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 99, "inStock": true, "url": "https://amazon.com/dp/B08CDGMCQZ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 104, "inStock": true, "url": "https://newegg.com/phanteks-p400a-digital/p/N82E16811854098", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-phanteks-g360a", "case-lian-li-o11-dynamic-evo"]
+  },
+  {
+    "id": "case-bequiet-pure-base-500dx",
+    "category": "case",
+    "name": "be quiet! Pure Base 500DX",
+    "brand": "be quiet!",
+    "model": "Pure Base 500DX",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "369mm",
+      "cpuCoolerHeight": "190mm",
+      "frontIO": "USB-C, USB-A, Audio",
+      "includedFans": 3
+    },
+    "trustScore": 93,
+    "trustFactors": {
+      "failureRate": 0.2,
+      "warrantyYears": 3,
+      "brandReputation": 92,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B087BFQGZ1", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 114, "inStock": true, "url": "https://newegg.com/bequiet-pure-base-500dx/p/N82E16811205042", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-fractal-north", "case-corsair-4000d-airflow"]
+  },
+  {
+    "id": "case-coolermaster-haf-700",
+    "category": "case",
+    "name": "Cooler Master HAF 700 EVO",
+    "brand": "Cooler Master",
+    "model": "HAF 700 EVO",
+    "specs": {
+      "formFactor": "Full Tower",
+      "motherboardSupport": "E-ATX, SSI-EEB, ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "490mm",
+      "cpuCoolerHeight": "198mm",
+      "frontIO": "USB-C, 4x USB-A, Audio",
+      "includedFans": 5
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 2,
+      "brandReputation": 88,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 249, "inStock": true, "url": "https://amazon.com/dp/B0BSZ9DQNY", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 254, "inStock": true, "url": "https://newegg.com/coolermaster-haf-700-evo/p/N82E16811119413", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-fractal-pop-xl", "case-corsair-5000d-airflow"]
+  },
+  {
+    "id": "case-coolermaster-td500-mesh",
+    "category": "case",
+    "name": "Cooler Master TD500 Mesh V2",
+    "brand": "Cooler Master",
+    "model": "TD500 Mesh V2",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "410mm",
+      "cpuCoolerHeight": "165mm",
+      "frontIO": "USB-C, 2x USB-A, Audio",
+      "includedFans": 3
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 2,
+      "brandReputation": 88,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 64, "inStock": true, "url": "https://amazon.com/dp/B0CQQ3LPKJ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 69, "inStock": true, "url": "https://newegg.com/coolermaster-td500-mesh-v2/p/N82E16811119420", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 59, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER/coolermaster-td500-mesh-v2", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-phanteks-g360a", "case-nzxt-h5-flow"]
+  }
+]

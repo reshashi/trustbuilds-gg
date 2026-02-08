@@ -5,10 +5,10 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TrustScore from "@/components/TrustScore";
-import componentsData from "@/data/components.json";
+import { getAllParts } from "@/lib/partsLoader";
 import type { Component } from "@/lib/types";
 
-const allComponents = componentsData as unknown as Component[];
+const allComponents = getAllParts();
 
 const componentsByCategory = allComponents.reduce((acc, component) => {
   if (!acc[component.category]) {

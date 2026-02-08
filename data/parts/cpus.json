@@ -1,0 +1,747 @@
+[
+  {
+    "id": "cpu-amd-ryzen5-5600",
+    "category": "cpu",
+    "name": "AMD Ryzen 5 5600",
+    "brand": "AMD",
+    "model": "Ryzen 5 5600",
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": "3.5 GHz",
+      "boostClock": "4.4 GHz",
+      "socket": "AM4",
+      "tdp": 65,
+      "cache": "35MB"
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.6,
+      "warrantyYears": 3,
+      "brandReputation": 90,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 99, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 94, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 89, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen5-5600x", "cpu-intel-i3-14100f"]
+  },
+  {
+    "id": "cpu-amd-ryzen5-5600x",
+    "category": "cpu",
+    "name": "AMD Ryzen 5 5600X",
+    "brand": "AMD",
+    "model": "Ryzen 5 5600X",
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": "3.7 GHz",
+      "boostClock": "4.6 GHz",
+      "socket": "AM4",
+      "tdp": 65,
+      "cache": "35MB"
+    },
+    "trustScore": 93,
+    "trustFactors": {
+      "failureRate": 0.5,
+      "warrantyYears": 3,
+      "brandReputation": 91,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 129, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 124, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 134, "inStock": true, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 119, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen5-5600", "cpu-intel-i5-14400f"]
+  },
+  {
+    "id": "cpu-amd-ryzen5-7600",
+    "category": "cpu",
+    "name": "AMD Ryzen 5 7600",
+    "brand": "AMD",
+    "model": "Ryzen 5 7600",
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": "3.8 GHz",
+      "boostClock": "5.1 GHz",
+      "socket": "AM5",
+      "tdp": 65,
+      "cache": "38MB"
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.7,
+      "warrantyYears": 3,
+      "brandReputation": 90,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 179, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 174, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 169, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen5-7600x", "cpu-intel-i5-14400f"]
+  },
+  {
+    "id": "cpu-amd-ryzen5-7600x",
+    "category": "cpu",
+    "name": "AMD Ryzen 5 7600X",
+    "brand": "AMD",
+    "model": "Ryzen 5 7600X",
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": "4.7 GHz",
+      "boostClock": "5.3 GHz",
+      "socket": "AM5",
+      "tdp": 105,
+      "cache": "38MB"
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.6,
+      "warrantyYears": 3,
+      "brandReputation": 91,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 219, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 214, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 219, "inStock": true, "url": "https://bhphotovideo.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 209, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen5-7600", "cpu-amd-ryzen5-9600x", "cpu-intel-i5-14600kf"]
+  },
+  {
+    "id": "cpu-amd-ryzen5-9600x",
+    "category": "cpu",
+    "name": "AMD Ryzen 5 9600X",
+    "brand": "AMD",
+    "model": "Ryzen 5 9600X",
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": "3.9 GHz",
+      "boostClock": "5.4 GHz",
+      "socket": "AM5",
+      "tdp": 65,
+      "cache": "38MB"
+    },
+    "trustScore": 92,
+    "trustFactors": {
+      "failureRate": 0.5,
+      "warrantyYears": 3,
+      "brandReputation": 92,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 249, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 244, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 249, "inStock": true, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 239, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen5-7600x", "cpu-intel-i5-14600kf", "cpu-intel-i5-14600k"]
+  },
+  {
+    "id": "cpu-amd-ryzen7-5800x",
+    "category": "cpu",
+    "name": "AMD Ryzen 7 5800X",
+    "brand": "AMD",
+    "model": "Ryzen 7 5800X",
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": "3.8 GHz",
+      "boostClock": "4.7 GHz",
+      "socket": "AM4",
+      "tdp": 105,
+      "cache": "36MB"
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.7,
+      "warrantyYears": 3,
+      "brandReputation": 90,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 199, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 194, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 184, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen5-7600x", "cpu-amd-ryzen5-5600x", "cpu-intel-i5-14400f"]
+  },
+  {
+    "id": "cpu-amd-ryzen7-7700x",
+    "category": "cpu",
+    "name": "AMD Ryzen 7 7700X",
+    "brand": "AMD",
+    "model": "Ryzen 7 7700X",
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": "4.5 GHz",
+      "boostClock": "5.4 GHz",
+      "socket": "AM5",
+      "tdp": 105,
+      "cache": "40MB"
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 0.8,
+      "warrantyYears": 3,
+      "brandReputation": 90,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 279, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 274, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 279, "inStock": true, "url": "https://bhphotovideo.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 264, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen5-9600x", "cpu-intel-i5-14600k", "cpu-intel-i5-14600kf"]
+  },
+  {
+    "id": "cpu-amd-ryzen7-7800x3d",
+    "category": "cpu",
+    "name": "AMD Ryzen 7 7800X3D",
+    "brand": "AMD",
+    "model": "Ryzen 7 7800X3D",
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": "4.2 GHz",
+      "boostClock": "5.0 GHz",
+      "socket": "AM5",
+      "tdp": 120,
+      "cache": "104MB"
+    },
+    "trustScore": 95,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 3,
+      "brandReputation": 94,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 379, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 374, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 379, "inStock": true, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 364, "inStock": false, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen7-9800x3d", "cpu-intel-i7-14700k", "cpu-intel-i7-14700kf"]
+  },
+  {
+    "id": "cpu-amd-ryzen7-9800x3d",
+    "category": "cpu",
+    "name": "AMD Ryzen 7 9800X3D",
+    "brand": "AMD",
+    "model": "Ryzen 7 9800X3D",
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": "4.7 GHz",
+      "boostClock": "5.2 GHz",
+      "socket": "AM5",
+      "tdp": 120,
+      "cache": "104MB"
+    },
+    "trustScore": 96,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 3,
+      "brandReputation": 95,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 449, "inStock": false, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 449, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 449, "inStock": false, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 439, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen7-7800x3d", "cpu-intel-i7-14700k", "cpu-intel-ultra7-265k"]
+  },
+  {
+    "id": "cpu-amd-ryzen9-7900x",
+    "category": "cpu",
+    "name": "AMD Ryzen 9 7900X",
+    "brand": "AMD",
+    "model": "Ryzen 9 7900X",
+    "specs": {
+      "cores": 12,
+      "threads": 24,
+      "baseClock": "4.7 GHz",
+      "boostClock": "5.6 GHz",
+      "socket": "AM5",
+      "tdp": 170,
+      "cache": "76MB"
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 0.8,
+      "warrantyYears": 3,
+      "brandReputation": 90,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 349, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 339, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 349, "inStock": true, "url": "https://bhphotovideo.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 329, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen9-9900x", "cpu-intel-i7-14700k", "cpu-intel-i7-14700kf"]
+  },
+  {
+    "id": "cpu-amd-ryzen9-7950x",
+    "category": "cpu",
+    "name": "AMD Ryzen 9 7950X",
+    "brand": "AMD",
+    "model": "Ryzen 9 7950X",
+    "specs": {
+      "cores": 16,
+      "threads": 32,
+      "baseClock": "4.5 GHz",
+      "boostClock": "5.7 GHz",
+      "socket": "AM5",
+      "tdp": 170,
+      "cache": "80MB"
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.7,
+      "warrantyYears": 3,
+      "brandReputation": 91,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 499, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 489, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 499, "inStock": true, "url": "https://bhphotovideo.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 479, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen9-9950x", "cpu-intel-i9-14900k", "cpu-intel-ultra9-285k"]
+  },
+  {
+    "id": "cpu-amd-ryzen9-9850x3d",
+    "category": "cpu",
+    "name": "AMD Ryzen 9 9850X3D",
+    "brand": "AMD",
+    "model": "Ryzen 9 9850X3D",
+    "specs": {
+      "cores": 16,
+      "threads": 32,
+      "baseClock": "4.3 GHz",
+      "boostClock": "5.4 GHz",
+      "socket": "AM5",
+      "tdp": 170,
+      "cache": "144MB"
+    },
+    "trustScore": 93,
+    "trustFactors": {
+      "failureRate": 0.5,
+      "warrantyYears": 3,
+      "brandReputation": 93,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 569, "inStock": false, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 569, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 569, "inStock": false, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 559, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen9-9950x", "cpu-intel-i9-14900k", "cpu-intel-ultra9-285k"]
+  },
+  {
+    "id": "cpu-amd-ryzen9-9900x",
+    "category": "cpu",
+    "name": "AMD Ryzen 9 9900X",
+    "brand": "AMD",
+    "model": "Ryzen 9 9900X",
+    "specs": {
+      "cores": 12,
+      "threads": 24,
+      "baseClock": "4.4 GHz",
+      "boostClock": "5.6 GHz",
+      "socket": "AM5",
+      "tdp": 120,
+      "cache": "76MB"
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.6,
+      "warrantyYears": 3,
+      "brandReputation": 92,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 429, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 419, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 429, "inStock": true, "url": "https://bhphotovideo.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 414, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen9-7900x", "cpu-intel-i7-14700k", "cpu-intel-ultra7-265k"]
+  },
+  {
+    "id": "cpu-amd-ryzen9-9950x",
+    "category": "cpu",
+    "name": "AMD Ryzen 9 9950X",
+    "brand": "AMD",
+    "model": "Ryzen 9 9950X",
+    "specs": {
+      "cores": 16,
+      "threads": 32,
+      "baseClock": "4.3 GHz",
+      "boostClock": "5.7 GHz",
+      "socket": "AM5",
+      "tdp": 170,
+      "cache": "80MB"
+    },
+    "trustScore": 92,
+    "trustFactors": {
+      "failureRate": 0.5,
+      "warrantyYears": 3,
+      "brandReputation": 93,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 579, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 569, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 579, "inStock": true, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 559, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen9-7950x", "cpu-amd-ryzen9-9850x3d", "cpu-intel-i9-14900k", "cpu-intel-ultra9-285k"]
+  },
+  {
+    "id": "cpu-intel-i3-14100f",
+    "category": "cpu",
+    "name": "Intel Core i3-14100F",
+    "brand": "Intel",
+    "model": "Core i3-14100F",
+    "specs": {
+      "cores": 4,
+      "threads": 8,
+      "baseClock": "3.5 GHz",
+      "boostClock": "4.7 GHz",
+      "socket": "LGA1700",
+      "tdp": 58,
+      "cache": "12MB"
+    },
+    "trustScore": 86,
+    "trustFactors": {
+      "failureRate": 1.0,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.1
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 99, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 94, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 89, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen5-5600", "cpu-amd-ryzen5-5600x"]
+  },
+  {
+    "id": "cpu-intel-i5-14400f",
+    "category": "cpu",
+    "name": "Intel Core i5-14400F",
+    "brand": "Intel",
+    "model": "Core i5-14400F",
+    "specs": {
+      "cores": 10,
+      "threads": 16,
+      "baseClock": "2.5 GHz",
+      "boostClock": "4.7 GHz",
+      "socket": "LGA1700",
+      "tdp": 65,
+      "cache": "20MB"
+    },
+    "trustScore": 87,
+    "trustFactors": {
+      "failureRate": 0.9,
+      "warrantyYears": 3,
+      "brandReputation": 86,
+      "rmaRating": 4.2
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 169, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 164, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 174, "inStock": true, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 159, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen5-5600x", "cpu-amd-ryzen5-7600", "cpu-amd-ryzen7-5800x"]
+  },
+  {
+    "id": "cpu-intel-i5-14600k",
+    "category": "cpu",
+    "name": "Intel Core i5-14600K",
+    "brand": "Intel",
+    "model": "Core i5-14600K",
+    "specs": {
+      "cores": 14,
+      "threads": 20,
+      "baseClock": "3.5 GHz",
+      "boostClock": "5.3 GHz",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "cache": "24MB"
+    },
+    "trustScore": 85,
+    "trustFactors": {
+      "failureRate": 1.1,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.0
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 279, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 274, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 279, "inStock": true, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 264, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-intel-i5-14600kf", "cpu-amd-ryzen5-9600x", "cpu-amd-ryzen7-7700x"]
+  },
+  {
+    "id": "cpu-intel-i5-14600kf",
+    "category": "cpu",
+    "name": "Intel Core i5-14600KF",
+    "brand": "Intel",
+    "model": "Core i5-14600KF",
+    "specs": {
+      "cores": 14,
+      "threads": 20,
+      "baseClock": "3.5 GHz",
+      "boostClock": "5.3 GHz",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "cache": "24MB"
+    },
+    "trustScore": 85,
+    "trustFactors": {
+      "failureRate": 1.1,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.0
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 259, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 254, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 244, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-intel-i5-14600k", "cpu-amd-ryzen5-9600x", "cpu-amd-ryzen7-7700x"]
+  },
+  {
+    "id": "cpu-intel-i7-14700k",
+    "category": "cpu",
+    "name": "Intel Core i7-14700K",
+    "brand": "Intel",
+    "model": "Core i7-14700K",
+    "specs": {
+      "cores": 20,
+      "threads": 28,
+      "baseClock": "3.4 GHz",
+      "boostClock": "5.6 GHz",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "cache": "33MB"
+    },
+    "trustScore": 83,
+    "trustFactors": {
+      "failureRate": 1.4,
+      "warrantyYears": 3,
+      "brandReputation": 83,
+      "rmaRating": 3.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 379, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 369, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 379, "inStock": true, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 359, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-intel-i7-14700kf", "cpu-amd-ryzen7-7800x3d", "cpu-amd-ryzen9-7900x"]
+  },
+  {
+    "id": "cpu-intel-i7-14700kf",
+    "category": "cpu",
+    "name": "Intel Core i7-14700KF",
+    "brand": "Intel",
+    "model": "Core i7-14700KF",
+    "specs": {
+      "cores": 20,
+      "threads": 28,
+      "baseClock": "3.4 GHz",
+      "boostClock": "5.6 GHz",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "cache": "33MB"
+    },
+    "trustScore": 83,
+    "trustFactors": {
+      "failureRate": 1.4,
+      "warrantyYears": 3,
+      "brandReputation": 83,
+      "rmaRating": 3.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 359, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 349, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 359, "inStock": true, "url": "https://bhphotovideo.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 339, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-intel-i7-14700k", "cpu-amd-ryzen7-7800x3d", "cpu-amd-ryzen9-7900x"]
+  },
+  {
+    "id": "cpu-intel-i9-14900k",
+    "category": "cpu",
+    "name": "Intel Core i9-14900K",
+    "brand": "Intel",
+    "model": "Core i9-14900K",
+    "specs": {
+      "cores": 24,
+      "threads": 32,
+      "baseClock": "3.2 GHz",
+      "boostClock": "6.0 GHz",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "cache": "36MB"
+    },
+    "trustScore": 80,
+    "trustFactors": {
+      "failureRate": 1.8,
+      "warrantyYears": 3,
+      "brandReputation": 80,
+      "rmaRating": 3.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 499, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 489, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 499, "inStock": true, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 479, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-intel-i9-14900ks", "cpu-amd-ryzen9-7950x", "cpu-amd-ryzen9-9950x"]
+  },
+  {
+    "id": "cpu-intel-i9-14900ks",
+    "category": "cpu",
+    "name": "Intel Core i9-14900KS",
+    "brand": "Intel",
+    "model": "Core i9-14900KS",
+    "specs": {
+      "cores": 24,
+      "threads": 32,
+      "baseClock": "3.2 GHz",
+      "boostClock": "6.2 GHz",
+      "socket": "LGA1700",
+      "tdp": 150,
+      "cache": "36MB"
+    },
+    "trustScore": 80,
+    "trustFactors": {
+      "failureRate": 1.9,
+      "warrantyYears": 3,
+      "brandReputation": 80,
+      "rmaRating": 3.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 569, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 559, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 569, "inStock": true, "url": "https://bhphotovideo.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 549, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-intel-i9-14900k", "cpu-amd-ryzen9-9950x", "cpu-amd-ryzen9-9850x3d"]
+  },
+  {
+    "id": "cpu-intel-ultra5-245k",
+    "category": "cpu",
+    "name": "Intel Core Ultra 5 245K",
+    "brand": "Intel",
+    "model": "Core Ultra 5 245K",
+    "specs": {
+      "cores": 14,
+      "threads": 14,
+      "baseClock": "4.2 GHz",
+      "boostClock": "5.2 GHz",
+      "socket": "LGA1851",
+      "tdp": 125,
+      "cache": "26MB"
+    },
+    "trustScore": 86,
+    "trustFactors": {
+      "failureRate": 1.0,
+      "warrantyYears": 3,
+      "brandReputation": 86,
+      "rmaRating": 4.2
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 309, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 299, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 309, "inStock": true, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 289, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-intel-i5-14600k", "cpu-amd-ryzen7-7700x", "cpu-amd-ryzen5-9600x"]
+  },
+  {
+    "id": "cpu-intel-ultra7-265k",
+    "category": "cpu",
+    "name": "Intel Core Ultra 7 265K",
+    "brand": "Intel",
+    "model": "Core Ultra 7 265K",
+    "specs": {
+      "cores": 20,
+      "threads": 20,
+      "baseClock": "3.9 GHz",
+      "boostClock": "5.5 GHz",
+      "socket": "LGA1851",
+      "tdp": 125,
+      "cache": "36MB"
+    },
+    "trustScore": 87,
+    "trustFactors": {
+      "failureRate": 0.9,
+      "warrantyYears": 3,
+      "brandReputation": 87,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 399, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 389, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 399, "inStock": true, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 379, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen7-9800x3d", "cpu-amd-ryzen9-9900x", "cpu-intel-i7-14700k"]
+  },
+  {
+    "id": "cpu-intel-ultra9-285k",
+    "category": "cpu",
+    "name": "Intel Core Ultra 9 285K",
+    "brand": "Intel",
+    "model": "Core Ultra 9 285K",
+    "specs": {
+      "cores": 24,
+      "threads": 24,
+      "baseClock": "3.7 GHz",
+      "boostClock": "5.7 GHz",
+      "socket": "LGA1851",
+      "tdp": 125,
+      "cache": "40MB"
+    },
+    "trustScore": 88,
+    "trustFactors": {
+      "failureRate": 0.8,
+      "warrantyYears": 3,
+      "brandReputation": 88,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 549, "inStock": true, "url": "https://amazon.com/dp/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 539, "inStock": true, "url": "https://newegg.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 549, "inStock": true, "url": "https://bestbuy.com/PLACEHOLDER", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 529, "inStock": true, "url": "https://microcenter.com/product/PLACEHOLDER", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-amd-ryzen9-9950x", "cpu-amd-ryzen9-9850x3d", "cpu-intel-i9-14900k"]
+  }
+]

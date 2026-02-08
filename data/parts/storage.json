@@ -1,0 +1,366 @@
+[
+  {
+    "id": "storage-samsung-870-evo-500gb",
+    "category": "storage",
+    "name": "Samsung 870 EVO 500GB SATA SSD",
+    "brand": "Samsung",
+    "model": "870 EVO 500GB",
+    "specs": {
+      "capacity": "500GB",
+      "interface": "SATA III 6Gb/s",
+      "readSpeed": "560 MB/s",
+      "writeSpeed": "530 MB/s",
+      "formFactor": "2.5-inch",
+      "tbw": "300 TBW"
+    },
+    "trustScore": 93,
+    "trustFactors": { "failureRate": 0.5, "warrantyYears": 5, "brandReputation": 96, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 44, "inStock": true, "url": "https://amazon.com/dp/B08QBJ2YMG", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 42, "inStock": true, "url": "https://newegg.com/samsung-870-evo-500gb", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 44, "inStock": true, "url": "https://bestbuy.com/site/samsung-870-evo-500gb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-crucial-bx500-500gb", "storage-kingston-a400-480gb"]
+  },
+  {
+    "id": "storage-crucial-bx500-500gb",
+    "category": "storage",
+    "name": "Crucial BX500 480GB SATA SSD",
+    "brand": "Crucial",
+    "model": "BX500 480GB",
+    "specs": {
+      "capacity": "480GB",
+      "interface": "SATA III 6Gb/s",
+      "readSpeed": "540 MB/s",
+      "writeSpeed": "500 MB/s",
+      "formFactor": "2.5-inch",
+      "tbw": "120 TBW"
+    },
+    "trustScore": 82,
+    "trustFactors": { "failureRate": 1.2, "warrantyYears": 3, "brandReputation": 88, "rmaRating": 4.2 },
+    "retailers": [
+      { "retailer": "amazon", "price": 30, "inStock": true, "url": "https://amazon.com/dp/B07YD579WM", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 28, "inStock": true, "url": "https://newegg.com/crucial-bx500-480gb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-samsung-870-evo-500gb", "storage-kingston-a400-480gb"]
+  },
+  {
+    "id": "storage-kingston-a400-480gb",
+    "category": "storage",
+    "name": "Kingston A400 480GB SATA SSD",
+    "brand": "Kingston",
+    "model": "A400 480GB",
+    "specs": {
+      "capacity": "480GB",
+      "interface": "SATA III 6Gb/s",
+      "readSpeed": "500 MB/s",
+      "writeSpeed": "450 MB/s",
+      "formFactor": "2.5-inch",
+      "tbw": "160 TBW"
+    },
+    "trustScore": 80,
+    "trustFactors": { "failureRate": 1.5, "warrantyYears": 3, "brandReputation": 85, "rmaRating": 4.0 },
+    "retailers": [
+      { "retailer": "amazon", "price": 32, "inStock": true, "url": "https://amazon.com/dp/B01N0TQPQB", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 30, "inStock": true, "url": "https://newegg.com/kingston-a400-480gb", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 32, "inStock": true, "url": "https://bhphotovideo.com/c/product/kingston-a400-480gb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-crucial-bx500-500gb", "storage-samsung-870-evo-500gb"]
+  },
+  {
+    "id": "storage-samsung-970-evo-plus-1tb",
+    "category": "storage",
+    "name": "Samsung 970 EVO Plus 1TB NVMe SSD",
+    "brand": "Samsung",
+    "model": "970 EVO Plus 1TB",
+    "specs": {
+      "capacity": "1TB",
+      "interface": "PCIe 3.0 x4 NVMe",
+      "readSpeed": "3500 MB/s",
+      "writeSpeed": "3300 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "600 TBW"
+    },
+    "trustScore": 92,
+    "trustFactors": { "failureRate": 0.6, "warrantyYears": 5, "brandReputation": 96, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 79, "inStock": true, "url": "https://amazon.com/dp/B07MFZY2F2", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 74, "inStock": true, "url": "https://newegg.com/samsung-970-evo-plus-1tb", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 79, "inStock": true, "url": "https://bestbuy.com/site/samsung-970-evo-plus-1tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-crucial-p3-1tb", "storage-wd-sn770-1tb"]
+  },
+  {
+    "id": "storage-crucial-p3-1tb",
+    "category": "storage",
+    "name": "Crucial P3 1TB NVMe SSD",
+    "brand": "Crucial",
+    "model": "P3 1TB",
+    "specs": {
+      "capacity": "1TB",
+      "interface": "PCIe 3.0 x4 NVMe",
+      "readSpeed": "3500 MB/s",
+      "writeSpeed": "3000 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "220 TBW"
+    },
+    "trustScore": 84,
+    "trustFactors": { "failureRate": 1.0, "warrantyYears": 5, "brandReputation": 88, "rmaRating": 4.3 },
+    "retailers": [
+      { "retailer": "amazon", "price": 54, "inStock": true, "url": "https://amazon.com/dp/B0B25LZGGW", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 49, "inStock": true, "url": "https://newegg.com/crucial-p3-1tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-samsung-970-evo-plus-1tb", "storage-wd-sn770-1tb"]
+  },
+  {
+    "id": "storage-wd-sn770-1tb",
+    "category": "storage",
+    "name": "WD Black SN770 1TB NVMe SSD",
+    "brand": "WD",
+    "model": "Black SN770 1TB",
+    "specs": {
+      "capacity": "1TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "readSpeed": "5150 MB/s",
+      "writeSpeed": "4900 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "600 TBW"
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.6, "warrantyYears": 5, "brandReputation": 92, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 69, "inStock": true, "url": "https://amazon.com/dp/B09QV5KJHV", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 64, "inStock": true, "url": "https://newegg.com/wd-black-sn770-1tb", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 69, "inStock": true, "url": "https://bestbuy.com/site/wd-black-sn770-1tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-samsung-980-pro-1tb", "storage-crucial-p3-1tb"]
+  },
+  {
+    "id": "storage-samsung-980-pro-1tb",
+    "category": "storage",
+    "name": "Samsung 980 PRO 1TB NVMe SSD",
+    "brand": "Samsung",
+    "model": "980 PRO 1TB",
+    "specs": {
+      "capacity": "1TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "readSpeed": "7000 MB/s",
+      "writeSpeed": "5000 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "600 TBW"
+    },
+    "trustScore": 95,
+    "trustFactors": { "failureRate": 0.4, "warrantyYears": 5, "brandReputation": 96, "rmaRating": 4.8 },
+    "retailers": [
+      { "retailer": "amazon", "price": 89, "inStock": true, "url": "https://amazon.com/dp/B08GLX7TNT", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 84, "inStock": true, "url": "https://newegg.com/samsung-980-pro-1tb", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 89, "inStock": true, "url": "https://bhphotovideo.com/c/product/samsung-980-pro-1tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-wd-sn850x-1tb", "storage-sk-hynix-p41-1tb"]
+  },
+  {
+    "id": "storage-wd-sn850x-1tb",
+    "category": "storage",
+    "name": "WD Black SN850X 1TB NVMe SSD",
+    "brand": "WD",
+    "model": "Black SN850X 1TB",
+    "specs": {
+      "capacity": "1TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "readSpeed": "7300 MB/s",
+      "writeSpeed": "6300 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "600 TBW"
+    },
+    "trustScore": 94,
+    "trustFactors": { "failureRate": 0.4, "warrantyYears": 5, "brandReputation": 92, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 84, "inStock": true, "url": "https://amazon.com/dp/B0B7CKVCCV", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 79, "inStock": true, "url": "https://newegg.com/wd-black-sn850x-1tb", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 74, "inStock": true, "url": "https://microcenter.com/product/wd-black-sn850x-1tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-samsung-980-pro-1tb", "storage-sk-hynix-p41-1tb"]
+  },
+  {
+    "id": "storage-sk-hynix-p41-1tb",
+    "category": "storage",
+    "name": "SK Hynix Platinum P41 1TB NVMe SSD",
+    "brand": "SK Hynix",
+    "model": "Platinum P41 1TB",
+    "specs": {
+      "capacity": "1TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "readSpeed": "7000 MB/s",
+      "writeSpeed": "6500 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "750 TBW"
+    },
+    "trustScore": 94,
+    "trustFactors": { "failureRate": 0.4, "warrantyYears": 5, "brandReputation": 90, "rmaRating": 4.8 },
+    "retailers": [
+      { "retailer": "amazon", "price": 82, "inStock": true, "url": "https://amazon.com/dp/B0B6GR6RHN", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 79, "inStock": true, "url": "https://newegg.com/sk-hynix-platinum-p41-1tb", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 84, "inStock": true, "url": "https://bestbuy.com/site/sk-hynix-platinum-p41-1tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-samsung-980-pro-1tb", "storage-wd-sn850x-1tb"]
+  },
+  {
+    "id": "storage-samsung-990-pro-2tb",
+    "category": "storage",
+    "name": "Samsung 990 PRO 2TB NVMe SSD",
+    "brand": "Samsung",
+    "model": "990 PRO 2TB",
+    "specs": {
+      "capacity": "2TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "readSpeed": "7450 MB/s",
+      "writeSpeed": "6900 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "1200 TBW"
+    },
+    "trustScore": 96,
+    "trustFactors": { "failureRate": 0.3, "warrantyYears": 5, "brandReputation": 96, "rmaRating": 4.9 },
+    "retailers": [
+      { "retailer": "amazon", "price": 159, "inStock": true, "url": "https://amazon.com/dp/B0BHJJ9Y77", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 154, "inStock": true, "url": "https://newegg.com/samsung-990-pro-2tb", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 159, "inStock": true, "url": "https://bhphotovideo.com/c/product/samsung-990-pro-2tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-wd-sn850x-2tb", "storage-crucial-t500-2tb"]
+  },
+  {
+    "id": "storage-wd-sn850x-2tb",
+    "category": "storage",
+    "name": "WD Black SN850X 2TB NVMe SSD",
+    "brand": "WD",
+    "model": "Black SN850X 2TB",
+    "specs": {
+      "capacity": "2TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "readSpeed": "7300 MB/s",
+      "writeSpeed": "6600 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "1200 TBW"
+    },
+    "trustScore": 93,
+    "trustFactors": { "failureRate": 0.5, "warrantyYears": 5, "brandReputation": 92, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 139, "inStock": true, "url": "https://amazon.com/dp/B0B7CQ2CHH", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 134, "inStock": true, "url": "https://newegg.com/wd-black-sn850x-2tb", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 139, "inStock": true, "url": "https://bestbuy.com/site/wd-black-sn850x-2tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-samsung-990-pro-2tb", "storage-crucial-t500-2tb"]
+  },
+  {
+    "id": "storage-crucial-t500-2tb",
+    "category": "storage",
+    "name": "Crucial T500 2TB NVMe SSD",
+    "brand": "Crucial",
+    "model": "T500 2TB",
+    "specs": {
+      "capacity": "2TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "readSpeed": "7400 MB/s",
+      "writeSpeed": "7000 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "1200 TBW"
+    },
+    "trustScore": 92,
+    "trustFactors": { "failureRate": 0.5, "warrantyYears": 5, "brandReputation": 88, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 129, "inStock": true, "url": "https://amazon.com/dp/B0CK1FWQW2", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 124, "inStock": true, "url": "https://newegg.com/crucial-t500-2tb", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 119, "inStock": true, "url": "https://microcenter.com/product/crucial-t500-2tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-samsung-990-pro-2tb", "storage-wd-sn850x-2tb"]
+  },
+  {
+    "id": "storage-sabrent-rocket-4-plus-2tb",
+    "category": "storage",
+    "name": "Sabrent Rocket 4 Plus 2TB NVMe SSD",
+    "brand": "Sabrent",
+    "model": "Rocket 4 Plus 2TB",
+    "specs": {
+      "capacity": "2TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "readSpeed": "7100 MB/s",
+      "writeSpeed": "6600 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "1400 TBW"
+    },
+    "trustScore": 88,
+    "trustFactors": { "failureRate": 0.8, "warrantyYears": 5, "brandReputation": 82, "rmaRating": 4.3 },
+    "retailers": [
+      { "retailer": "amazon", "price": 134, "inStock": true, "url": "https://amazon.com/dp/B0B4DQHFVG", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 129, "inStock": true, "url": "https://newegg.com/sabrent-rocket-4-plus-2tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-crucial-t500-2tb", "storage-wd-sn850x-2tb"]
+  },
+  {
+    "id": "storage-samsung-990-evo-plus-4tb",
+    "category": "storage",
+    "name": "Samsung 990 EVO Plus 4TB NVMe SSD",
+    "brand": "Samsung",
+    "model": "990 EVO Plus 4TB",
+    "specs": {
+      "capacity": "4TB",
+      "interface": "PCIe 5.0 x4 NVMe",
+      "readSpeed": "10000 MB/s",
+      "writeSpeed": "8500 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "2400 TBW"
+    },
+    "trustScore": 93,
+    "trustFactors": { "failureRate": 0.5, "warrantyYears": 5, "brandReputation": 96, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 349, "inStock": true, "url": "https://amazon.com/dp/B0DK6JWMRT", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 339, "inStock": true, "url": "https://newegg.com/samsung-990-evo-plus-4tb", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 349, "inStock": true, "url": "https://bhphotovideo.com/c/product/samsung-990-evo-plus-4tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-sabrent-rocket-5-4tb", "storage-crucial-t700-4tb"]
+  },
+  {
+    "id": "storage-crucial-t700-4tb",
+    "category": "storage",
+    "name": "Crucial T700 4TB NVMe SSD",
+    "brand": "Crucial",
+    "model": "T700 4TB",
+    "specs": {
+      "capacity": "4TB",
+      "interface": "PCIe 5.0 x4 NVMe",
+      "readSpeed": "12400 MB/s",
+      "writeSpeed": "11800 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "2400 TBW"
+    },
+    "trustScore": 90,
+    "trustFactors": { "failureRate": 0.7, "warrantyYears": 5, "brandReputation": 88, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 389, "inStock": true, "url": "https://amazon.com/dp/B0C4KNB2YT", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 379, "inStock": true, "url": "https://newegg.com/crucial-t700-4tb", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 399, "inStock": false, "url": "https://bestbuy.com/site/crucial-t700-4tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-samsung-990-evo-plus-4tb", "storage-sabrent-rocket-5-4tb"]
+  },
+  {
+    "id": "storage-sabrent-rocket-5-4tb",
+    "category": "storage",
+    "name": "Sabrent Rocket 5 4TB NVMe SSD",
+    "brand": "Sabrent",
+    "model": "Rocket 5 4TB",
+    "specs": {
+      "capacity": "4TB",
+      "interface": "PCIe 5.0 x4 NVMe",
+      "readSpeed": "14000 MB/s",
+      "writeSpeed": "12000 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "3000 TBW"
+    },
+    "trustScore": 87,
+    "trustFactors": { "failureRate": 0.9, "warrantyYears": 5, "brandReputation": 82, "rmaRating": 4.2 },
+    "retailers": [
+      { "retailer": "amazon", "price": 399, "inStock": true, "url": "https://amazon.com/dp/B0DJLR8QSN", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 389, "inStock": true, "url": "https://newegg.com/sabrent-rocket-5-4tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-crucial-t700-4tb", "storage-samsung-990-evo-plus-4tb"]
+  }
+]

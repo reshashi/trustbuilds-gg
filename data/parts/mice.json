@@ -1,0 +1,288 @@
+[
+  {
+    "id": "mouse-logitech-gpx-superlight-2",
+    "category": "mouse",
+    "name": "Logitech G Pro X Superlight 2",
+    "brand": "Logitech",
+    "model": "G Pro X Superlight 2",
+    "specs": {
+      "sensor": "HERO 2",
+      "dpi": "32,000",
+      "weight": "60g",
+      "connection": "Wireless (LIGHTSPEED)",
+      "battery": "95 hours",
+      "buttons": 5
+    },
+    "trustScore": 96,
+    "trustFactors": { "failureRate": 0.3, "warrantyYears": 2, "brandReputation": 96, "rmaRating": 4.8 },
+    "retailers": [
+      { "retailer": "amazon", "price": 159, "inStock": true, "url": "https://amazon.com/dp/B0CJ4JWPS4", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 159, "inStock": true, "url": "https://bestbuy.com/site/logitech-gpx-superlight-2/6557501", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 159, "inStock": true, "url": "https://bhphotovideo.com/c/product/1798532", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-razer-viper-v3-pro", "mouse-pulsar-x2v2"]
+  },
+  {
+    "id": "mouse-logitech-g502x-plus",
+    "category": "mouse",
+    "name": "Logitech G502 X Plus Wireless",
+    "brand": "Logitech",
+    "model": "G502 X Plus",
+    "specs": {
+      "sensor": "HERO 25K",
+      "dpi": "25,600",
+      "weight": "106g",
+      "connection": "Wireless (LIGHTSPEED)",
+      "battery": "130 hours",
+      "buttons": 13
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.7, "warrantyYears": 2, "brandReputation": 96, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 139, "inStock": true, "url": "https://amazon.com/dp/B0B8NV2FRB", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 139, "inStock": true, "url": "https://bestbuy.com/site/logitech-g502-x-plus/6510405", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 139, "inStock": true, "url": "https://bhphotovideo.com/c/product/1722610", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-razer-deathadder-v3-pro", "mouse-corsair-m75-air"]
+  },
+  {
+    "id": "mouse-logitech-g305",
+    "category": "mouse",
+    "name": "Logitech G305 LIGHTSPEED",
+    "brand": "Logitech",
+    "model": "G305",
+    "specs": {
+      "sensor": "HERO 12K",
+      "dpi": "12,000",
+      "weight": "99g",
+      "connection": "Wireless (LIGHTSPEED)",
+      "battery": "250 hours (AA)",
+      "buttons": 6
+    },
+    "trustScore": 89,
+    "trustFactors": { "failureRate": 0.9, "warrantyYears": 2, "brandReputation": 96, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 39, "inStock": true, "url": "https://amazon.com/dp/B07CMS5Q6P", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 39, "inStock": true, "url": "https://bestbuy.com/site/logitech-g305/6228946", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-razer-viper-mini", "mouse-steelseries-aerox-5"]
+  },
+  {
+    "id": "mouse-razer-viper-v3-pro",
+    "category": "mouse",
+    "name": "Razer Viper V3 Pro",
+    "brand": "Razer",
+    "model": "Viper V3 Pro",
+    "specs": {
+      "sensor": "Focus Pro 36K (Gen 2)",
+      "dpi": "36,000",
+      "weight": "54g",
+      "connection": "Wireless (HyperSpeed) / USB-C",
+      "battery": "95 hours",
+      "buttons": 5
+    },
+    "trustScore": 95,
+    "trustFactors": { "failureRate": 0.4, "warrantyYears": 2, "brandReputation": 90, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 159, "inStock": true, "url": "https://amazon.com/dp/B0D2YCRL28", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 159, "inStock": true, "url": "https://bestbuy.com/site/razer-viper-v3-pro/6580924", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 155, "inStock": true, "url": "https://newegg.com/razer-viper-v3-pro/p/N82E16826153417", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-logitech-gpx-superlight-2", "mouse-finalmouse-ultralightx"]
+  },
+  {
+    "id": "mouse-razer-deathadder-v3-pro",
+    "category": "mouse",
+    "name": "Razer DeathAdder V3 Pro",
+    "brand": "Razer",
+    "model": "DeathAdder V3 Pro",
+    "specs": {
+      "sensor": "Focus Pro 30K",
+      "dpi": "30,000",
+      "weight": "63g",
+      "connection": "Wireless (HyperSpeed) / USB-C",
+      "battery": "90 hours",
+      "buttons": 5
+    },
+    "trustScore": 93,
+    "trustFactors": { "failureRate": 0.5, "warrantyYears": 2, "brandReputation": 90, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 129, "inStock": true, "url": "https://amazon.com/dp/B0B6K9BMDJ", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 129, "inStock": true, "url": "https://bestbuy.com/site/razer-deathadder-v3-pro/6511372", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-logitech-g502x-plus", "mouse-zowie-ec2-cw"]
+  },
+  {
+    "id": "mouse-razer-viper-mini",
+    "category": "mouse",
+    "name": "Razer Viper Mini Signature Edition",
+    "brand": "Razer",
+    "model": "Viper Mini SE",
+    "specs": {
+      "sensor": "Focus Pro 30K",
+      "dpi": "30,000",
+      "weight": "49g",
+      "connection": "Wireless (HyperSpeed) / USB-C",
+      "battery": "60 hours",
+      "buttons": 5
+    },
+    "trustScore": 92,
+    "trustFactors": { "failureRate": 0.6, "warrantyYears": 2, "brandReputation": 90, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 179, "inStock": false, "url": "https://amazon.com/dp/B0CVHM2KBJ", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 179, "inStock": false, "url": "https://bestbuy.com/site/razer-viper-mini-se/6576210", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-finalmouse-ultralightx", "mouse-lamzu-atlantis-mini"]
+  },
+  {
+    "id": "mouse-pulsar-x2v2",
+    "category": "mouse",
+    "name": "Pulsar X2V2 Wireless",
+    "brand": "Pulsar",
+    "model": "X2V2",
+    "specs": {
+      "sensor": "PAW3395",
+      "dpi": "26,000",
+      "weight": "53g",
+      "connection": "Wireless (4K Dongle) / USB-C",
+      "battery": "75 hours",
+      "buttons": 5
+    },
+    "trustScore": 93,
+    "trustFactors": { "failureRate": 0.5, "warrantyYears": 2, "brandReputation": 88, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 99, "inStock": true, "url": "https://amazon.com/dp/B0D3F5Q8WV", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-logitech-gpx-superlight-2", "mouse-lamzu-atlantis-mini"]
+  },
+  {
+    "id": "mouse-zowie-ec2-cw",
+    "category": "mouse",
+    "name": "Zowie EC2-CW Wireless",
+    "brand": "Zowie",
+    "model": "EC2-CW",
+    "specs": {
+      "sensor": "3370",
+      "dpi": "3,200",
+      "weight": "77g",
+      "connection": "Wireless 2.4GHz / USB-C",
+      "battery": "70 hours",
+      "buttons": 5
+    },
+    "trustScore": 90,
+    "trustFactors": { "failureRate": 0.7, "warrantyYears": 2, "brandReputation": 91, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B0BXHP41Y3", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 109, "inStock": true, "url": "https://bhphotovideo.com/c/product/1787234", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-razer-deathadder-v3-pro", "mouse-logitech-g502x-plus"]
+  },
+  {
+    "id": "mouse-zowie-fk2-c",
+    "category": "mouse",
+    "name": "Zowie FK2-C",
+    "brand": "Zowie",
+    "model": "FK2-C",
+    "specs": {
+      "sensor": "3360",
+      "dpi": "3,200",
+      "weight": "73g",
+      "connection": "USB (Wired)",
+      "battery": "N/A (Wired)",
+      "buttons": 5
+    },
+    "trustScore": 88,
+    "trustFactors": { "failureRate": 0.8, "warrantyYears": 2, "brandReputation": 91, "rmaRating": 4.4 },
+    "retailers": [
+      { "retailer": "amazon", "price": 59, "inStock": true, "url": "https://amazon.com/dp/B09LCN5D2K", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-zowie-ec2-cw", "mouse-logitech-g305"]
+  },
+  {
+    "id": "mouse-steelseries-aerox-5",
+    "category": "mouse",
+    "name": "SteelSeries Aerox 5 Wireless",
+    "brand": "SteelSeries",
+    "model": "Aerox 5 Wireless",
+    "specs": {
+      "sensor": "TrueMove Air",
+      "dpi": "18,000",
+      "weight": "74g",
+      "connection": "Wireless 2.4GHz / Bluetooth / USB-C",
+      "battery": "180 hours",
+      "buttons": 9
+    },
+    "trustScore": 87,
+    "trustFactors": { "failureRate": 1.0, "warrantyYears": 2, "brandReputation": 89, "rmaRating": 4.3 },
+    "retailers": [
+      { "retailer": "amazon", "price": 89, "inStock": true, "url": "https://amazon.com/dp/B09YCJLPJB", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 89, "inStock": true, "url": "https://bestbuy.com/site/steelseries-aerox-5/6501951", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-logitech-g305", "mouse-corsair-m75-air"]
+  },
+  {
+    "id": "mouse-corsair-m75-air",
+    "category": "mouse",
+    "name": "Corsair M75 Air Wireless",
+    "brand": "Corsair",
+    "model": "M75 Air",
+    "specs": {
+      "sensor": "Marksman 26K",
+      "dpi": "26,000",
+      "weight": "60g",
+      "connection": "Wireless (SLIPSTREAM) / Bluetooth / USB-C",
+      "battery": "100 hours",
+      "buttons": 6
+    },
+    "trustScore": 90,
+    "trustFactors": { "failureRate": 0.7, "warrantyYears": 2, "brandReputation": 91, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B0D5RJCX72", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 109, "inStock": true, "url": "https://bestbuy.com/site/corsair-m75-air/6590132", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 105, "inStock": true, "url": "https://newegg.com/corsair-m75-air/p/N82E16826816355", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-logitech-gpx-superlight-2", "mouse-pulsar-x2v2"]
+  },
+  {
+    "id": "mouse-finalmouse-ultralightx",
+    "category": "mouse",
+    "name": "Finalmouse UltralightX",
+    "brand": "Finalmouse",
+    "model": "UltralightX",
+    "specs": {
+      "sensor": "Finalsensor",
+      "dpi": "26,000",
+      "weight": "40g",
+      "connection": "Wireless 2.4GHz / USB-C",
+      "battery": "160 hours",
+      "buttons": 5
+    },
+    "trustScore": 88,
+    "trustFactors": { "failureRate": 1.2, "warrantyYears": 1, "brandReputation": 82, "rmaRating": 3.9 },
+    "retailers": [
+      { "retailer": "amazon", "price": 189, "inStock": false, "url": "https://amazon.com/dp/B0D9SKWRJZ", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-razer-viper-mini", "mouse-lamzu-atlantis-mini"]
+  },
+  {
+    "id": "mouse-lamzu-atlantis-mini",
+    "category": "mouse",
+    "name": "Lamzu Atlantis Mini Pro",
+    "brand": "Lamzu",
+    "model": "Atlantis Mini Pro",
+    "specs": {
+      "sensor": "PAW3395",
+      "dpi": "26,000",
+      "weight": "48g",
+      "connection": "Wireless (4K Dongle) / USB-C",
+      "battery": "70 hours",
+      "buttons": 6
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.6, "warrantyYears": 1, "brandReputation": 86, "rmaRating": 4.4 },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B0CQ2X6HFG", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mouse-pulsar-x2v2", "mouse-finalmouse-ultralightx"]
+  }
+]

@@ -1,0 +1,495 @@
+[
+  {
+    "id": "mobo-asus-b660m-ds3h",
+    "category": "motherboard",
+    "name": "ASUS Prime B660M-A D4 Micro-ATX",
+    "brand": "ASUS",
+    "model": "Prime B660M-A D4",
+    "specs": {
+      "socket": "LGA1700",
+      "formFactor": "Micro-ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR4",
+      "pcie": "PCIe 4.0 x16",
+      "m2Slots": 2,
+      "wifi": "None",
+      "usb": "USB 3.2 Gen 1"
+    },
+    "trustScore": 82,
+    "trustFactors": { "failureRate": 1.8, "warrantyYears": 3, "brandReputation": 90, "rmaRating": 4.1 },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B09QMPK3SC", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 104, "inStock": true, "url": "https://newegg.com/asus-prime-b660m-a-d4", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 109, "inStock": false, "url": "https://bhphotovideo.com/c/product/asus-b660m", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-gigabyte-b660m-ds3h", "mobo-msi-pro-b760m-a"]
+  },
+  {
+    "id": "mobo-gigabyte-b660m-ds3h",
+    "category": "motherboard",
+    "name": "Gigabyte B660M DS3H AX DDR4 Micro-ATX",
+    "brand": "Gigabyte",
+    "model": "B660M DS3H AX DDR4",
+    "specs": {
+      "socket": "LGA1700",
+      "formFactor": "Micro-ATX",
+      "ramSlots": 2,
+      "maxRam": "64GB DDR4",
+      "pcie": "PCIe 4.0 x16",
+      "m2Slots": 2,
+      "wifi": "WiFi 6",
+      "usb": "USB 3.2 Gen 1"
+    },
+    "trustScore": 78,
+    "trustFactors": { "failureRate": 2.1, "warrantyYears": 3, "brandReputation": 82, "rmaRating": 3.9 },
+    "retailers": [
+      { "retailer": "amazon", "price": 99, "inStock": true, "url": "https://amazon.com/dp/B09QZJNHCR", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 94, "inStock": true, "url": "https://newegg.com/gigabyte-b660m-ds3h-ax", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-asus-b660m-ds3h", "mobo-asrock-b760m-pro"]
+  },
+  {
+    "id": "mobo-msi-pro-b760m-a",
+    "category": "motherboard",
+    "name": "MSI PRO B760M-A WiFi DDR5 Micro-ATX",
+    "brand": "MSI",
+    "model": "PRO B760M-A WiFi DDR5",
+    "specs": {
+      "socket": "LGA1700",
+      "formFactor": "Micro-ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 4.0 x16",
+      "m2Slots": 2,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2"
+    },
+    "trustScore": 85,
+    "trustFactors": { "failureRate": 1.5, "warrantyYears": 3, "brandReputation": 86, "rmaRating": 4.2 },
+    "retailers": [
+      { "retailer": "amazon", "price": 139, "inStock": true, "url": "https://amazon.com/dp/B0BQRLZ63T", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 134, "inStock": true, "url": "https://newegg.com/msi-pro-b760m-a-wifi", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 139, "inStock": true, "url": "https://bestbuy.com/site/msi-pro-b760m-a-wifi", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-asus-b660m-ds3h", "mobo-asrock-b760m-pro"]
+  },
+  {
+    "id": "mobo-asrock-b760m-pro",
+    "category": "motherboard",
+    "name": "ASRock B760M Pro RS/D4 Micro-ATX",
+    "brand": "ASRock",
+    "model": "B760M Pro RS/D4",
+    "specs": {
+      "socket": "LGA1700",
+      "formFactor": "Micro-ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR4",
+      "pcie": "PCIe 4.0 x16",
+      "m2Slots": 2,
+      "wifi": "None",
+      "usb": "USB 3.2 Gen 1"
+    },
+    "trustScore": 80,
+    "trustFactors": { "failureRate": 1.9, "warrantyYears": 3, "brandReputation": 78, "rmaRating": 4.0 },
+    "retailers": [
+      { "retailer": "amazon", "price": 104, "inStock": true, "url": "https://amazon.com/dp/B0BRK8NB7J", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 99, "inStock": true, "url": "https://newegg.com/asrock-b760m-pro-rs", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-gigabyte-b660m-ds3h", "mobo-msi-pro-b760m-a"]
+  },
+  {
+    "id": "mobo-asus-rog-z690-hero",
+    "category": "motherboard",
+    "name": "ASUS ROG Maximus Z690 Hero ATX",
+    "brand": "ASUS",
+    "model": "ROG Maximus Z690 Hero",
+    "specs": {
+      "socket": "LGA1700",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 4,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2x2"
+    },
+    "trustScore": 90,
+    "trustFactors": { "failureRate": 1.0, "warrantyYears": 3, "brandReputation": 94, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 389, "inStock": true, "url": "https://amazon.com/dp/B09LRD3R6J", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 379, "inStock": true, "url": "https://newegg.com/asus-rog-maximus-z690-hero", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 385, "inStock": true, "url": "https://bhphotovideo.com/c/product/asus-z690-hero", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-msi-z790-edge", "mobo-gigabyte-z790-aorus-master"]
+  },
+  {
+    "id": "mobo-msi-z790-edge",
+    "category": "motherboard",
+    "name": "MSI MPG Z790 Edge WiFi DDR5 ATX",
+    "brand": "MSI",
+    "model": "MPG Z790 Edge WiFi DDR5",
+    "specs": {
+      "socket": "LGA1700",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 4,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2x2"
+    },
+    "trustScore": 88,
+    "trustFactors": { "failureRate": 1.2, "warrantyYears": 3, "brandReputation": 88, "rmaRating": 4.3 },
+    "retailers": [
+      { "retailer": "amazon", "price": 299, "inStock": true, "url": "https://amazon.com/dp/B0BHJGBH37", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 289, "inStock": true, "url": "https://newegg.com/msi-mpg-z790-edge-wifi", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 279, "inStock": true, "url": "https://microcenter.com/product/msi-mpg-z790-edge-wifi", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-asus-rog-z690-hero", "mobo-gigabyte-z790-aorus-master"]
+  },
+  {
+    "id": "mobo-gigabyte-z790-aorus-master",
+    "category": "motherboard",
+    "name": "Gigabyte Z790 AORUS Master DDR5 ATX",
+    "brand": "Gigabyte",
+    "model": "Z790 AORUS Master",
+    "specs": {
+      "socket": "LGA1700",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 5,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2x2"
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.9, "warrantyYears": 3, "brandReputation": 88, "rmaRating": 4.4 },
+    "retailers": [
+      { "retailer": "amazon", "price": 419, "inStock": true, "url": "https://amazon.com/dp/B0BHJ57MG7", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 409, "inStock": true, "url": "https://newegg.com/gigabyte-z790-aorus-master", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 419, "inStock": false, "url": "https://bhphotovideo.com/c/product/gigabyte-z790-master", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-asus-rog-z690-hero", "mobo-msi-z790-edge"]
+  },
+  {
+    "id": "mobo-asrock-b650-livemixer",
+    "category": "motherboard",
+    "name": "ASRock B650 LiveMixer ATX",
+    "brand": "ASRock",
+    "model": "B650 LiveMixer",
+    "specs": {
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 4.0 x16",
+      "m2Slots": 3,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2"
+    },
+    "trustScore": 81,
+    "trustFactors": { "failureRate": 1.7, "warrantyYears": 3, "brandReputation": 78, "rmaRating": 4.0 },
+    "retailers": [
+      { "retailer": "amazon", "price": 159, "inStock": true, "url": "https://amazon.com/dp/B0BHCQB6NY", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 149, "inStock": true, "url": "https://newegg.com/asrock-b650-livemixer", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-msi-b650-tomahawk", "mobo-gigabyte-b650-aorus-elite"]
+  },
+  {
+    "id": "mobo-msi-b650-tomahawk",
+    "category": "motherboard",
+    "name": "MSI MAG B650 Tomahawk WiFi ATX",
+    "brand": "MSI",
+    "model": "MAG B650 Tomahawk WiFi",
+    "specs": {
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 4.0 x16",
+      "m2Slots": 3,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2"
+    },
+    "trustScore": 87,
+    "trustFactors": { "failureRate": 1.3, "warrantyYears": 3, "brandReputation": 88, "rmaRating": 4.3 },
+    "retailers": [
+      { "retailer": "amazon", "price": 219, "inStock": true, "url": "https://amazon.com/dp/B0BHCCWG8V", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 209, "inStock": true, "url": "https://newegg.com/msi-mag-b650-tomahawk-wifi", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 219, "inStock": true, "url": "https://bestbuy.com/site/msi-mag-b650-tomahawk", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-asrock-b650-livemixer", "mobo-gigabyte-b650-aorus-elite"]
+  },
+  {
+    "id": "mobo-gigabyte-b650-aorus-elite",
+    "category": "motherboard",
+    "name": "Gigabyte B650 AORUS Elite AX ATX",
+    "brand": "Gigabyte",
+    "model": "B650 AORUS Elite AX",
+    "specs": {
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 4.0 x16",
+      "m2Slots": 2,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2"
+    },
+    "trustScore": 85,
+    "trustFactors": { "failureRate": 1.4, "warrantyYears": 3, "brandReputation": 84, "rmaRating": 4.2 },
+    "retailers": [
+      { "retailer": "amazon", "price": 189, "inStock": true, "url": "https://amazon.com/dp/B0BHCKH7MQ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 179, "inStock": true, "url": "https://newegg.com/gigabyte-b650-aorus-elite-ax", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-msi-b650-tomahawk", "mobo-asrock-b650-livemixer"]
+  },
+  {
+    "id": "mobo-asus-rog-x670e-hero",
+    "category": "motherboard",
+    "name": "ASUS ROG Crosshair X670E Hero ATX",
+    "brand": "ASUS",
+    "model": "ROG Crosshair X670E Hero",
+    "specs": {
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 4,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2x2"
+    },
+    "trustScore": 92,
+    "trustFactors": { "failureRate": 0.8, "warrantyYears": 3, "brandReputation": 94, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 489, "inStock": true, "url": "https://amazon.com/dp/B0BDSFGPC5", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 479, "inStock": true, "url": "https://newegg.com/asus-rog-crosshair-x670e-hero", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 489, "inStock": true, "url": "https://bhphotovideo.com/c/product/asus-x670e-hero", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-msi-x670e-ace", "mobo-gigabyte-z790-aorus-master"]
+  },
+  {
+    "id": "mobo-msi-x670e-ace",
+    "category": "motherboard",
+    "name": "MSI MEG X670E ACE ATX",
+    "brand": "MSI",
+    "model": "MEG X670E ACE",
+    "specs": {
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 4,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2x2"
+    },
+    "trustScore": 89,
+    "trustFactors": { "failureRate": 1.1, "warrantyYears": 3, "brandReputation": 90, "rmaRating": 4.4 },
+    "retailers": [
+      { "retailer": "amazon", "price": 459, "inStock": true, "url": "https://amazon.com/dp/B0BHC9WNBT", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 449, "inStock": false, "url": "https://newegg.com/msi-meg-x670e-ace", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-asus-rog-x670e-hero", "mobo-gigabyte-z790-aorus-master"]
+  },
+  {
+    "id": "mobo-asus-b650e-strix",
+    "category": "motherboard",
+    "name": "ASUS ROG Strix B650E-F Gaming WiFi ATX",
+    "brand": "ASUS",
+    "model": "ROG Strix B650E-F Gaming WiFi",
+    "specs": {
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 3,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2x2"
+    },
+    "trustScore": 89,
+    "trustFactors": { "failureRate": 1.1, "warrantyYears": 3, "brandReputation": 92, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 279, "inStock": true, "url": "https://amazon.com/dp/B0BHCBXKBT", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 269, "inStock": true, "url": "https://newegg.com/asus-rog-strix-b650e-f-gaming", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 259, "inStock": true, "url": "https://microcenter.com/product/asus-rog-strix-b650e-f", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-msi-b650-tomahawk", "mobo-gigabyte-b650-aorus-elite"]
+  },
+  {
+    "id": "mobo-asus-rog-strix-b860-f",
+    "category": "motherboard",
+    "name": "ASUS ROG Strix B860-F Gaming WiFi ATX",
+    "brand": "ASUS",
+    "model": "ROG Strix B860-F Gaming WiFi",
+    "specs": {
+      "socket": "LGA1851",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "192GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 3,
+      "wifi": "WiFi 7",
+      "usb": "USB 3.2 Gen 2x2"
+    },
+    "trustScore": 88,
+    "trustFactors": { "failureRate": 1.2, "warrantyYears": 3, "brandReputation": 92, "rmaRating": 4.4 },
+    "retailers": [
+      { "retailer": "amazon", "price": 269, "inStock": true, "url": "https://amazon.com/dp/B0DRK7LWPQ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 259, "inStock": true, "url": "https://newegg.com/asus-rog-strix-b860-f-gaming", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 269, "inStock": true, "url": "https://bestbuy.com/site/asus-rog-strix-b860-f", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-msi-mag-b860-tomahawk", "mobo-gigabyte-b860-aorus-elite"]
+  },
+  {
+    "id": "mobo-msi-mag-b860-tomahawk",
+    "category": "motherboard",
+    "name": "MSI MAG B860 Tomahawk WiFi ATX",
+    "brand": "MSI",
+    "model": "MAG B860 Tomahawk WiFi",
+    "specs": {
+      "socket": "LGA1851",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "192GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 3,
+      "wifi": "WiFi 7",
+      "usb": "USB 3.2 Gen 2x2"
+    },
+    "trustScore": 86,
+    "trustFactors": { "failureRate": 1.3, "warrantyYears": 3, "brandReputation": 88, "rmaRating": 4.3 },
+    "retailers": [
+      { "retailer": "amazon", "price": 239, "inStock": true, "url": "https://amazon.com/dp/B0DRL5HQJW", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 229, "inStock": true, "url": "https://newegg.com/msi-mag-b860-tomahawk-wifi", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 224, "inStock": true, "url": "https://microcenter.com/product/msi-mag-b860-tomahawk", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-asus-rog-strix-b860-f", "mobo-gigabyte-b860-aorus-elite"]
+  },
+  {
+    "id": "mobo-gigabyte-b860-aorus-elite",
+    "category": "motherboard",
+    "name": "Gigabyte B860 AORUS Elite WiFi7 ATX",
+    "brand": "Gigabyte",
+    "model": "B860 AORUS Elite WiFi7",
+    "specs": {
+      "socket": "LGA1851",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "192GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 3,
+      "wifi": "WiFi 7",
+      "usb": "USB 3.2 Gen 2"
+    },
+    "trustScore": 84,
+    "trustFactors": { "failureRate": 1.5, "warrantyYears": 3, "brandReputation": 84, "rmaRating": 4.1 },
+    "retailers": [
+      { "retailer": "amazon", "price": 219, "inStock": true, "url": "https://amazon.com/dp/B0DRKHZ7VR", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 209, "inStock": true, "url": "https://newegg.com/gigabyte-b860-aorus-elite-wifi7", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-asus-rog-strix-b860-f", "mobo-msi-mag-b860-tomahawk"]
+  },
+  {
+    "id": "mobo-asus-rog-z890-hero",
+    "category": "motherboard",
+    "name": "ASUS ROG Maximus Z890 Hero ATX",
+    "brand": "ASUS",
+    "model": "ROG Maximus Z890 Hero",
+    "specs": {
+      "socket": "LGA1851",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "192GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 5,
+      "wifi": "WiFi 7",
+      "usb": "USB4"
+    },
+    "trustScore": 93,
+    "trustFactors": { "failureRate": 0.7, "warrantyYears": 3, "brandReputation": 95, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 499, "inStock": true, "url": "https://amazon.com/dp/B0DRK3JWPS", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 489, "inStock": true, "url": "https://newegg.com/asus-rog-maximus-z890-hero", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 499, "inStock": true, "url": "https://bhphotovideo.com/c/product/asus-z890-hero", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-msi-z890-godlike", "mobo-gigabyte-z790-aorus-master"]
+  },
+  {
+    "id": "mobo-msi-z890-godlike",
+    "category": "motherboard",
+    "name": "MSI MEG Z890 ACE ATX",
+    "brand": "MSI",
+    "model": "MEG Z890 ACE",
+    "specs": {
+      "socket": "LGA1851",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "192GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 5,
+      "wifi": "WiFi 7",
+      "usb": "USB4"
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.9, "warrantyYears": 3, "brandReputation": 90, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 469, "inStock": true, "url": "https://amazon.com/dp/B0DRLF2KQB", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 459, "inStock": true, "url": "https://newegg.com/msi-meg-z890-ace", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 449, "inStock": false, "url": "https://microcenter.com/product/msi-meg-z890-ace", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-asus-rog-z890-hero", "mobo-gigabyte-z790-aorus-master"]
+  },
+  {
+    "id": "mobo-gigabyte-b650m-aorus-elite",
+    "category": "motherboard",
+    "name": "Gigabyte B650M AORUS Elite AX Micro-ATX",
+    "brand": "Gigabyte",
+    "model": "B650M AORUS Elite AX",
+    "specs": {
+      "socket": "AM5",
+      "formFactor": "Micro-ATX",
+      "ramSlots": 2,
+      "maxRam": "96GB DDR5",
+      "pcie": "PCIe 4.0 x16",
+      "m2Slots": 2,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2"
+    },
+    "trustScore": 83,
+    "trustFactors": { "failureRate": 1.6, "warrantyYears": 3, "brandReputation": 84, "rmaRating": 4.1 },
+    "retailers": [
+      { "retailer": "amazon", "price": 159, "inStock": true, "url": "https://amazon.com/dp/B0BHCG7LW8", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 149, "inStock": true, "url": "https://newegg.com/gigabyte-b650m-aorus-elite-ax", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-asrock-b650-livemixer", "mobo-msi-b650-tomahawk"]
+  },
+  {
+    "id": "mobo-asus-rog-strix-b760i",
+    "category": "motherboard",
+    "name": "ASUS ROG Strix B760-I Gaming WiFi Mini-ITX",
+    "brand": "ASUS",
+    "model": "ROG Strix B760-I Gaming WiFi",
+    "specs": {
+      "socket": "LGA1700",
+      "formFactor": "Mini-ITX",
+      "ramSlots": 2,
+      "maxRam": "64GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 2,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2x2"
+    },
+    "trustScore": 86,
+    "trustFactors": { "failureRate": 1.4, "warrantyYears": 3, "brandReputation": 92, "rmaRating": 4.3 },
+    "retailers": [
+      { "retailer": "amazon", "price": 229, "inStock": true, "url": "https://amazon.com/dp/B0BRJJXP67", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 219, "inStock": true, "url": "https://newegg.com/asus-rog-strix-b760-i-gaming", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 229, "inStock": false, "url": "https://bhphotovideo.com/c/product/asus-b760-i-gaming", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-msi-pro-b760m-a", "mobo-asrock-b760m-pro"]
+  }
+]

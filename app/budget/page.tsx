@@ -8,11 +8,11 @@ import TrustScore from "@/components/TrustScore";
 import ComponentList from "@/components/ComponentList";
 import { BuyAllButton } from "@/components/AffiliateButton";
 import buildsData from "@/data/builds.json";
-import componentsData from "@/data/components.json";
+import { getAllParts } from "@/lib/partsLoader";
 import type { Build, Component, EnrichedBuild } from "@/lib/types";
 
 const builds = buildsData as unknown as Build[];
-const components = componentsData as unknown as Component[];
+const components = getAllParts();
 
 function getLowestPrice(component: Component): number {
   const inStockRetailers = component.retailers.filter((r) => r.inStock);

@@ -1,0 +1,689 @@
+[
+  {
+    "id": "gpu-nvidia-rtx-4060",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4060",
+    "brand": "NVIDIA",
+    "model": "RTX 4060",
+    "specs": {
+      "vram": "8GB GDDR6",
+      "coreClock": "1830 MHz",
+      "boostClock": "2460 MHz",
+      "tdp": 115,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 87,
+    "trustFactors": {
+      "failureRate": 1.4,
+      "warrantyYears": 3,
+      "brandReputation": 90,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 279, "inStock": true, "url": "https://amazon.com/dp/B0C7LBWPQ3", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 274, "inStock": true, "url": "https://newegg.com/p/N82E16814137781", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 289, "inStock": true, "url": "https://bestbuy.com/site/6550743", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-amd-rx-7600", "gpu-amd-rx-7600-xt", "gpu-intel-arc-b580"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-4060-ti-8gb",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4060 Ti 8GB",
+    "brand": "NVIDIA",
+    "model": "RTX 4060 Ti 8GB",
+    "specs": {
+      "vram": "8GB GDDR6",
+      "coreClock": "2310 MHz",
+      "boostClock": "2535 MHz",
+      "tdp": 160,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 86,
+    "trustFactors": {
+      "failureRate": 1.5,
+      "warrantyYears": 3,
+      "brandReputation": 90,
+      "rmaRating": 4.2
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 379, "inStock": true, "url": "https://amazon.com/dp/B0C7LTNQ4R", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 374, "inStock": true, "url": "https://newegg.com/p/N82E16814137782", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 389, "inStock": true, "url": "https://bestbuy.com/site/6550744", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 369, "inStock": true, "url": "https://microcenter.com/product/670001", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4060-ti-16gb", "gpu-amd-rx-7700-xt", "gpu-amd-rx-7600-xt"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-4060-ti-16gb",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4060 Ti 16GB",
+    "brand": "NVIDIA",
+    "model": "RTX 4060 Ti 16GB",
+    "specs": {
+      "vram": "16GB GDDR6",
+      "coreClock": "2310 MHz",
+      "boostClock": "2535 MHz",
+      "tdp": 165,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 84,
+    "trustFactors": {
+      "failureRate": 1.6,
+      "warrantyYears": 3,
+      "brandReputation": 90,
+      "rmaRating": 4.1
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 429, "inStock": true, "url": "https://amazon.com/dp/B0CV9LGWT1", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 424, "inStock": true, "url": "https://newegg.com/p/N82E16814137783", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 434, "inStock": true, "url": "https://bhphoto.com/c/product/1812345", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4060-ti-8gb", "gpu-amd-rx-7700-xt", "gpu-amd-rx-7800-xt"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-4070",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4070",
+    "brand": "NVIDIA",
+    "model": "RTX 4070",
+    "specs": {
+      "vram": "12GB GDDR6X",
+      "coreClock": "1920 MHz",
+      "boostClock": "2475 MHz",
+      "tdp": 200,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 1.2,
+      "warrantyYears": 3,
+      "brandReputation": 91,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 539, "inStock": true, "url": "https://amazon.com/dp/B0BYHM4GRH", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 534, "inStock": true, "url": "https://newegg.com/p/N82E16814137784", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 549, "inStock": true, "url": "https://bestbuy.com/site/6550745", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 529, "inStock": true, "url": "https://microcenter.com/product/670002", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4070-super", "gpu-nvidia-rtx-5070", "gpu-amd-rx-7800-xt"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-4070-super",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4070 Super",
+    "brand": "NVIDIA",
+    "model": "RTX 4070 Super",
+    "specs": {
+      "vram": "12GB GDDR6X",
+      "coreClock": "1980 MHz",
+      "boostClock": "2475 MHz",
+      "tdp": 220,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 1.1,
+      "warrantyYears": 3,
+      "brandReputation": 92,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 589, "inStock": true, "url": "https://amazon.com/dp/B0CS1VKQBK", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 584, "inStock": true, "url": "https://newegg.com/p/N82E16814137785", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 599, "inStock": true, "url": "https://bestbuy.com/site/6570001", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4070", "gpu-nvidia-rtx-5070", "gpu-amd-rx-7900-gre"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-4070-ti",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4070 Ti",
+    "brand": "NVIDIA",
+    "model": "RTX 4070 Ti",
+    "specs": {
+      "vram": "12GB GDDR6X",
+      "coreClock": "2310 MHz",
+      "boostClock": "2610 MHz",
+      "tdp": 285,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 88,
+    "trustFactors": {
+      "failureRate": 1.3,
+      "warrantyYears": 3,
+      "brandReputation": 90,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 699, "inStock": true, "url": "https://amazon.com/dp/B0BSDCQ38L", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 689, "inStock": true, "url": "https://newegg.com/p/N82E16814137786", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 709, "inStock": false, "url": "https://bhphoto.com/c/product/1812346", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4070-ti-super", "gpu-nvidia-rtx-5070-ti", "gpu-amd-rx-7900-xt"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-4070-ti-super",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4070 Ti Super",
+    "brand": "NVIDIA",
+    "model": "RTX 4070 Ti Super",
+    "specs": {
+      "vram": "16GB GDDR6X",
+      "coreClock": "2340 MHz",
+      "boostClock": "2610 MHz",
+      "tdp": 285,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 1.2,
+      "warrantyYears": 3,
+      "brandReputation": 91,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 789, "inStock": true, "url": "https://amazon.com/dp/B0CS1VMHNP", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 779, "inStock": true, "url": "https://newegg.com/p/N82E16814137787", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 799, "inStock": true, "url": "https://bestbuy.com/site/6570002", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 774, "inStock": true, "url": "https://microcenter.com/product/670003", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4070-ti", "gpu-nvidia-rtx-5070-ti", "gpu-amd-rx-7900-xt"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-4080-super",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4080 Super",
+    "brand": "NVIDIA",
+    "model": "RTX 4080 Super",
+    "specs": {
+      "vram": "16GB GDDR6X",
+      "coreClock": "2295 MHz",
+      "boostClock": "2550 MHz",
+      "tdp": 320,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 92,
+    "trustFactors": {
+      "failureRate": 1.0,
+      "warrantyYears": 3,
+      "brandReputation": 93,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 989, "inStock": true, "url": "https://amazon.com/dp/B0CS1VP3RK", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 979, "inStock": true, "url": "https://newegg.com/p/N82E16814137788", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 999, "inStock": true, "url": "https://bestbuy.com/site/6570003", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 994, "inStock": true, "url": "https://bhphoto.com/c/product/1812347", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-5080", "gpu-amd-rx-7900-xtx", "gpu-nvidia-rtx-4090"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-4090",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4090",
+    "brand": "NVIDIA",
+    "model": "RTX 4090",
+    "specs": {
+      "vram": "24GB GDDR6X",
+      "coreClock": "2235 MHz",
+      "boostClock": "2520 MHz",
+      "tdp": 450,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 93,
+    "trustFactors": {
+      "failureRate": 1.1,
+      "warrantyYears": 3,
+      "brandReputation": 95,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 1579, "inStock": true, "url": "https://amazon.com/dp/B0BGHP7VLZ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 1569, "inStock": true, "url": "https://newegg.com/p/N82E16814137789", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 1599, "inStock": false, "url": "https://bestbuy.com/site/6521430", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 1559, "inStock": true, "url": "https://microcenter.com/product/670004", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-5090", "gpu-nvidia-rtx-5080", "gpu-nvidia-rtx-4080-super"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-5070",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 5070",
+    "brand": "NVIDIA",
+    "model": "RTX 5070",
+    "specs": {
+      "vram": "12GB GDDR7",
+      "coreClock": "2162 MHz",
+      "boostClock": "2512 MHz",
+      "tdp": 250,
+      "ports": "HDMI 2.1, 3x DP 2.1"
+    },
+    "trustScore": 88,
+    "trustFactors": {
+      "failureRate": 1.5,
+      "warrantyYears": 3,
+      "brandReputation": 89,
+      "rmaRating": 4.2
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 549, "inStock": false, "url": "https://amazon.com/dp/B0DRT5070A", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 549, "inStock": false, "url": "https://newegg.com/p/N82E16814137801", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 549, "inStock": false, "url": "https://bestbuy.com/site/6590001", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 549, "inStock": true, "url": "https://microcenter.com/product/680001", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4070-super", "gpu-nvidia-rtx-4070", "gpu-amd-rx-9070-xt"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-5070-ti",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 5070 Ti",
+    "brand": "NVIDIA",
+    "model": "RTX 5070 Ti",
+    "specs": {
+      "vram": "16GB GDDR7",
+      "coreClock": "2252 MHz",
+      "boostClock": "2620 MHz",
+      "tdp": 300,
+      "ports": "HDMI 2.1, 3x DP 2.1"
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 1.4,
+      "warrantyYears": 3,
+      "brandReputation": 90,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 749, "inStock": false, "url": "https://amazon.com/dp/B0DRT5070T", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 749, "inStock": true, "url": "https://newegg.com/p/N82E16814137802", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 749, "inStock": false, "url": "https://bestbuy.com/site/6590002", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4070-ti-super", "gpu-nvidia-rtx-4070-ti", "gpu-amd-rx-7900-xt"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-5080",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 5080",
+    "brand": "NVIDIA",
+    "model": "RTX 5080",
+    "specs": {
+      "vram": "16GB GDDR7",
+      "coreClock": "2295 MHz",
+      "boostClock": "2620 MHz",
+      "tdp": 360,
+      "ports": "HDMI 2.1, 3x DP 2.1"
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 1.3,
+      "warrantyYears": 3,
+      "brandReputation": 91,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 999, "inStock": false, "url": "https://amazon.com/dp/B0DRT5080A", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 999, "inStock": true, "url": "https://newegg.com/p/N82E16814137803", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 999, "inStock": false, "url": "https://bestbuy.com/site/6590003", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 999, "inStock": true, "url": "https://microcenter.com/product/680002", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4080-super", "gpu-nvidia-rtx-4090", "gpu-amd-rx-7900-xtx"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-5090",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 5090",
+    "brand": "NVIDIA",
+    "model": "RTX 5090",
+    "specs": {
+      "vram": "32GB GDDR7",
+      "coreClock": "2017 MHz",
+      "boostClock": "2407 MHz",
+      "tdp": 575,
+      "ports": "HDMI 2.1, 3x DP 2.1"
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 1.4,
+      "warrantyYears": 3,
+      "brandReputation": 93,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 1999, "inStock": false, "url": "https://amazon.com/dp/B0DRT5090A", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 1999, "inStock": false, "url": "https://newegg.com/p/N82E16814137804", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 1999, "inStock": false, "url": "https://bestbuy.com/site/6590004", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 1999, "inStock": false, "url": "https://microcenter.com/product/680003", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4090", "gpu-nvidia-rtx-5080"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-3060-12gb",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 3060 12GB",
+    "brand": "NVIDIA",
+    "model": "RTX 3060 12GB",
+    "specs": {
+      "vram": "12GB GDDR6",
+      "coreClock": "1320 MHz",
+      "boostClock": "1777 MHz",
+      "tdp": 170,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 85,
+    "trustFactors": {
+      "failureRate": 1.6,
+      "warrantyYears": 3,
+      "brandReputation": 88,
+      "rmaRating": 4.1
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 219, "inStock": true, "url": "https://amazon.com/dp/B08W8DGK3X", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 214, "inStock": true, "url": "https://newegg.com/p/N82E16814137710", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 224, "inStock": true, "url": "https://bhphoto.com/c/product/1630123", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-intel-arc-b580", "gpu-amd-rx-7600", "gpu-nvidia-rtx-4060"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-3070",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 3070",
+    "brand": "NVIDIA",
+    "model": "RTX 3070",
+    "specs": {
+      "vram": "8GB GDDR6",
+      "coreClock": "1500 MHz",
+      "boostClock": "1725 MHz",
+      "tdp": 220,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 84,
+    "trustFactors": {
+      "failureRate": 1.7,
+      "warrantyYears": 3,
+      "brandReputation": 88,
+      "rmaRating": 4.0
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 299, "inStock": true, "url": "https://amazon.com/dp/B08KWNJPRL", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 289, "inStock": true, "url": "https://newegg.com/p/N82E16814137711", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4060", "gpu-amd-rx-7600-xt", "gpu-nvidia-rtx-3060-12gb"]
+  },
+  {
+    "id": "gpu-nvidia-rtx-3080-10gb",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 3080 10GB",
+    "brand": "NVIDIA",
+    "model": "RTX 3080 10GB",
+    "specs": {
+      "vram": "10GB GDDR6X",
+      "coreClock": "1440 MHz",
+      "boostClock": "1710 MHz",
+      "tdp": 320,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 83,
+    "trustFactors": {
+      "failureRate": 1.9,
+      "warrantyYears": 3,
+      "brandReputation": 87,
+      "rmaRating": 3.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 399, "inStock": true, "url": "https://amazon.com/dp/B08HJNGS5S", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 389, "inStock": true, "url": "https://newegg.com/p/N82E16814137712", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 409, "inStock": false, "url": "https://bhphoto.com/c/product/1630124", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4060-ti-8gb", "gpu-amd-rx-7700-xt", "gpu-nvidia-rtx-3070"]
+  },
+  {
+    "id": "gpu-amd-rx-7600",
+    "category": "gpu",
+    "name": "AMD Radeon RX 7600",
+    "brand": "AMD",
+    "model": "RX 7600",
+    "specs": {
+      "vram": "8GB GDDR6",
+      "coreClock": "1720 MHz",
+      "boostClock": "2655 MHz",
+      "tdp": 165,
+      "ports": "HDMI 2.1, 3x DP 2.1"
+    },
+    "trustScore": 84,
+    "trustFactors": {
+      "failureRate": 1.6,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.0
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 249, "inStock": true, "url": "https://amazon.com/dp/B0C8QJB5MN", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 244, "inStock": true, "url": "https://newegg.com/p/N82E16814150869", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 259, "inStock": true, "url": "https://bestbuy.com/site/6541234", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-3060-12gb", "gpu-intel-arc-b580", "gpu-amd-rx-7600-xt"]
+  },
+  {
+    "id": "gpu-amd-rx-7600-xt",
+    "category": "gpu",
+    "name": "AMD Radeon RX 7600 XT",
+    "brand": "AMD",
+    "model": "RX 7600 XT",
+    "specs": {
+      "vram": "16GB GDDR6",
+      "coreClock": "1720 MHz",
+      "boostClock": "2755 MHz",
+      "tdp": 150,
+      "ports": "HDMI 2.1, 3x DP 2.1"
+    },
+    "trustScore": 85,
+    "trustFactors": {
+      "failureRate": 1.5,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.1
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 299, "inStock": true, "url": "https://amazon.com/dp/B0DQRX7600X", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 294, "inStock": true, "url": "https://newegg.com/p/N82E16814150870", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 289, "inStock": true, "url": "https://microcenter.com/product/690001", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-amd-rx-7600", "gpu-nvidia-rtx-4060", "gpu-nvidia-rtx-3070"]
+  },
+  {
+    "id": "gpu-amd-rx-7700-xt",
+    "category": "gpu",
+    "name": "AMD Radeon RX 7700 XT",
+    "brand": "AMD",
+    "model": "RX 7700 XT",
+    "specs": {
+      "vram": "12GB GDDR6",
+      "coreClock": "1700 MHz",
+      "boostClock": "2544 MHz",
+      "tdp": 245,
+      "ports": "HDMI 2.1, 3x DP 2.1"
+    },
+    "trustScore": 86,
+    "trustFactors": {
+      "failureRate": 1.5,
+      "warrantyYears": 3,
+      "brandReputation": 86,
+      "rmaRating": 4.1
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 399, "inStock": true, "url": "https://amazon.com/dp/B0CFYB7GMP", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 394, "inStock": true, "url": "https://newegg.com/p/N82E16814150871", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 409, "inStock": true, "url": "https://bestbuy.com/site/6556789", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 389, "inStock": true, "url": "https://microcenter.com/product/690002", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4060-ti-8gb", "gpu-nvidia-rtx-3080-10gb", "gpu-amd-rx-7800-xt"]
+  },
+  {
+    "id": "gpu-amd-rx-7800-xt",
+    "category": "gpu",
+    "name": "AMD Radeon RX 7800 XT",
+    "brand": "AMD",
+    "model": "RX 7800 XT",
+    "specs": {
+      "vram": "16GB GDDR6",
+      "coreClock": "1295 MHz",
+      "boostClock": "2430 MHz",
+      "tdp": 263,
+      "ports": "HDMI 2.1, 2x DP 2.1"
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 1.3,
+      "warrantyYears": 3,
+      "brandReputation": 87,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 469, "inStock": true, "url": "https://amazon.com/dp/B0CFYDWK4D", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 464, "inStock": true, "url": "https://newegg.com/p/N82E16814150872", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 479, "inStock": true, "url": "https://bestbuy.com/site/6556790", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 474, "inStock": true, "url": "https://bhphoto.com/c/product/1812350", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4060-ti-16gb", "gpu-nvidia-rtx-4070", "gpu-amd-rx-7900-gre"]
+  },
+  {
+    "id": "gpu-amd-rx-7900-gre",
+    "category": "gpu",
+    "name": "AMD Radeon RX 7900 GRE",
+    "brand": "AMD",
+    "model": "RX 7900 GRE",
+    "specs": {
+      "vram": "16GB GDDR6",
+      "coreClock": "1500 MHz",
+      "boostClock": "2245 MHz",
+      "tdp": 260,
+      "ports": "HDMI 2.1, 2x DP 2.1"
+    },
+    "trustScore": 87,
+    "trustFactors": {
+      "failureRate": 1.4,
+      "warrantyYears": 3,
+      "brandReputation": 86,
+      "rmaRating": 4.2
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 529, "inStock": true, "url": "https://amazon.com/dp/B0DQRX7900G", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 524, "inStock": true, "url": "https://newegg.com/p/N82E16814150873", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 519, "inStock": true, "url": "https://microcenter.com/product/690003", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4070-super", "gpu-amd-rx-7800-xt", "gpu-nvidia-rtx-5070"]
+  },
+  {
+    "id": "gpu-amd-rx-7900-xt",
+    "category": "gpu",
+    "name": "AMD Radeon RX 7900 XT",
+    "brand": "AMD",
+    "model": "RX 7900 XT",
+    "specs": {
+      "vram": "20GB GDDR6",
+      "coreClock": "1500 MHz",
+      "boostClock": "2394 MHz",
+      "tdp": 315,
+      "ports": "HDMI 2.1, 2x DP 2.1"
+    },
+    "trustScore": 86,
+    "trustFactors": {
+      "failureRate": 1.6,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.0
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 699, "inStock": true, "url": "https://amazon.com/dp/B0BZK82DBW", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 689, "inStock": true, "url": "https://newegg.com/p/N82E16814150874", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 709, "inStock": true, "url": "https://bhphoto.com/c/product/1812351", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4070-ti", "gpu-nvidia-rtx-4070-ti-super", "gpu-nvidia-rtx-5070-ti"]
+  },
+  {
+    "id": "gpu-amd-rx-7900-xtx",
+    "category": "gpu",
+    "name": "AMD Radeon RX 7900 XTX",
+    "brand": "AMD",
+    "model": "RX 7900 XTX",
+    "specs": {
+      "vram": "24GB GDDR6",
+      "coreClock": "1855 MHz",
+      "boostClock": "2498 MHz",
+      "tdp": 355,
+      "ports": "HDMI 2.1, 2x DP 2.1, USB-C"
+    },
+    "trustScore": 88,
+    "trustFactors": {
+      "failureRate": 1.5,
+      "warrantyYears": 3,
+      "brandReputation": 86,
+      "rmaRating": 4.1
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 849, "inStock": true, "url": "https://amazon.com/dp/B0BZK9T4FT", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 839, "inStock": true, "url": "https://newegg.com/p/N82E16814150875", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 859, "inStock": true, "url": "https://bestbuy.com/site/6536790", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 829, "inStock": true, "url": "https://microcenter.com/product/690004", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-4080-super", "gpu-nvidia-rtx-5080", "gpu-amd-rx-7900-xt"]
+  },
+  {
+    "id": "gpu-amd-rx-9070-xt",
+    "category": "gpu",
+    "name": "AMD Radeon RX 9070 XT",
+    "brand": "AMD",
+    "model": "RX 9070 XT",
+    "specs": {
+      "vram": "16GB GDDR6",
+      "coreClock": "1679 MHz",
+      "boostClock": "2620 MHz",
+      "tdp": 300,
+      "ports": "HDMI 2.1, 3x DP 2.1"
+    },
+    "trustScore": 86,
+    "trustFactors": {
+      "failureRate": 1.7,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.0
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 549, "inStock": false, "url": "https://amazon.com/dp/B0DRX9070X", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 549, "inStock": true, "url": "https://newegg.com/p/N82E16814150880", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 549, "inStock": false, "url": "https://bestbuy.com/site/6590010", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 549, "inStock": true, "url": "https://microcenter.com/product/695001", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-5070", "gpu-nvidia-rtx-4070-super", "gpu-amd-rx-7900-gre"]
+  },
+  {
+    "id": "gpu-intel-arc-b580",
+    "category": "gpu",
+    "name": "Intel Arc B580",
+    "brand": "Intel",
+    "model": "Arc B580",
+    "specs": {
+      "vram": "12GB GDDR6",
+      "coreClock": "1800 MHz",
+      "boostClock": "2670 MHz",
+      "tdp": 150,
+      "ports": "HDMI 2.1, 4x DP 2.0"
+    },
+    "trustScore": 78,
+    "trustFactors": {
+      "failureRate": 2.1,
+      "warrantyYears": 3,
+      "brandReputation": 79,
+      "rmaRating": 3.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 219, "inStock": true, "url": "https://amazon.com/dp/B0DQAB580I", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 214, "inStock": true, "url": "https://newegg.com/p/N82E16814883001", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 224, "inStock": true, "url": "https://bestbuy.com/site/6600001", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 219, "inStock": true, "url": "https://bhphoto.com/c/product/1850001", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-nvidia-rtx-3060-12gb", "gpu-amd-rx-7600", "gpu-amd-rx-7600-xt"]
+  }
+]

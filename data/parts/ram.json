@@ -1,0 +1,304 @@
+[
+  {
+    "id": "ram-corsair-vengeance-ddr4-3200-16gb",
+    "category": "ram",
+    "name": "Corsair Vengeance LPX 16GB (2x8GB) DDR4-3200 CL16",
+    "brand": "Corsair",
+    "model": "Vengeance LPX DDR4-3200 16GB",
+    "specs": {
+      "capacity": "16GB (2x8GB)",
+      "speed": "DDR4-3200",
+      "latency": "CL16",
+      "voltage": "1.35V",
+      "heatspreader": true
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.7, "warrantyYears": 5, "brandReputation": 93, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 39, "inStock": true, "url": "https://amazon.com/dp/B015FYRSZ8", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 37, "inStock": true, "url": "https://newegg.com/corsair-vengeance-lpx-16gb-ddr4-3200", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 42, "inStock": true, "url": "https://bestbuy.com/site/corsair-vengeance-lpx-16gb-ddr4-3200", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-gskill-ripjaws-ddr4-3200-16gb", "ram-kingston-fury-ddr4-3200-16gb"]
+  },
+  {
+    "id": "ram-gskill-ripjaws-ddr4-3200-16gb",
+    "category": "ram",
+    "name": "G.Skill Ripjaws V 16GB (2x8GB) DDR4-3200 CL16",
+    "brand": "G.Skill",
+    "model": "Ripjaws V DDR4-3200 16GB",
+    "specs": {
+      "capacity": "16GB (2x8GB)",
+      "speed": "DDR4-3200",
+      "latency": "CL16",
+      "voltage": "1.35V",
+      "heatspreader": true
+    },
+    "trustScore": 92,
+    "trustFactors": { "failureRate": 0.6, "warrantyYears": 5, "brandReputation": 94, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 37, "inStock": true, "url": "https://amazon.com/dp/B015FY6S0O", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 34, "inStock": true, "url": "https://newegg.com/gskill-ripjaws-v-16gb-ddr4-3200", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-corsair-vengeance-ddr4-3200-16gb", "ram-kingston-fury-ddr4-3200-16gb"]
+  },
+  {
+    "id": "ram-kingston-fury-ddr4-3200-16gb",
+    "category": "ram",
+    "name": "Kingston FURY Beast 16GB (2x8GB) DDR4-3200 CL16",
+    "brand": "Kingston",
+    "model": "FURY Beast DDR4-3200 16GB",
+    "specs": {
+      "capacity": "16GB (2x8GB)",
+      "speed": "DDR4-3200",
+      "latency": "CL16",
+      "voltage": "1.35V",
+      "heatspreader": true
+    },
+    "trustScore": 89,
+    "trustFactors": { "failureRate": 0.9, "warrantyYears": 5, "brandReputation": 90, "rmaRating": 4.4 },
+    "retailers": [
+      { "retailer": "amazon", "price": 40, "inStock": true, "url": "https://amazon.com/dp/B097K5B2YZ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 38, "inStock": true, "url": "https://newegg.com/kingston-fury-beast-16gb-ddr4-3200", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 40, "inStock": true, "url": "https://bhphotovideo.com/c/product/kingston-fury-beast-16gb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-corsair-vengeance-ddr4-3200-16gb", "ram-gskill-ripjaws-ddr4-3200-16gb"]
+  },
+  {
+    "id": "ram-gskill-ripjaws-ddr4-3600-32gb",
+    "category": "ram",
+    "name": "G.Skill Ripjaws V 32GB (2x16GB) DDR4-3600 CL18",
+    "brand": "G.Skill",
+    "model": "Ripjaws V DDR4-3600 32GB",
+    "specs": {
+      "capacity": "32GB (2x16GB)",
+      "speed": "DDR4-3600",
+      "latency": "CL18",
+      "voltage": "1.35V",
+      "heatspreader": true
+    },
+    "trustScore": 93,
+    "trustFactors": { "failureRate": 0.5, "warrantyYears": 5, "brandReputation": 94, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 62, "inStock": true, "url": "https://amazon.com/dp/B07Z45XB3G", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 58, "inStock": true, "url": "https://newegg.com/gskill-ripjaws-v-32gb-ddr4-3600", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 57, "inStock": true, "url": "https://microcenter.com/product/gskill-ripjaws-v-32gb-3600", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-corsair-vengeance-ddr4-3600-32gb"]
+  },
+  {
+    "id": "ram-corsair-vengeance-ddr4-3600-32gb",
+    "category": "ram",
+    "name": "Corsair Vengeance LPX 32GB (2x16GB) DDR4-3600 CL18",
+    "brand": "Corsair",
+    "model": "Vengeance LPX DDR4-3600 32GB",
+    "specs": {
+      "capacity": "32GB (2x16GB)",
+      "speed": "DDR4-3600",
+      "latency": "CL18",
+      "voltage": "1.35V",
+      "heatspreader": true
+    },
+    "trustScore": 90,
+    "trustFactors": { "failureRate": 0.8, "warrantyYears": 5, "brandReputation": 93, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 67, "inStock": true, "url": "https://amazon.com/dp/B07ZPLHVJC", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 64, "inStock": true, "url": "https://newegg.com/corsair-vengeance-lpx-32gb-ddr4-3600", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-gskill-ripjaws-ddr4-3600-32gb"]
+  },
+  {
+    "id": "ram-crucial-ddr5-5200-16gb",
+    "category": "ram",
+    "name": "Crucial 16GB (2x8GB) DDR5-5200 CL42",
+    "brand": "Crucial",
+    "model": "DDR5-5200 16GB",
+    "specs": {
+      "capacity": "16GB (2x8GB)",
+      "speed": "DDR5-5200",
+      "latency": "CL42",
+      "voltage": "1.10V",
+      "heatspreader": false
+    },
+    "trustScore": 85,
+    "trustFactors": { "failureRate": 1.1, "warrantyYears": 5, "brandReputation": 88, "rmaRating": 4.3 },
+    "retailers": [
+      { "retailer": "amazon", "price": 44, "inStock": true, "url": "https://amazon.com/dp/B0C7QBZFHY", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 42, "inStock": true, "url": "https://newegg.com/crucial-16gb-ddr5-5200", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 46, "inStock": true, "url": "https://bestbuy.com/site/crucial-16gb-ddr5-5200", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-teamgroup-t-force-ddr5-5600-16gb"]
+  },
+  {
+    "id": "ram-teamgroup-t-force-ddr5-5600-16gb",
+    "category": "ram",
+    "name": "TeamGroup T-Force Delta RGB 16GB (2x8GB) DDR5-5600 CL36",
+    "brand": "TeamGroup",
+    "model": "T-Force Delta RGB DDR5-5600 16GB",
+    "specs": {
+      "capacity": "16GB (2x8GB)",
+      "speed": "DDR5-5600",
+      "latency": "CL36",
+      "voltage": "1.25V",
+      "heatspreader": true
+    },
+    "trustScore": 84,
+    "trustFactors": { "failureRate": 1.2, "warrantyYears": 5, "brandReputation": 80, "rmaRating": 4.1 },
+    "retailers": [
+      { "retailer": "amazon", "price": 49, "inStock": true, "url": "https://amazon.com/dp/B0CD8F6Y1X", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 46, "inStock": true, "url": "https://newegg.com/teamgroup-t-force-delta-rgb-16gb-ddr5-5600", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-crucial-ddr5-5200-16gb"]
+  },
+  {
+    "id": "ram-gskill-trident-z5-ddr5-6000-32gb",
+    "category": "ram",
+    "name": "G.Skill Trident Z5 RGB 32GB (2x16GB) DDR5-6000 CL30",
+    "brand": "G.Skill",
+    "model": "Trident Z5 RGB DDR5-6000 32GB",
+    "specs": {
+      "capacity": "32GB (2x16GB)",
+      "speed": "DDR5-6000",
+      "latency": "CL30",
+      "voltage": "1.35V",
+      "heatspreader": true
+    },
+    "trustScore": 94,
+    "trustFactors": { "failureRate": 0.5, "warrantyYears": 5, "brandReputation": 95, "rmaRating": 4.8 },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B0BF2R31B4", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 104, "inStock": true, "url": "https://newegg.com/gskill-trident-z5-rgb-32gb-ddr5-6000", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 109, "inStock": true, "url": "https://bhphotovideo.com/c/product/gskill-trident-z5-32gb-6000", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-corsair-dominator-ddr5-6000-32gb", "ram-kingston-fury-ddr5-6000-32gb"]
+  },
+  {
+    "id": "ram-corsair-dominator-ddr5-6000-32gb",
+    "category": "ram",
+    "name": "Corsair Dominator Platinum RGB 32GB (2x16GB) DDR5-6000 CL30",
+    "brand": "Corsair",
+    "model": "Dominator Platinum RGB DDR5-6000 32GB",
+    "specs": {
+      "capacity": "32GB (2x16GB)",
+      "speed": "DDR5-6000",
+      "latency": "CL30",
+      "voltage": "1.35V",
+      "heatspreader": true
+    },
+    "trustScore": 92,
+    "trustFactors": { "failureRate": 0.6, "warrantyYears": 5, "brandReputation": 93, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 119, "inStock": true, "url": "https://amazon.com/dp/B0BF37DLQL", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 114, "inStock": true, "url": "https://newegg.com/corsair-dominator-platinum-rgb-32gb-ddr5-6000", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 119, "inStock": false, "url": "https://bestbuy.com/site/corsair-dominator-platinum-32gb-ddr5-6000", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-gskill-trident-z5-ddr5-6000-32gb", "ram-kingston-fury-ddr5-6000-32gb"]
+  },
+  {
+    "id": "ram-kingston-fury-ddr5-6000-32gb",
+    "category": "ram",
+    "name": "Kingston FURY Beast RGB 32GB (2x16GB) DDR5-6000 CL30",
+    "brand": "Kingston",
+    "model": "FURY Beast RGB DDR5-6000 32GB",
+    "specs": {
+      "capacity": "32GB (2x16GB)",
+      "speed": "DDR5-6000",
+      "latency": "CL30",
+      "voltage": "1.35V",
+      "heatspreader": true
+    },
+    "trustScore": 89,
+    "trustFactors": { "failureRate": 0.8, "warrantyYears": 5, "brandReputation": 90, "rmaRating": 4.4 },
+    "retailers": [
+      { "retailer": "amazon", "price": 99, "inStock": true, "url": "https://amazon.com/dp/B0CG5JQW1H", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 94, "inStock": true, "url": "https://newegg.com/kingston-fury-beast-rgb-32gb-ddr5-6000", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-gskill-trident-z5-ddr5-6000-32gb", "ram-corsair-dominator-ddr5-6000-32gb"]
+  },
+  {
+    "id": "ram-gskill-trident-z5-ddr5-6400-32gb",
+    "category": "ram",
+    "name": "G.Skill Trident Z5 RGB 32GB (2x16GB) DDR5-6400 CL32",
+    "brand": "G.Skill",
+    "model": "Trident Z5 RGB DDR5-6400 32GB",
+    "specs": {
+      "capacity": "32GB (2x16GB)",
+      "speed": "DDR5-6400",
+      "latency": "CL32",
+      "voltage": "1.40V",
+      "heatspreader": true
+    },
+    "trustScore": 93,
+    "trustFactors": { "failureRate": 0.6, "warrantyYears": 5, "brandReputation": 95, "rmaRating": 4.7 },
+    "retailers": [
+      { "retailer": "amazon", "price": 129, "inStock": true, "url": "https://amazon.com/dp/B0BF2TWWGR", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 124, "inStock": true, "url": "https://newegg.com/gskill-trident-z5-rgb-32gb-ddr5-6400", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 119, "inStock": true, "url": "https://microcenter.com/product/gskill-trident-z5-32gb-6400", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-gskill-trident-z5-royal-ddr5-7200-32gb"]
+  },
+  {
+    "id": "ram-gskill-trident-z5-royal-ddr5-7200-32gb",
+    "category": "ram",
+    "name": "G.Skill Trident Z5 Royal 32GB (2x16GB) DDR5-7200 CL34",
+    "brand": "G.Skill",
+    "model": "Trident Z5 Royal DDR5-7200 32GB",
+    "specs": {
+      "capacity": "32GB (2x16GB)",
+      "speed": "DDR5-7200",
+      "latency": "CL34",
+      "voltage": "1.45V",
+      "heatspreader": true
+    },
+    "trustScore": 90,
+    "trustFactors": { "failureRate": 0.9, "warrantyYears": 5, "brandReputation": 95, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 169, "inStock": true, "url": "https://amazon.com/dp/B0CHPVL2TG", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 159, "inStock": true, "url": "https://newegg.com/gskill-trident-z5-royal-32gb-ddr5-7200", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-gskill-trident-z5-ddr5-6400-32gb", "ram-corsair-dominator-ddr5-7200-64gb"]
+  },
+  {
+    "id": "ram-corsair-dominator-ddr5-6400-64gb",
+    "category": "ram",
+    "name": "Corsair Dominator Titanium 64GB (2x32GB) DDR5-6400 CL32",
+    "brand": "Corsair",
+    "model": "Dominator Titanium DDR5-6400 64GB",
+    "specs": {
+      "capacity": "64GB (2x32GB)",
+      "speed": "DDR5-6400",
+      "latency": "CL32",
+      "voltage": "1.40V",
+      "heatspreader": true
+    },
+    "trustScore": 91,
+    "trustFactors": { "failureRate": 0.7, "warrantyYears": 5, "brandReputation": 93, "rmaRating": 4.6 },
+    "retailers": [
+      { "retailer": "amazon", "price": 234, "inStock": true, "url": "https://amazon.com/dp/B0CQ5FDRGL", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 229, "inStock": true, "url": "https://newegg.com/corsair-dominator-titanium-64gb-ddr5-6400", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 234, "inStock": true, "url": "https://bhphotovideo.com/c/product/corsair-dominator-titanium-64gb-6400", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-corsair-dominator-ddr5-7200-64gb"]
+  },
+  {
+    "id": "ram-corsair-dominator-ddr5-7200-64gb",
+    "category": "ram",
+    "name": "Corsair Dominator Titanium 64GB (2x32GB) DDR5-7200 CL34",
+    "brand": "Corsair",
+    "model": "Dominator Titanium DDR5-7200 64GB",
+    "specs": {
+      "capacity": "64GB (2x32GB)",
+      "speed": "DDR5-7200",
+      "latency": "CL34",
+      "voltage": "1.45V",
+      "heatspreader": true
+    },
+    "trustScore": 89,
+    "trustFactors": { "failureRate": 1.0, "warrantyYears": 5, "brandReputation": 93, "rmaRating": 4.5 },
+    "retailers": [
+      { "retailer": "amazon", "price": 249, "inStock": true, "url": "https://amazon.com/dp/B0CQ5GHJKL", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 244, "inStock": false, "url": "https://newegg.com/corsair-dominator-titanium-64gb-ddr5-7200", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-corsair-dominator-ddr5-6400-64gb", "ram-gskill-trident-z5-royal-ddr5-7200-32gb"]
+  }
+]
