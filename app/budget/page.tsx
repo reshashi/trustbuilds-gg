@@ -25,9 +25,10 @@ function getEnrichedBuild(build: Build): EnrichedBuild {
     0
   );
 
-  const avgTrustScore =
-    enrichedComponents.reduce((sum, c) => sum + c.trustScore, 0) /
-    enrichedComponents.length;
+  const avgTrustScore = enrichedComponents.length > 0
+    ? enrichedComponents.reduce((sum, c) => sum + c.trustScore, 0) /
+      enrichedComponents.length
+    : 0;
 
   return {
     ...build,
@@ -68,13 +69,13 @@ export default function BudgetBuilderPage() {
     const value = e.target.value.replace(/[^0-9]/g, "");
     setInputValue(value);
     if (value) {
-      const numValue = Math.min(Math.max(parseInt(value, 10), 500), 10000);
+      const numValue = Math.min(Math.max(parseInt(value, 10), 500), 5000);
       setBudget(numValue);
     }
   };
 
   const handleInputBlur = () => {
-    const numValue = Math.min(Math.max(parseInt(inputValue, 10) || 500, 500), 10000);
+    const numValue = Math.min(Math.max(parseInt(inputValue, 10) || 500, 500), 5000);
     setBudget(numValue);
     setInputValue(numValue.toString());
   };

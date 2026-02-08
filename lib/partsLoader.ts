@@ -77,5 +77,3 @@ export const categoryMeta: Record<
   mouse: { label: "Mouse", icon: "🖱️", plural: "Mice" },
   headset: { label: "Headset", icon: "🎧", plural: "Headsets" },
 };
-
-export default allParts;

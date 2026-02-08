@@ -23,7 +23,7 @@ const categoryLabels: Record<string, string> = {
   cpu: "CPU",
   gpu: "Graphics Card",
   motherboard: "Motherboard",
-  ram: "RAM",
+  ram: "Memory",
   storage: "Storage",
   psu: "Power Supply",
   case: "Case",
@@ -299,79 +299,79 @@ function analyzeUpgrades(
           ? `Upgrade from ${currentComponent.model} to ${recommended.model} for significantly better gaming performance and ray tracing.`
           : `The ${recommended.model} is the best GPU we recommend within your budget. Major gaming performance boost.`;
         performanceGain = currentComponent
-          ? `${recommended.specs.vram} VRAM`
-          : `${recommended.specs.vram} VRAM, ${recommended.specs.boostClock} boost`;
+          ? `${recommended.specs.vram ?? "High-end"} VRAM`
+          : `${recommended.specs.vram ?? "High-end"} VRAM, ${recommended.specs.boostClock ?? "Fast"} boost`;
         break;
       case "cpu":
         priority = currentComponent && currentComponent.trustScore < 85 ? "high" : "medium";
         reason = currentComponent
           ? `Upgrade to ${recommended.model} for better multi-threaded performance and gaming.`
           : `The ${recommended.model} offers excellent gaming and productivity performance.`;
-        performanceGain = `${recommended.specs.cores} cores, ${recommended.specs.boostClock}`;
+        performanceGain = `${recommended.specs.cores ?? "?"} cores, ${recommended.specs.boostClock ?? "Fast"}`;
         break;
       case "ram":
         priority = "low";
         reason = `Faster RAM improves gaming performance, especially with AMD CPUs.`;
-        performanceGain = `${recommended.specs.capacity} ${recommended.specs.speed}`;
+        performanceGain = `${recommended.specs.capacity ?? "?"} ${recommended.specs.speed ?? ""}`.trim();
         break;
       case "storage":
         priority = "low";
         reason = `Faster NVMe SSD for quicker game load times and system responsiveness.`;
-        performanceGain = `${recommended.specs.capacity}, ${recommended.specs.readSpeed} read`;
+        performanceGain = `${recommended.specs.capacity ?? "?"}, ${recommended.specs.readSpeed ?? "Fast"} read`;
         break;
       case "psu":
         priority = "medium";
         reason = currentComponent
-          ? `More headroom for upgrades and better efficiency with ${recommended.specs.efficiency}.`
+          ? `More headroom for upgrades and better efficiency with ${recommended.specs.efficiency ?? "high efficiency"}.`
           : `The ${recommended.model} provides reliable, efficient power for your system.`;
-        performanceGain = `${recommended.specs.wattage}W ${recommended.specs.efficiency}`;
+        performanceGain = `${recommended.specs.wattage ?? "?"}W ${recommended.specs.efficiency ?? ""}`.trim();
         break;
       case "case":
         priority = "low";
         reason = `Better airflow and build quality for cooler, quieter operation.`;
-        performanceGain = `${recommended.specs.gpuClearance} GPU clearance`;
+        performanceGain = recommended.specs.gpuClearance ? `${recommended.specs.gpuClearance} GPU clearance` : "Great airflow";
         break;
       case "cooler":
         priority = "medium";
         reason = currentComponent
           ? `Better cooling for lower temps and quieter operation under load.`
           : `The ${recommended.model} keeps your CPU cool and quiet.`;
-        performanceGain = `${recommended.specs.type}, ${recommended.specs.tdpRating} TDP`;
+        performanceGain = `${recommended.specs.type ?? "High-performance"}, ${recommended.specs.tdpRating ?? "High"} TDP`;
         break;
       case "motherboard":
         priority = "low";
         reason = currentComponent
           ? `Better VRM, more features, and improved connectivity.`
           : `The ${recommended.model} offers great features and reliability for your build.`;
-        performanceGain = `${recommended.specs.socket}, ${recommended.specs.wifi}`;
+        performanceGain = `${recommended.specs.socket ?? "?"}, ${recommended.specs.wifi ?? ""}`.trim();
         break;
       case "monitor":
         priority = "high";
         reason = currentComponent
           ? `Upgrade to ${recommended.model} for a better display experience with higher refresh rate and better colors.`
           : `The ${recommended.model} delivers stunning visuals to match your gaming rig.`;
-        performanceGain = `${recommended.specs.resolution} ${recommended.specs.refreshRate} ${recommended.specs.panelType}`;
+        performanceGain = `${recommended.specs.resolution ?? "?"} ${recommended.specs.refreshRate ?? ""} ${recommended.specs.panelType ?? ""}`.trim();
         break;
       case "keyboard":
         priority = "medium";
         reason = currentComponent
           ? `Upgrade to ${recommended.model} for faster switches and better build quality.`
           : `The ${recommended.model} is a top-tier gaming keyboard for competitive play.`;
-        performanceGain = `${recommended.specs.switches}, ${recommended.specs.size}`;
+        performanceGain = `${recommended.specs.switches ?? "Mechanical"}, ${recommended.specs.size ?? ""}`.trim();
         break;
       case "mouse":
         priority = "medium";
         reason = currentComponent
           ? `Upgrade to ${recommended.model} for better sensor accuracy and lower weight.`
           : `The ${recommended.model} gives you competitive precision and comfort.`;
-        performanceGain = `${recommended.specs.weight}, ${recommended.specs.connection}`;
+        performanceGain = `${recommended.specs.weight ?? "Lightweight"}, ${recommended.specs.connection ?? ""}`.trim();
         break;
       case "headset":
         priority = "low";
         reason = currentComponent
           ? `Upgrade to ${recommended.model} for better audio quality and comfort.`
           : `The ${recommended.model} delivers immersive audio for gaming.`;
-        performanceGain = `${recommended.specs.driver} driver, ${recommended.specs.connection}`;
+        performanceGain = `${recommended.specs.driver ?? "Premium"} driver, ${recommended.specs.connection ?? ""}`.trim();
         break;
     }
 
