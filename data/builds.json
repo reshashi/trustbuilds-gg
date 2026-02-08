@@ -1,0 +1,163 @@
+[
+  {
+    "id": "build-budget",
+    "name": "Budget Gaming",
+    "slug": "budget-gaming",
+    "description": "Solid 1080p gaming at 60fps in modern titles. Perfect entry point into PC gaming without breaking the bank.",
+    "targetResolution": "1080p",
+    "targetFps": 60,
+    "priceRange": { "min": 750, "max": 850 },
+    "trustScore": 86,
+    "componentIds": [
+      "cpu-r5-7600",
+      "gpu-rx7600",
+      "mobo-b650-aorus-elite",
+      "ram-32gb-ddr5-5600",
+      "storage-1tb-wd-sn850x",
+      "psu-650w-rm650x",
+      "case-4000d-airflow",
+      "cooler-ak400"
+    ],
+    "lastUpdated": "2026-02-08",
+    "difficulty": "Easy",
+    "useCase": "Entry-level gaming, esports, indie titles"
+  },
+  {
+    "id": "build-sweet-spot",
+    "name": "Sweet Spot",
+    "slug": "sweet-spot",
+    "description": "The best value for competitive gaming. Smooth 1080p 144fps gameplay in most titles.",
+    "targetResolution": "1080p",
+    "targetFps": 144,
+    "priceRange": { "min": 1100, "max": 1300 },
+    "trustScore": 88,
+    "componentIds": [
+      "cpu-r5-7600x",
+      "gpu-rtx4060ti",
+      "mobo-b650-gaming-wifi",
+      "ram-32gb-ddr5-5600",
+      "storage-1tb-980pro",
+      "psu-650w-rm650x",
+      "case-4000d-airflow",
+      "cooler-nh-u12s"
+    ],
+    "lastUpdated": "2026-02-08",
+    "difficulty": "Easy",
+    "useCase": "Competitive gaming, high refresh rate, VR-ready"
+  },
+  {
+    "id": "build-1440p",
+    "name": "1440p Gaming",
+    "slug": "1440p-gaming",
+    "description": "Excellent 1440p gaming experience at 144fps. The sweet spot for high-resolution gaming.",
+    "targetResolution": "1440p",
+    "targetFps": 144,
+    "priceRange": { "min": 1400, "max": 1600 },
+    "trustScore": 89,
+    "componentIds": [
+      "cpu-r7-7700x",
+      "gpu-rtx4070",
+      "mobo-b650-gaming-wifi",
+      "ram-32gb-ddr5-6000",
+      "storage-1tb-980pro",
+      "psu-750w-rm750x",
+      "case-h7-flow",
+      "cooler-nh-u12s"
+    ],
+    "lastUpdated": "2026-02-08",
+    "difficulty": "Medium",
+    "useCase": "1440p gaming, content creation, streaming"
+  },
+  {
+    "id": "build-4k",
+    "name": "4K Gaming",
+    "slug": "4k-gaming",
+    "description": "Experience games in stunning 4K resolution at 60fps. Great for single-player experiences.",
+    "targetResolution": "4K",
+    "targetFps": 60,
+    "priceRange": { "min": 1900, "max": 2100 },
+    "trustScore": 90,
+    "componentIds": [
+      "cpu-r7-7800x3d",
+      "gpu-rtx4070super",
+      "mobo-x670e-gaming",
+      "ram-32gb-ddr5-6000",
+      "storage-2tb-980pro",
+      "psu-850w-rm850x",
+      "case-5000d-airflow",
+      "cooler-nh-d15"
+    ],
+    "lastUpdated": "2026-02-08",
+    "difficulty": "Medium",
+    "useCase": "4K gaming, content creation, video editing"
+  },
+  {
+    "id": "build-ultra-4k",
+    "name": "Ultra 4K",
+    "slug": "ultra-4k",
+    "description": "No compromises. 4K gaming at 120fps with max settings. The ultimate gaming experience.",
+    "targetResolution": "4K",
+    "targetFps": 120,
+    "priceRange": { "min": 2400, "max": 2700 },
+    "trustScore": 92,
+    "componentIds": [
+      "cpu-r7-7800x3d",
+      "gpu-rtx4080super",
+      "mobo-x670e-gaming",
+      "ram-32gb-ddr5-6000",
+      "storage-2tb-980pro",
+      "psu-850w-rm850x",
+      "case-5000d-airflow",
+      "cooler-aio-360"
+    ],
+    "lastUpdated": "2026-02-08",
+    "difficulty": "Medium",
+    "useCase": "Maximum settings, 4K 120Hz, future-proof"
+  },
+  {
+    "id": "build-streaming",
+    "name": "Streaming Rig",
+    "slug": "streaming-rig",
+    "description": "Built for content creators. Game and stream simultaneously without performance loss.",
+    "targetResolution": "1440p",
+    "targetFps": 144,
+    "priceRange": { "min": 1700, "max": 1900 },
+    "trustScore": 91,
+    "componentIds": [
+      "cpu-r9-7900x3d",
+      "gpu-rtx4070ti-super",
+      "mobo-x670e-gaming",
+      "ram-32gb-ddr5-6000",
+      "storage-2tb-980pro",
+      "psu-850w-rm850x",
+      "case-5000d-airflow",
+      "cooler-aio-360"
+    ],
+    "lastUpdated": "2026-02-08",
+    "difficulty": "Hard",
+    "useCase": "Streaming, content creation, multi-tasking"
+  },
+  {
+    "id": "build-extreme",
+    "name": "Extreme Build",
+    "slug": "extreme",
+    "description": "The absolute best. RTX 4090 powered monster for those who demand perfection.",
+    "targetResolution": "4K",
+    "targetFps": 144,
+    "priceRange": { "min": 3500, "max": 4000 },
+    "trustScore": 94,
+    "componentIds": [
+      "cpu-r9-7900x3d",
+      "gpu-rtx4090",
+      "mobo-x670e-gaming",
+      "ram-32gb-ddr5-6000",
+      "storage-2tb-980pro",
+      "psu-1000w-rm1000x",
+      "case-5000d-airflow",
+      "cooler-aio-360"
+    ],
+    "lastUpdated": "2026-02-08",
+    "difficulty": "Hard",
+    "useCase": "No limits gaming, 8K ready, workstation"
+  }
+]

@@ -1,0 +1,1109 @@
+[
+  {
+    "id": "cpu-r5-7600",
+    "category": "cpu",
+    "name": "AMD Ryzen 5 7600",
+    "brand": "AMD",
+    "model": "Ryzen 5 7600",
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": "3.8 GHz",
+      "boostClock": "5.1 GHz",
+      "socket": "AM5",
+      "tdp": 65,
+      "cache": "38MB"
+    },
+    "trustScore": 88,
+    "trustFactors": {
+      "failureRate": 0.8,
+      "warrantyYears": 3,
+      "brandReputation": 92,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 199, "inStock": true, "url": "https://amazon.com/dp/B0BHJF19Y5", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 189, "inStock": true, "url": "https://newegg.com/amd-ryzen-5-7600", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 199, "inStock": true, "url": "https://bhphotovideo.com/c/product/amd-r5-7600", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 199, "inStock": true, "url": "https://bestbuy.com/site/amd-ryzen-5-7600", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 179, "inStock": true, "url": "https://microcenter.com/product/amd-ryzen-5-7600", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-i5-14400f", "cpu-r5-7600x"]
+  },
+  {
+    "id": "cpu-r5-7600x",
+    "category": "cpu",
+    "name": "AMD Ryzen 5 7600X",
+    "brand": "AMD",
+    "model": "Ryzen 5 7600X",
+    "specs": {
+      "cores": 6,
+      "threads": 12,
+      "baseClock": "4.7 GHz",
+      "boostClock": "5.3 GHz",
+      "socket": "AM5",
+      "tdp": 105,
+      "cache": "38MB"
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 0.7,
+      "warrantyYears": 3,
+      "brandReputation": 92,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 229, "inStock": true, "url": "https://amazon.com/dp/B0BBJDS62N", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 219, "inStock": true, "url": "https://newegg.com/amd-ryzen-5-7600x", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 199, "inStock": true, "url": "https://microcenter.com/product/amd-ryzen-5-7600x", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-r5-7600", "cpu-i5-14600k"]
+  },
+  {
+    "id": "cpu-i5-14400f",
+    "category": "cpu",
+    "name": "Intel Core i5-14400F",
+    "brand": "Intel",
+    "model": "Core i5-14400F",
+    "specs": {
+      "cores": 10,
+      "threads": 16,
+      "baseClock": "2.5 GHz",
+      "boostClock": "4.7 GHz",
+      "socket": "LGA1700",
+      "tdp": 65,
+      "cache": "20MB"
+    },
+    "trustScore": 82,
+    "trustFactors": {
+      "failureRate": 1.2,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.0
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 189, "inStock": true, "url": "https://amazon.com/dp/B0CQS8SKWZ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 185, "inStock": true, "url": "https://newegg.com/intel-i5-14400f", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 199, "inStock": false, "url": "https://bestbuy.com/site/intel-i5-14400f", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-r5-7600", "cpu-i5-14600kf"]
+  },
+  {
+    "id": "cpu-r7-7700x",
+    "category": "cpu",
+    "name": "AMD Ryzen 7 7700X",
+    "brand": "AMD",
+    "model": "Ryzen 7 7700X",
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": "4.5 GHz",
+      "boostClock": "5.4 GHz",
+      "socket": "AM5",
+      "tdp": 105,
+      "cache": "40MB"
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.6,
+      "warrantyYears": 3,
+      "brandReputation": 92,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 299, "inStock": true, "url": "https://amazon.com/dp/B0BBHD5D8Y", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 289, "inStock": true, "url": "https://newegg.com/amd-ryzen-7-7700x", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 269, "inStock": true, "url": "https://microcenter.com/product/amd-ryzen-7-7700x", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-i7-14700k", "cpu-r7-7800x3d"]
+  },
+  {
+    "id": "cpu-i5-14600k",
+    "category": "cpu",
+    "name": "Intel Core i5-14600K",
+    "brand": "Intel",
+    "model": "Core i5-14600K",
+    "specs": {
+      "cores": 14,
+      "threads": 20,
+      "baseClock": "3.5 GHz",
+      "boostClock": "5.3 GHz",
+      "socket": "LGA1700",
+      "tdp": 125,
+      "cache": "24MB"
+    },
+    "trustScore": 84,
+    "trustFactors": {
+      "failureRate": 1.0,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.2
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 299, "inStock": true, "url": "https://amazon.com/dp/B0CGJ4MLC5", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 289, "inStock": true, "url": "https://newegg.com/intel-i5-14600k", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 279, "inStock": true, "url": "https://microcenter.com/product/intel-i5-14600k", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-r5-7600x", "cpu-r7-7700x"]
+  },
+  {
+    "id": "cpu-r7-7800x3d",
+    "category": "cpu",
+    "name": "AMD Ryzen 7 7800X3D",
+    "brand": "AMD",
+    "model": "Ryzen 7 7800X3D",
+    "specs": {
+      "cores": 8,
+      "threads": 16,
+      "baseClock": "4.2 GHz",
+      "boostClock": "5.0 GHz",
+      "socket": "AM5",
+      "tdp": 120,
+      "cache": "104MB",
+      "note": "3D V-Cache for gaming"
+    },
+    "trustScore": 92,
+    "trustFactors": {
+      "failureRate": 0.5,
+      "warrantyYears": 3,
+      "brandReputation": 95,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 399, "inStock": true, "url": "https://amazon.com/dp/B0BTZB7F88", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 389, "inStock": true, "url": "https://newegg.com/amd-ryzen-7-7800x3d", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 399, "inStock": true, "url": "https://bhphotovideo.com/c/product/amd-r7-7800x3d", "lastUpdated": "2026-02-08" },
+      { "retailer": "microcenter", "price": 379, "inStock": false, "url": "https://microcenter.com/product/amd-ryzen-7-7800x3d", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-r7-7700x", "cpu-r9-7900x3d"]
+  },
+  {
+    "id": "cpu-r9-7900x3d",
+    "category": "cpu",
+    "name": "AMD Ryzen 9 7900X3D",
+    "brand": "AMD",
+    "model": "Ryzen 9 7900X3D",
+    "specs": {
+      "cores": 12,
+      "threads": 24,
+      "baseClock": "4.4 GHz",
+      "boostClock": "5.6 GHz",
+      "socket": "AM5",
+      "tdp": 120,
+      "cache": "140MB",
+      "note": "3D V-Cache for gaming + productivity"
+    },
+    "trustScore": 93,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 3,
+      "brandReputation": 95,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 499, "inStock": true, "url": "https://amazon.com/dp/B0BVN6P3WN", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 489, "inStock": true, "url": "https://newegg.com/amd-ryzen-9-7900x3d", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cpu-r7-7800x3d", "cpu-r9-7950x3d"]
+  },
+  {
+    "id": "gpu-rtx4060",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4060",
+    "brand": "NVIDIA",
+    "model": "RTX 4060",
+    "specs": {
+      "vram": "8GB GDDR6",
+      "coreClock": "1830 MHz",
+      "boostClock": "2460 MHz",
+      "tdp": 115,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 85,
+    "trustFactors": {
+      "failureRate": 1.5,
+      "warrantyYears": 3,
+      "brandReputation": 88,
+      "rmaRating": 4.2
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 289, "inStock": true, "url": "https://amazon.com/dp/B0C7JYX6LN", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 279, "inStock": true, "url": "https://newegg.com/nvidia-rtx-4060", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 299, "inStock": true, "url": "https://bestbuy.com/site/nvidia-rtx-4060", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-rx7600", "gpu-rtx4060ti"]
+  },
+  {
+    "id": "gpu-rx7600",
+    "category": "gpu",
+    "name": "AMD Radeon RX 7600",
+    "brand": "AMD",
+    "model": "RX 7600",
+    "specs": {
+      "vram": "8GB GDDR6",
+      "coreClock": "1720 MHz",
+      "boostClock": "2655 MHz",
+      "tdp": 165,
+      "ports": "HDMI 2.1, 3x DP 2.1"
+    },
+    "trustScore": 83,
+    "trustFactors": {
+      "failureRate": 1.8,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.0
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 259, "inStock": true, "url": "https://amazon.com/dp/B0C3CWQVPM", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 249, "inStock": true, "url": "https://newegg.com/amd-rx-7600", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-rtx4060", "gpu-rx7600xt"]
+  },
+  {
+    "id": "gpu-rtx4060ti",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "brand": "NVIDIA",
+    "model": "RTX 4060 Ti",
+    "specs": {
+      "vram": "8GB GDDR6",
+      "coreClock": "2310 MHz",
+      "boostClock": "2535 MHz",
+      "tdp": 160,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 86,
+    "trustFactors": {
+      "failureRate": 1.3,
+      "warrantyYears": 3,
+      "brandReputation": 88,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 389, "inStock": true, "url": "https://amazon.com/dp/B0C7JTGWLH", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 379, "inStock": true, "url": "https://newegg.com/nvidia-rtx-4060-ti", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 399, "inStock": true, "url": "https://bestbuy.com/site/nvidia-rtx-4060-ti", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-rtx4060", "gpu-rtx4070"]
+  },
+  {
+    "id": "gpu-rtx4070",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4070",
+    "brand": "NVIDIA",
+    "model": "RTX 4070",
+    "specs": {
+      "vram": "12GB GDDR6X",
+      "coreClock": "1920 MHz",
+      "boostClock": "2475 MHz",
+      "tdp": 200,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 88,
+    "trustFactors": {
+      "failureRate": 1.0,
+      "warrantyYears": 3,
+      "brandReputation": 90,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 549, "inStock": true, "url": "https://amazon.com/dp/B0C1YQFB4F", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 539, "inStock": true, "url": "https://newegg.com/nvidia-rtx-4070", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 549, "inStock": true, "url": "https://bhphotovideo.com/c/product/nvidia-rtx-4070", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 549, "inStock": true, "url": "https://bestbuy.com/site/nvidia-rtx-4070", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-rx7800xt", "gpu-rtx4070super"]
+  },
+  {
+    "id": "gpu-rx7800xt",
+    "category": "gpu",
+    "name": "AMD Radeon RX 7800 XT",
+    "brand": "AMD",
+    "model": "RX 7800 XT",
+    "specs": {
+      "vram": "16GB GDDR6",
+      "coreClock": "1295 MHz",
+      "boostClock": "2430 MHz",
+      "tdp": 263,
+      "ports": "HDMI 2.1, 2x DP 2.1"
+    },
+    "trustScore": 86,
+    "trustFactors": {
+      "failureRate": 1.4,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.2
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 479, "inStock": true, "url": "https://amazon.com/dp/B0CGZ77VZ5", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 469, "inStock": true, "url": "https://newegg.com/amd-rx-7800-xt", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-rtx4070", "gpu-rx7900gre"]
+  },
+  {
+    "id": "gpu-rtx4070super",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4070 Super",
+    "brand": "NVIDIA",
+    "model": "RTX 4070 Super",
+    "specs": {
+      "vram": "12GB GDDR6X",
+      "coreClock": "1980 MHz",
+      "boostClock": "2475 MHz",
+      "tdp": 220,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 0.9,
+      "warrantyYears": 3,
+      "brandReputation": 91,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 599, "inStock": true, "url": "https://amazon.com/dp/B0CSYDBPBX", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 589, "inStock": true, "url": "https://newegg.com/nvidia-rtx-4070-super", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 599, "inStock": false, "url": "https://bestbuy.com/site/nvidia-rtx-4070-super", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-rtx4070", "gpu-rtx4070ti-super"]
+  },
+  {
+    "id": "gpu-rtx4070ti-super",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4070 Ti Super",
+    "brand": "NVIDIA",
+    "model": "RTX 4070 Ti Super",
+    "specs": {
+      "vram": "16GB GDDR6X",
+      "coreClock": "2340 MHz",
+      "boostClock": "2610 MHz",
+      "tdp": 285,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.8,
+      "warrantyYears": 3,
+      "brandReputation": 92,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 799, "inStock": true, "url": "https://amazon.com/dp/B0CSZ3YBPH", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 789, "inStock": true, "url": "https://newegg.com/nvidia-rtx-4070-ti-super", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 799, "inStock": true, "url": "https://bhphotovideo.com/c/product/nvidia-rtx-4070-ti-super", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-rtx4070super", "gpu-rtx4080super"]
+  },
+  {
+    "id": "gpu-rtx4080super",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4080 Super",
+    "brand": "NVIDIA",
+    "model": "RTX 4080 Super",
+    "specs": {
+      "vram": "16GB GDDR6X",
+      "coreClock": "2295 MHz",
+      "boostClock": "2550 MHz",
+      "tdp": 320,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.7,
+      "warrantyYears": 3,
+      "brandReputation": 93,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 999, "inStock": true, "url": "https://amazon.com/dp/B0CSZ5YKJC", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 989, "inStock": true, "url": "https://newegg.com/nvidia-rtx-4080-super", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 999, "inStock": true, "url": "https://bestbuy.com/site/nvidia-rtx-4080-super", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-rtx4070ti-super", "gpu-rtx4090"]
+  },
+  {
+    "id": "gpu-rtx4090",
+    "category": "gpu",
+    "name": "NVIDIA GeForce RTX 4090",
+    "brand": "NVIDIA",
+    "model": "RTX 4090",
+    "specs": {
+      "vram": "24GB GDDR6X",
+      "coreClock": "2235 MHz",
+      "boostClock": "2520 MHz",
+      "tdp": 450,
+      "ports": "HDMI 2.1, 3x DP 1.4a"
+    },
+    "trustScore": 92,
+    "trustFactors": {
+      "failureRate": 0.6,
+      "warrantyYears": 3,
+      "brandReputation": 95,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 1599, "inStock": true, "url": "https://amazon.com/dp/B0BGPYHYYK", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 1579, "inStock": true, "url": "https://newegg.com/nvidia-rtx-4090", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 1599, "inStock": true, "url": "https://bhphotovideo.com/c/product/nvidia-rtx-4090", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["gpu-rtx4080super"]
+  },
+  {
+    "id": "mobo-b650-gaming-wifi",
+    "category": "motherboard",
+    "name": "MSI MAG B650 TOMAHAWK WIFI",
+    "brand": "MSI",
+    "model": "MAG B650 TOMAHAWK WIFI",
+    "specs": {
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 4.0 x16",
+      "m2Slots": 2,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2"
+    },
+    "trustScore": 87,
+    "trustFactors": {
+      "failureRate": 1.2,
+      "warrantyYears": 3,
+      "brandReputation": 88,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 219, "inStock": true, "url": "https://amazon.com/dp/B0BHCBRBNH", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 209, "inStock": true, "url": "https://newegg.com/msi-mag-b650-tomahawk-wifi", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 219, "inStock": true, "url": "https://bhphotovideo.com/c/product/msi-b650-tomahawk", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-b650-aorus-elite", "mobo-x670e-gaming"]
+  },
+  {
+    "id": "mobo-b650-aorus-elite",
+    "category": "motherboard",
+    "name": "Gigabyte B650 AORUS ELITE AX",
+    "brand": "Gigabyte",
+    "model": "B650 AORUS ELITE AX",
+    "specs": {
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 4.0 x16",
+      "m2Slots": 2,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2"
+    },
+    "trustScore": 85,
+    "trustFactors": {
+      "failureRate": 1.5,
+      "warrantyYears": 3,
+      "brandReputation": 85,
+      "rmaRating": 4.1
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 199, "inStock": true, "url": "https://amazon.com/dp/B0BHCDPR1F", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 189, "inStock": true, "url": "https://newegg.com/gigabyte-b650-aorus-elite-ax", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-b650-gaming-wifi", "mobo-b650m-aorus-elite"]
+  },
+  {
+    "id": "mobo-x670e-gaming",
+    "category": "motherboard",
+    "name": "ASUS ROG STRIX X670E-F GAMING WIFI",
+    "brand": "ASUS",
+    "model": "ROG STRIX X670E-F GAMING WIFI",
+    "specs": {
+      "socket": "AM5",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 4,
+      "wifi": "WiFi 6E",
+      "usb": "USB 4.0"
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.8,
+      "warrantyYears": 3,
+      "brandReputation": 92,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 399, "inStock": true, "url": "https://amazon.com/dp/B0BHC9M3M1", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 389, "inStock": true, "url": "https://newegg.com/asus-rog-strix-x670e-f", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-b650-gaming-wifi", "mobo-x670e-crosshair"]
+  },
+  {
+    "id": "mobo-b660-lga1700",
+    "category": "motherboard",
+    "name": "MSI PRO B660M-A WIFI DDR4",
+    "brand": "MSI",
+    "model": "PRO B660M-A WIFI DDR4",
+    "specs": {
+      "socket": "LGA1700",
+      "formFactor": "Micro-ATX",
+      "ramSlots": 2,
+      "maxRam": "64GB DDR4",
+      "pcie": "PCIe 4.0 x16",
+      "m2Slots": 2,
+      "wifi": "WiFi 6",
+      "usb": "USB 3.2 Gen 2"
+    },
+    "trustScore": 84,
+    "trustFactors": {
+      "failureRate": 1.4,
+      "warrantyYears": 3,
+      "brandReputation": 86,
+      "rmaRating": 4.1
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 139, "inStock": true, "url": "https://amazon.com/dp/B09PGLMF4W", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 129, "inStock": true, "url": "https://newegg.com/msi-pro-b660m-a-wifi", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-b760-gaming-plus"]
+  },
+  {
+    "id": "mobo-b760-gaming-plus",
+    "category": "motherboard",
+    "name": "MSI MAG B760 TOMAHAWK WIFI DDR5",
+    "brand": "MSI",
+    "model": "MAG B760 TOMAHAWK WIFI DDR5",
+    "specs": {
+      "socket": "LGA1700",
+      "formFactor": "ATX",
+      "ramSlots": 4,
+      "maxRam": "128GB DDR5",
+      "pcie": "PCIe 5.0 x16",
+      "m2Slots": 3,
+      "wifi": "WiFi 6E",
+      "usb": "USB 3.2 Gen 2x2"
+    },
+    "trustScore": 88,
+    "trustFactors": {
+      "failureRate": 1.0,
+      "warrantyYears": 3,
+      "brandReputation": 88,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 219, "inStock": true, "url": "https://amazon.com/dp/B0BSDXZQLQ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 209, "inStock": true, "url": "https://newegg.com/msi-mag-b760-tomahawk-wifi", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["mobo-b660-lga1700", "mobo-z790-gaming"]
+  },
+  {
+    "id": "ram-32gb-ddr5-5600",
+    "category": "ram",
+    "name": "G.Skill Trident Z5 32GB DDR5-5600",
+    "brand": "G.Skill",
+    "model": "Trident Z5 DDR5-5600 32GB (2x16GB)",
+    "specs": {
+      "capacity": "32GB (2x16GB)",
+      "speed": "DDR5-5600",
+      "latency": "CL36",
+      "voltage": "1.25V",
+      "heatspreader": true
+    },
+    "trustScore": 90,
+    "trustFactors": {
+      "failureRate": 0.8,
+      "warrantyYears": 5,
+      "brandReputation": 92,
+      "rmaRating": 4.5
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B09QR8GP7Z", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 99, "inStock": true, "url": "https://newegg.com/gskill-trident-z5-32gb-ddr5-5600", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-32gb-corsair-5600", "ram-32gb-ddr5-6000"]
+  },
+  {
+    "id": "ram-32gb-corsair-5600",
+    "category": "ram",
+    "name": "Corsair Vengeance 32GB DDR5-5600",
+    "brand": "Corsair",
+    "model": "Vengeance DDR5-5600 32GB (2x16GB)",
+    "specs": {
+      "capacity": "32GB (2x16GB)",
+      "speed": "DDR5-5600",
+      "latency": "CL36",
+      "voltage": "1.25V",
+      "heatspreader": true
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 0.9,
+      "warrantyYears": 5,
+      "brandReputation": 90,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 104, "inStock": true, "url": "https://amazon.com/dp/B09QKJJNKR", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 99, "inStock": true, "url": "https://newegg.com/corsair-vengeance-32gb-ddr5-5600", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 109, "inStock": true, "url": "https://bestbuy.com/site/corsair-vengeance-ddr5", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-32gb-ddr5-5600", "ram-32gb-ddr5-6000"]
+  },
+  {
+    "id": "ram-32gb-ddr5-6000",
+    "category": "ram",
+    "name": "G.Skill Trident Z5 RGB 32GB DDR5-6000",
+    "brand": "G.Skill",
+    "model": "Trident Z5 RGB DDR5-6000 32GB (2x16GB)",
+    "specs": {
+      "capacity": "32GB (2x16GB)",
+      "speed": "DDR5-6000",
+      "latency": "CL30",
+      "voltage": "1.35V",
+      "heatspreader": true,
+      "rgb": true
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.7,
+      "warrantyYears": 5,
+      "brandReputation": 93,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 139, "inStock": true, "url": "https://amazon.com/dp/B0B7J4XDXK", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 129, "inStock": true, "url": "https://newegg.com/gskill-trident-z5-rgb-32gb-ddr5-6000", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-32gb-ddr5-5600", "ram-64gb-ddr5-6000"]
+  },
+  {
+    "id": "ram-16gb-ddr4-3200",
+    "category": "ram",
+    "name": "Corsair Vengeance LPX 16GB DDR4-3200",
+    "brand": "Corsair",
+    "model": "Vengeance LPX DDR4-3200 16GB (2x8GB)",
+    "specs": {
+      "capacity": "16GB (2x8GB)",
+      "speed": "DDR4-3200",
+      "latency": "CL16",
+      "voltage": "1.35V",
+      "heatspreader": true
+    },
+    "trustScore": 88,
+    "trustFactors": {
+      "failureRate": 1.0,
+      "warrantyYears": 5,
+      "brandReputation": 90,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 49, "inStock": true, "url": "https://amazon.com/dp/B0143UM4TC", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 45, "inStock": true, "url": "https://newegg.com/corsair-vengeance-lpx-16gb-ddr4-3200", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["ram-32gb-ddr4-3600"]
+  },
+  {
+    "id": "storage-1tb-980pro",
+    "category": "storage",
+    "name": "Samsung 980 PRO 1TB NVMe SSD",
+    "brand": "Samsung",
+    "model": "980 PRO 1TB",
+    "specs": {
+      "capacity": "1TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "readSpeed": "7000 MB/s",
+      "writeSpeed": "5000 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "600 TBW"
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 5,
+      "brandReputation": 96,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B08GLX7TNT", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 99, "inStock": true, "url": "https://newegg.com/samsung-980-pro-1tb", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 109, "inStock": true, "url": "https://bestbuy.com/site/samsung-980-pro-1tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-1tb-wd-sn850x", "storage-2tb-980pro"]
+  },
+  {
+    "id": "storage-1tb-wd-sn850x",
+    "category": "storage",
+    "name": "WD Black SN850X 1TB NVMe SSD",
+    "brand": "Western Digital",
+    "model": "WD Black SN850X 1TB",
+    "specs": {
+      "capacity": "1TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "readSpeed": "7300 MB/s",
+      "writeSpeed": "6300 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "600 TBW"
+    },
+    "trustScore": 92,
+    "trustFactors": {
+      "failureRate": 0.6,
+      "warrantyYears": 5,
+      "brandReputation": 93,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 99, "inStock": true, "url": "https://amazon.com/dp/B0B7CMZ3QH", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 94, "inStock": true, "url": "https://newegg.com/wd-black-sn850x-1tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-1tb-980pro", "storage-2tb-wd-sn850x"]
+  },
+  {
+    "id": "storage-2tb-980pro",
+    "category": "storage",
+    "name": "Samsung 980 PRO 2TB NVMe SSD",
+    "brand": "Samsung",
+    "model": "980 PRO 2TB",
+    "specs": {
+      "capacity": "2TB",
+      "interface": "PCIe 4.0 x4 NVMe",
+      "readSpeed": "7000 MB/s",
+      "writeSpeed": "5100 MB/s",
+      "formFactor": "M.2 2280",
+      "tbw": "1200 TBW"
+    },
+    "trustScore": 95,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 5,
+      "brandReputation": 96,
+      "rmaRating": 4.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 179, "inStock": true, "url": "https://amazon.com/dp/B08GLX7TNT", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 169, "inStock": true, "url": "https://newegg.com/samsung-980-pro-2tb", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["storage-1tb-980pro", "storage-2tb-wd-sn850x"]
+  },
+  {
+    "id": "psu-650w-rm650x",
+    "category": "psu",
+    "name": "Corsair RM650x (2021)",
+    "brand": "Corsair",
+    "model": "RM650x",
+    "specs": {
+      "wattage": 650,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "135mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 93,
+    "trustFactors": {
+      "failureRate": 0.5,
+      "warrantyYears": 10,
+      "brandReputation": 92,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 99, "inStock": true, "url": "https://amazon.com/dp/B08R5PH1VY", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 94, "inStock": true, "url": "https://newegg.com/corsair-rm650x", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 99, "inStock": true, "url": "https://bestbuy.com/site/corsair-rm650x", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-650w-seasonic", "psu-750w-rm750x"]
+  },
+  {
+    "id": "psu-750w-rm750x",
+    "category": "psu",
+    "name": "Corsair RM750x (2021)",
+    "brand": "Corsair",
+    "model": "RM750x",
+    "specs": {
+      "wattage": 750,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "135mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 10,
+      "brandReputation": 92,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B08R5JPTMZ", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 104, "inStock": true, "url": "https://newegg.com/corsair-rm750x", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-650w-rm650x", "psu-850w-rm850x"]
+  },
+  {
+    "id": "psu-850w-rm850x",
+    "category": "psu",
+    "name": "Corsair RM850x (2021)",
+    "brand": "Corsair",
+    "model": "RM850x",
+    "specs": {
+      "wattage": 850,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "135mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.4,
+      "warrantyYears": 10,
+      "brandReputation": 93,
+      "rmaRating": 4.8
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 139, "inStock": true, "url": "https://amazon.com/dp/B08R5TCS3F", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 129, "inStock": true, "url": "https://newegg.com/corsair-rm850x", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 139, "inStock": true, "url": "https://bhphotovideo.com/c/product/corsair-rm850x", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-750w-rm750x", "psu-1000w-rm1000x"]
+  },
+  {
+    "id": "psu-1000w-rm1000x",
+    "category": "psu",
+    "name": "Corsair RM1000x (2021)",
+    "brand": "Corsair",
+    "model": "RM1000x",
+    "specs": {
+      "wattage": 1000,
+      "efficiency": "80+ Gold",
+      "modular": "Fully Modular",
+      "fanSize": "135mm",
+      "warranty": "10 years"
+    },
+    "trustScore": 95,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 10,
+      "brandReputation": 94,
+      "rmaRating": 4.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 179, "inStock": true, "url": "https://amazon.com/dp/B08R5WJ5RY", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 169, "inStock": true, "url": "https://newegg.com/corsair-rm1000x", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["psu-850w-rm850x"]
+  },
+  {
+    "id": "case-4000d-airflow",
+    "category": "case",
+    "name": "Corsair 4000D Airflow",
+    "brand": "Corsair",
+    "model": "4000D Airflow",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "360mm",
+      "cpuCoolerHeight": "170mm",
+      "frontIO": "USB-C, 2x USB-A, Audio",
+      "includedFans": 2
+    },
+    "trustScore": 91,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 2,
+      "brandReputation": 90,
+      "rmaRating": 4.6
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 104, "inStock": true, "url": "https://amazon.com/dp/B08C7BGV3D", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 99, "inStock": true, "url": "https://newegg.com/corsair-4000d-airflow", "lastUpdated": "2026-02-08" },
+      { "retailer": "bestbuy", "price": 109, "inStock": true, "url": "https://bestbuy.com/site/corsair-4000d-airflow", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-h7-flow", "case-lancool-ii-mesh"]
+  },
+  {
+    "id": "case-h7-flow",
+    "category": "case",
+    "name": "NZXT H7 Flow",
+    "brand": "NZXT",
+    "model": "H7 Flow",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "400mm",
+      "cpuCoolerHeight": "185mm",
+      "frontIO": "USB-C, USB-A, Audio",
+      "includedFans": 2
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 0.5,
+      "warrantyYears": 2,
+      "brandReputation": 88,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 129, "inStock": true, "url": "https://amazon.com/dp/B0B6GPC7DL", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 119, "inStock": true, "url": "https://newegg.com/nzxt-h7-flow", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-4000d-airflow", "case-5000d-airflow"]
+  },
+  {
+    "id": "case-5000d-airflow",
+    "category": "case",
+    "name": "Corsair 5000D Airflow",
+    "brand": "Corsair",
+    "model": "5000D Airflow",
+    "specs": {
+      "formFactor": "Mid Tower",
+      "motherboardSupport": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+      "gpuClearance": "420mm",
+      "cpuCoolerHeight": "170mm",
+      "frontIO": "USB-C, 4x USB-A, Audio",
+      "includedFans": 2
+    },
+    "trustScore": 92,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 2,
+      "brandReputation": 91,
+      "rmaRating": 4.7
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 164, "inStock": true, "url": "https://amazon.com/dp/B08JGY4FX2", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 154, "inStock": true, "url": "https://newegg.com/corsair-5000d-airflow", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["case-4000d-airflow", "case-h7-flow"]
+  },
+  {
+    "id": "cooler-ak400",
+    "category": "cooler",
+    "name": "DeepCool AK400",
+    "brand": "DeepCool",
+    "model": "AK400",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "155mm",
+      "fanSize": "120mm",
+      "rpm": "500-1850",
+      "tdpRating": "220W",
+      "socket": "AM5, AM4, LGA1700, LGA1200"
+    },
+    "trustScore": 88,
+    "trustFactors": {
+      "failureRate": 0.8,
+      "warrantyYears": 5,
+      "brandReputation": 85,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 34, "inStock": true, "url": "https://amazon.com/dp/B0B2PPFQHL", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 29, "inStock": true, "url": "https://newegg.com/deepcool-ak400", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-nh-u12s", "cooler-hyper-212"]
+  },
+  {
+    "id": "cooler-nh-u12s",
+    "category": "cooler",
+    "name": "Noctua NH-U12S",
+    "brand": "Noctua",
+    "model": "NH-U12S",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "158mm",
+      "fanSize": "120mm",
+      "rpm": "300-1500",
+      "tdpRating": "200W",
+      "socket": "AM5, AM4, LGA1700, LGA1200"
+    },
+    "trustScore": 94,
+    "trustFactors": {
+      "failureRate": 0.3,
+      "warrantyYears": 6,
+      "brandReputation": 96,
+      "rmaRating": 4.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 79, "inStock": true, "url": "https://amazon.com/dp/B00C9EYVGY", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 74, "inStock": true, "url": "https://newegg.com/noctua-nh-u12s", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-ak400", "cooler-nh-d15"]
+  },
+  {
+    "id": "cooler-nh-d15",
+    "category": "cooler",
+    "name": "Noctua NH-D15",
+    "brand": "Noctua",
+    "model": "NH-D15",
+    "specs": {
+      "type": "Air Cooler",
+      "height": "165mm",
+      "fanSize": "2x 140mm",
+      "rpm": "300-1500",
+      "tdpRating": "300W",
+      "socket": "AM5, AM4, LGA1700, LGA1200"
+    },
+    "trustScore": 96,
+    "trustFactors": {
+      "failureRate": 0.2,
+      "warrantyYears": 6,
+      "brandReputation": 98,
+      "rmaRating": 4.9
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 109, "inStock": true, "url": "https://amazon.com/dp/B00L7UZMAK", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 99, "inStock": true, "url": "https://newegg.com/noctua-nh-d15", "lastUpdated": "2026-02-08" },
+      { "retailer": "bhphoto", "price": 109, "inStock": true, "url": "https://bhphotovideo.com/c/product/noctua-nh-d15", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-nh-u12s", "cooler-aio-240"]
+  },
+  {
+    "id": "cooler-aio-240",
+    "category": "cooler",
+    "name": "Corsair iCUE H100i Elite Capellix",
+    "brand": "Corsair",
+    "model": "iCUE H100i Elite Capellix",
+    "specs": {
+      "type": "AIO Liquid Cooler",
+      "radiatorSize": "240mm",
+      "fanSize": "2x 120mm",
+      "rpm": "400-2400",
+      "pumpSpeed": "2400 RPM",
+      "socket": "AM5, AM4, LGA1700, LGA1200"
+    },
+    "trustScore": 88,
+    "trustFactors": {
+      "failureRate": 1.2,
+      "warrantyYears": 5,
+      "brandReputation": 90,
+      "rmaRating": 4.3
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 159, "inStock": true, "url": "https://amazon.com/dp/B08G1NJ3SV", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 149, "inStock": true, "url": "https://newegg.com/corsair-h100i-elite-capellix", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-nh-d15", "cooler-aio-360"]
+  },
+  {
+    "id": "cooler-aio-360",
+    "category": "cooler",
+    "name": "Corsair iCUE H150i Elite Capellix",
+    "brand": "Corsair",
+    "model": "iCUE H150i Elite Capellix",
+    "specs": {
+      "type": "AIO Liquid Cooler",
+      "radiatorSize": "360mm",
+      "fanSize": "3x 120mm",
+      "rpm": "400-2400",
+      "pumpSpeed": "2400 RPM",
+      "socket": "AM5, AM4, LGA1700, LGA1200"
+    },
+    "trustScore": 89,
+    "trustFactors": {
+      "failureRate": 1.1,
+      "warrantyYears": 5,
+      "brandReputation": 91,
+      "rmaRating": 4.4
+    },
+    "retailers": [
+      { "retailer": "amazon", "price": 189, "inStock": true, "url": "https://amazon.com/dp/B08G1NXDQV", "lastUpdated": "2026-02-08" },
+      { "retailer": "newegg", "price": 179, "inStock": true, "url": "https://newegg.com/corsair-h150i-elite-capellix", "lastUpdated": "2026-02-08" }
+    ],
+    "alternativeIds": ["cooler-aio-240", "cooler-nh-d15"]
+  }
+]

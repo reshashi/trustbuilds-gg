@@ -1,0 +1,32 @@
+[
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "logo": "/retailers/amazon.svg",
+    "affiliateBaseUrl": "https://amazon.com/dp/"
+  },
+  {
+    "id": "newegg",
+    "name": "Newegg",
+    "logo": "/retailers/newegg.svg",
+    "affiliateBaseUrl": "https://newegg.com/p/"
+  },
+  {
+    "id": "bhphoto",
+    "name": "B&H Photo",
+    "logo": "/retailers/bhphoto.svg",
+    "affiliateBaseUrl": "https://bhphotovideo.com/c/product/"
+  },
+  {
+    "id": "bestbuy",
+    "name": "Best Buy",
+    "logo": "/retailers/bestbuy.svg",
+    "affiliateBaseUrl": "https://bestbuy.com/site/"
+  },
+  {
+    "id": "microcenter",
+    "name": "Micro Center",
+    "logo": "/retailers/microcenter.svg",
+    "affiliateBaseUrl": "https://microcenter.com/product/"
+  }
+]
