@@ -18,6 +18,10 @@ const categoryLabels: Record<Component["category"], string> = {
   psu: "Power Supply",
   case: "Case",
   cooler: "CPU Cooler",
+  monitor: "Monitor",
+  keyboard: "Keyboard",
+  mouse: "Mouse",
+  headset: "Headset",
 };
 
 const categoryIcons: Record<Component["category"], string> = {
@@ -29,6 +33,10 @@ const categoryIcons: Record<Component["category"], string> = {
   psu: "⚡",
   case: "🖥️",
   cooler: "❄️",
+  monitor: "🖥️",
+  keyboard: "⌨️",
+  mouse: "🖱️",
+  headset: "🎧",
 };
 
 interface ComponentRowProps {
@@ -179,6 +187,10 @@ export default function ComponentList({
     "psu",
     "case",
     "cooler",
+    "monitor",
+    "keyboard",
+    "mouse",
+    "headset",
   ];
 
   const sortedComponents = [...components].sort(

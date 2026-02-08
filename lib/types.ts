@@ -23,7 +23,11 @@ export type ComponentCategory =
   | "storage"
   | "psu"
   | "case"
-  | "cooler";
+  | "cooler"
+  | "monitor"
+  | "keyboard"
+  | "mouse"
+  | "headset";
 
 export interface TrustFactors {
   failureRate: number; // percentage (0-100)

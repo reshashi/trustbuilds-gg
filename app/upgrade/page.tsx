@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -10,7 +10,6 @@ import type { Component } from "@/lib/types";
 
 const allComponents = componentsData as unknown as Component[];
 
-// Group components by category
 const componentsByCategory = allComponents.reduce((acc, component) => {
   if (!acc[component.category]) {
     acc[component.category] = [];
@@ -20,17 +19,36 @@ const componentsByCategory = allComponents.reduce((acc, component) => {
 }, {} as Record<string, Component[]>);
 
 const categoryLabels: Record<string, string> = {
-  cpu: "CPU (Processor)",
+  cpu: "CPU",
   gpu: "Graphics Card",
   motherboard: "Motherboard",
-  ram: "Memory (RAM)",
-  storage: "Storage (SSD)",
+  ram: "RAM",
+  storage: "Storage",
   psu: "Power Supply",
   case: "Case",
   cooler: "CPU Cooler",
+  monitor: "Monitor",
+  keyboard: "Keyboard",
+  mouse: "Mouse",
+  headset: "Headset",
 };
 
-const categoryOrder = ["cpu", "gpu", "motherboard", "ram", "storage", "psu", "case", "cooler"];
+const categoryPlaceholders: Record<string, string> = {
+  cpu: "e.g. Ryzen 5 7600, i5-14400F...",
+  gpu: "e.g. RTX 4070, RX 7800 XT...",
+  motherboard: "e.g. B650 Tomahawk, X670E...",
+  ram: "e.g. 32GB DDR5-6000...",
+  storage: "e.g. Samsung 980 Pro 1TB...",
+  psu: "e.g. Corsair RM750x...",
+  case: "e.g. Corsair 4000D, Fractal North...",
+  cooler: "e.g. Noctua NH-D15, AIO 360...",
+  monitor: "e.g. LG 27GP850, Samsung G7...",
+  keyboard: "e.g. Wooting 60HE, Corsair K70...",
+  mouse: "e.g. Logitech G Pro X Superlight...",
+  headset: "e.g. HyperX Cloud III, Arctis Nova...",
+};
+
+const categoryOrder = ["cpu", "gpu", "motherboard", "ram", "storage", "psu", "case", "cooler", "monitor", "keyboard", "mouse", "headset"];
 
 function getLowestPrice(component: Component): number {
   const inStockRetailers = component.retailers.filter((r) => r.inStock);
@@ -49,9 +67,194 @@ function formatPrice(price: number): string {
   }).format(price);
 }
 
+// --- Autocomplete Component ---
+
+interface PartSelection {
+  componentId: string | null; // null = custom text entry
+  displayText: string;
+}
+
+function AutocompleteInput({
+  category,
+  value,
+  onChange,
+}: {
+  category: string;
+  value: PartSelection;
+  onChange: (selection: PartSelection) => void;
+}) {
+  const [query, setQuery] = useState(value.displayText);
+  const [isOpen, setIsOpen] = useState(false);
+  const [highlightIndex, setHighlightIndex] = useState(-1);
+  const wrapperRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const categoryComponents = componentsByCategory[category] || [];
+
+  const filtered = query.trim()
+    ? categoryComponents.filter((c) =>
+        c.name.toLowerCase().includes(query.toLowerCase()) ||
+        c.model.toLowerCase().includes(query.toLowerCase()) ||
+        c.brand.toLowerCase().includes(query.toLowerCase())
+      )
+    : categoryComponents;
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (wrapperRef.current && !wrapperRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const selectComponent = useCallback((component: Component) => {
+    setQuery(component.name);
+    onChange({ componentId: component.id, displayText: component.name });
+    setIsOpen(false);
+    setHighlightIndex(-1);
+  }, [onChange]);
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const val = e.target.value;
+    setQuery(val);
+    setIsOpen(true);
+    setHighlightIndex(-1);
+    // If text doesn't match any component exactly, treat as custom
+    const exact = categoryComponents.find(
+      (c) => c.name.toLowerCase() === val.toLowerCase()
+    );
+    if (exact) {
+      onChange({ componentId: exact.id, displayText: exact.name });
+    } else {
+      onChange({ componentId: null, displayText: val });
+    }
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (!isOpen) {
+      if (e.key === "ArrowDown" || e.key === "Enter") {
+        setIsOpen(true);
+        e.preventDefault();
+      }
+      return;
+    }
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setHighlightIndex((prev) => Math.min(prev + 1, filtered.length - 1));
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setHighlightIndex((prev) => Math.max(prev - 1, 0));
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      if (highlightIndex >= 0 && highlightIndex < filtered.length) {
+        selectComponent(filtered[highlightIndex]);
+      } else {
+        setIsOpen(false);
+      }
+    } else if (e.key === "Escape") {
+      setIsOpen(false);
+    }
+  };
+
+  const clearSelection = () => {
+    setQuery("");
+    onChange({ componentId: null, displayText: "" });
+    setIsOpen(false);
+    inputRef.current?.focus();
+  };
+
+  return (
+    <div ref={wrapperRef} className="relative">
+      <div className="relative">
+        <input
+          ref={inputRef}
+          type="text"
+          value={query}
+          onChange={handleInputChange}
+          onFocus={() => setIsOpen(true)}
+          onKeyDown={handleKeyDown}
+          placeholder={categoryPlaceholders[category]}
+          className="w-full px-4 py-3 rounded-lg bg-[var(--background)] border border-[var(--card-border)] text-white placeholder:text-[var(--muted)]/50 focus:outline-none focus:border-[var(--accent)] pr-10 transition-colors"
+        />
+        {query && (
+          <button
+            onClick={clearSelection}
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-[var(--muted)] hover:text-white transition-colors"
+            aria-label="Clear"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        )}
+      </div>
+
+      {/* Dropdown */}
+      {isOpen && filtered.length > 0 && (
+        <div className="absolute z-50 w-full mt-1 max-h-60 overflow-y-auto rounded-lg border border-[var(--card-border)] bg-[var(--card-bg)] shadow-xl">
+          {filtered.map((component, index) => (
+            <button
+              key={component.id}
+              onClick={() => selectComponent(component)}
+              className={`w-full text-left px-4 py-3 flex items-center justify-between gap-3 transition-colors ${
+                index === highlightIndex
+                  ? "bg-[var(--accent)]/10 text-white"
+                  : "text-[var(--muted)] hover:bg-[var(--background)] hover:text-white"
+              } ${index > 0 ? "border-t border-[var(--card-border)]" : ""}`}
+            >
+              <div className="min-w-0">
+                <div className="font-medium text-white text-sm truncate">
+                  {component.name}
+                </div>
+                <div className="text-xs text-[var(--muted)] truncate">
+                  {Object.entries(component.specs)
+                    .slice(0, 3)
+                    .map(([, v]) => String(v))
+                    .join(" · ")}
+                </div>
+              </div>
+              <div className="flex-shrink-0 flex items-center gap-2">
+                <TrustScore score={component.trustScore} size="sm" />
+                <span className="text-xs text-[var(--muted)]">
+                  {formatPrice(getLowestPrice(component))}
+                </span>
+              </div>
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* Selected indicator */}
+      {value.componentId && (
+        <div className="mt-1.5 flex items-center gap-1.5">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5 text-green-400">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <span className="text-xs text-green-400">Matched</span>
+        </div>
+      )}
+      {!value.componentId && value.displayText && (
+        <div className="mt-1.5 flex items-center gap-1.5">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5 text-yellow-400">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+          </svg>
+          <span className="text-xs text-yellow-400">Custom part — we&apos;ll suggest the best upgrade</span>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// --- Analysis Logic ---
+
 interface UpgradeRecommendation {
   category: string;
   currentComponent: Component | null;
+  currentCustomName: string | null;
   recommendedComponent: Component;
   reason: string;
   priority: "high" | "medium" | "low";
@@ -60,222 +263,195 @@ interface UpgradeRecommendation {
 }
 
 function analyzeUpgrades(
-  currentParts: Record<string, string>,
+  parts: Record<string, PartSelection>,
   budget: number
 ): UpgradeRecommendation[] {
   const recommendations: UpgradeRecommendation[] = [];
 
-  // Find current components
-  const currentComponents: Record<string, Component | null> = {};
-  for (const category of categoryOrder) {
-    currentComponents[category] = currentParts[category]
-      ? allComponents.find((c) => c.id === currentParts[category]) || null
+  const filledCategories = categoryOrder.filter(
+    (cat) => parts[cat] && parts[cat].displayText.trim() !== ""
+  );
+
+  if (filledCategories.length === 0) return [];
+
+  for (const category of filledCategories) {
+    const selection = parts[category];
+    const currentComponent = selection.componentId
+      ? allComponents.find((c) => c.id === selection.componentId) || null
       : null;
-  }
 
-  // Analyze GPU first (usually biggest gaming impact)
-  const currentGpu = currentComponents.gpu;
-  if (currentGpu) {
-    const betterGpus = (componentsByCategory.gpu || [])
-      .filter((g) => g.trustScore > currentGpu.trustScore)
-      .filter((g) => getLowestPrice(g) <= budget)
-      .sort((a, b) => b.trustScore - a.trustScore);
+    const categoryParts = componentsByCategory[category] || [];
+    if (categoryParts.length === 0) continue;
 
-    if (betterGpus.length > 0) {
-      const recommended = betterGpus[0];
-      const currentPrice = getLowestPrice(currentGpu);
-      const newPrice = getLowestPrice(recommended);
+    let upgrades: Component[];
 
-      recommendations.push({
-        category: "gpu",
-        currentComponent: currentGpu,
-        recommendedComponent: recommended,
-        reason: `Upgrade from ${currentGpu.model} to ${recommended.model} for significantly better gaming performance.`,
-        priority: "high",
-        performanceGain: `+${Math.round(((recommended.trustScore - currentGpu.trustScore) / currentGpu.trustScore) * 100)}% reliability`,
-        price: newPrice,
-      });
-    }
-  }
-
-  // Analyze CPU
-  const currentCpu = currentComponents.cpu;
-  if (currentCpu) {
-    const betterCpus = (componentsByCategory.cpu || [])
-      .filter((c) => c.trustScore > currentCpu.trustScore)
-      .filter((c) => getLowestPrice(c) <= budget * 0.6) // CPU shouldn't eat whole budget
-      .sort((a, b) => b.trustScore - a.trustScore);
-
-    if (betterCpus.length > 0) {
-      const recommended = betterCpus[0];
-
-      recommendations.push({
-        category: "cpu",
-        currentComponent: currentCpu,
-        recommendedComponent: recommended,
-        reason: `Upgrade to ${recommended.model} for better multi-threaded performance and gaming.`,
-        priority: currentCpu.trustScore < 85 ? "high" : "medium",
-        performanceGain: `+${Number(recommended.specs.cores || 0) - Number(currentCpu.specs.cores || 0)} cores`,
-        price: getLowestPrice(recommended),
-      });
-    }
-  }
-
-  // Analyze RAM
-  const currentRam = currentComponents.ram;
-  if (currentRam) {
-    const betterRams = (componentsByCategory.ram || [])
-      .filter((r) => r.trustScore > currentRam.trustScore)
-      .filter((r) => getLowestPrice(r) <= budget * 0.3)
-      .sort((a, b) => b.trustScore - a.trustScore);
-
-    if (betterRams.length > 0) {
-      const recommended = betterRams[0];
-
-      recommendations.push({
-        category: "ram",
-        currentComponent: currentRam,
-        recommendedComponent: recommended,
-        reason: `Faster RAM can improve gaming performance, especially with AMD CPUs.`,
-        priority: "low",
-        performanceGain: `${recommended.specs.speed}`,
-        price: getLowestPrice(recommended),
-      });
-    }
-  }
-
-  // Analyze Storage
-  const currentStorage = currentComponents.storage;
-  if (currentStorage) {
-    const betterStorage = (componentsByCategory.storage || [])
-      .filter((s) => s.trustScore > currentStorage.trustScore)
-      .filter((s) => getLowestPrice(s) <= budget * 0.25)
-      .sort((a, b) => b.trustScore - a.trustScore);
-
-    if (betterStorage.length > 0) {
-      const recommended = betterStorage[0];
-
-      recommendations.push({
-        category: "storage",
-        currentComponent: currentStorage,
-        recommendedComponent: recommended,
-        reason: `Faster SSD for quicker load times and better overall system responsiveness.`,
-        priority: "low",
-        performanceGain: `${recommended.specs.readSpeed} read`,
-        price: getLowestPrice(recommended),
-      });
-    }
-  }
-
-  // Analyze PSU (important for GPU upgrades)
-  const currentPsu = currentComponents.psu;
-  const gpuRecommendation = recommendations.find((r) => r.category === "gpu");
-  if (currentPsu && gpuRecommendation) {
-    const recommendedGpuTdp = Number(gpuRecommendation.recommendedComponent.specs.tdp || 0);
-    const currentPsuWattage = Number(currentPsu.specs.wattage || 0);
-
-    // If recommended GPU needs more power, suggest PSU upgrade
-    if (recommendedGpuTdp > currentPsuWattage * 0.5) {
-      const betterPsus = (componentsByCategory.psu || [])
-        .filter((p) => Number(p.specs.wattage || 0) >= recommendedGpuTdp * 2)
-        .filter((p) => getLowestPrice(p) <= budget * 0.3)
-        .sort((a, b) => Number(a.specs.wattage || 0) - Number(b.specs.wattage || 0));
-
-      if (betterPsus.length > 0) {
-        const recommended = betterPsus[0];
-
-        recommendations.push({
-          category: "psu",
-          currentComponent: currentPsu,
-          recommendedComponent: recommended,
-          reason: `Higher wattage PSU needed to support the GPU upgrade safely.`,
-          priority: "high",
-          performanceGain: `${recommended.specs.wattage}W`,
-          price: getLowestPrice(recommended),
-        });
-      }
-    }
-  }
-
-  // Analyze Cooler
-  const currentCooler = currentComponents.cooler;
-  const cpuRecommendation = recommendations.find((r) => r.category === "cpu");
-  if (currentCooler && cpuRecommendation) {
-    const recommendedCpuTdp = Number(cpuRecommendation.recommendedComponent.specs.tdp || 0);
-    const currentCoolerTdp = currentCooler.specs.tdpRating
-      ? parseInt(String(currentCooler.specs.tdpRating))
-      : 150;
-
-    if (recommendedCpuTdp > currentCoolerTdp * 0.8) {
-      const betterCoolers = (componentsByCategory.cooler || [])
-        .filter((c) => parseInt(String(c.specs.tdpRating || "0")) >= recommendedCpuTdp)
-        .filter((c) => getLowestPrice(c) <= budget * 0.2)
+    if (currentComponent) {
+      // Known component: find strictly better ones
+      upgrades = categoryParts
+        .filter((c) => c.id !== currentComponent.id)
+        .filter((c) => c.trustScore > currentComponent.trustScore)
+        .filter((c) => getLowestPrice(c) <= budget)
         .sort((a, b) => b.trustScore - a.trustScore);
-
-      if (betterCoolers.length > 0) {
-        const recommended = betterCoolers[0];
-
-        recommendations.push({
-          category: "cooler",
-          currentComponent: currentCooler,
-          recommendedComponent: recommended,
-          reason: `Better cooling needed for the upgraded CPU.`,
-          priority: "medium",
-          performanceGain: String(recommended.specs.tdpRating || "High TDP"),
-          price: getLowestPrice(recommended),
-        });
-      }
+    } else {
+      // Custom / unknown component: recommend the best one in the category that fits budget
+      upgrades = categoryParts
+        .filter((c) => getLowestPrice(c) <= budget)
+        .sort((a, b) => b.trustScore - a.trustScore);
     }
+
+    if (upgrades.length === 0) continue;
+
+    const recommended = upgrades[0];
+    const price = getLowestPrice(recommended);
+
+    let priority: "high" | "medium" | "low" = "medium";
+    let reason = "";
+    let performanceGain = "";
+
+    switch (category) {
+      case "gpu":
+        priority = "high";
+        reason = currentComponent
+          ? `Upgrade from ${currentComponent.model} to ${recommended.model} for significantly better gaming performance and ray tracing.`
+          : `The ${recommended.model} is the best GPU we recommend within your budget. Major gaming performance boost.`;
+        performanceGain = currentComponent
+          ? `${recommended.specs.vram} VRAM`
+          : `${recommended.specs.vram} VRAM, ${recommended.specs.boostClock} boost`;
+        break;
+      case "cpu":
+        priority = currentComponent && currentComponent.trustScore < 85 ? "high" : "medium";
+        reason = currentComponent
+          ? `Upgrade to ${recommended.model} for better multi-threaded performance and gaming.`
+          : `The ${recommended.model} offers excellent gaming and productivity performance.`;
+        performanceGain = `${recommended.specs.cores} cores, ${recommended.specs.boostClock}`;
+        break;
+      case "ram":
+        priority = "low";
+        reason = `Faster RAM improves gaming performance, especially with AMD CPUs.`;
+        performanceGain = `${recommended.specs.capacity} ${recommended.specs.speed}`;
+        break;
+      case "storage":
+        priority = "low";
+        reason = `Faster NVMe SSD for quicker game load times and system responsiveness.`;
+        performanceGain = `${recommended.specs.capacity}, ${recommended.specs.readSpeed} read`;
+        break;
+      case "psu":
+        priority = "medium";
+        reason = currentComponent
+          ? `More headroom for upgrades and better efficiency with ${recommended.specs.efficiency}.`
+          : `The ${recommended.model} provides reliable, efficient power for your system.`;
+        performanceGain = `${recommended.specs.wattage}W ${recommended.specs.efficiency}`;
+        break;
+      case "case":
+        priority = "low";
+        reason = `Better airflow and build quality for cooler, quieter operation.`;
+        performanceGain = `${recommended.specs.gpuClearance} GPU clearance`;
+        break;
+      case "cooler":
+        priority = "medium";
+        reason = currentComponent
+          ? `Better cooling for lower temps and quieter operation under load.`
+          : `The ${recommended.model} keeps your CPU cool and quiet.`;
+        performanceGain = `${recommended.specs.type}, ${recommended.specs.tdpRating} TDP`;
+        break;
+      case "motherboard":
+        priority = "low";
+        reason = currentComponent
+          ? `Better VRM, more features, and improved connectivity.`
+          : `The ${recommended.model} offers great features and reliability for your build.`;
+        performanceGain = `${recommended.specs.socket}, ${recommended.specs.wifi}`;
+        break;
+      case "monitor":
+        priority = "high";
+        reason = currentComponent
+          ? `Upgrade to ${recommended.model} for a better display experience with higher refresh rate and better colors.`
+          : `The ${recommended.model} delivers stunning visuals to match your gaming rig.`;
+        performanceGain = `${recommended.specs.resolution} ${recommended.specs.refreshRate} ${recommended.specs.panelType}`;
+        break;
+      case "keyboard":
+        priority = "medium";
+        reason = currentComponent
+          ? `Upgrade to ${recommended.model} for faster switches and better build quality.`
+          : `The ${recommended.model} is a top-tier gaming keyboard for competitive play.`;
+        performanceGain = `${recommended.specs.switches}, ${recommended.specs.size}`;
+        break;
+      case "mouse":
+        priority = "medium";
+        reason = currentComponent
+          ? `Upgrade to ${recommended.model} for better sensor accuracy and lower weight.`
+          : `The ${recommended.model} gives you competitive precision and comfort.`;
+        performanceGain = `${recommended.specs.weight}, ${recommended.specs.connection}`;
+        break;
+      case "headset":
+        priority = "low";
+        reason = currentComponent
+          ? `Upgrade to ${recommended.model} for better audio quality and comfort.`
+          : `The ${recommended.model} delivers immersive audio for gaming.`;
+        performanceGain = `${recommended.specs.driver} driver, ${recommended.specs.connection}`;
+        break;
+    }
+
+    recommendations.push({
+      category,
+      currentComponent,
+      currentCustomName: !currentComponent ? selection.displayText : null,
+      recommendedComponent: recommended,
+      reason,
+      priority,
+      performanceGain,
+      price,
+    });
   }
 
-  // Sort by priority
+  // Sort by priority (high first)
   const priorityOrder = { high: 0, medium: 1, low: 2 };
   recommendations.sort((a, b) => priorityOrder[a.priority] - priorityOrder[b.priority]);
 
-  // Filter to fit budget
+  // Filter to fit within total budget
   let runningTotal = 0;
-  const affordableRecommendations: UpgradeRecommendation[] = [];
-
+  const affordable: UpgradeRecommendation[] = [];
   for (const rec of recommendations) {
     if (runningTotal + rec.price <= budget) {
-      affordableRecommendations.push(rec);
+      affordable.push(rec);
       runningTotal += rec.price;
     }
   }
 
-  return affordableRecommendations;
+  return affordable;
 }
 
+// --- Page Component ---
+
 export default function UpgradeAdvisorPage() {
-  const [currentParts, setCurrentParts] = useState<Record<string, string>>({});
+  const [parts, setParts] = useState<Record<string, PartSelection>>({});
   const [budget, setBudget] = useState<number>(500);
-  const [inputValue, setInputValue] = useState<string>("500");
+  const [budgetInput, setBudgetInput] = useState<string>("500");
   const [showResults, setShowResults] = useState(false);
   const [recommendations, setRecommendations] = useState<UpgradeRecommendation[]>([]);
+  const resultsRef = useRef<HTMLDivElement>(null);
 
-  const handlePartChange = (category: string, componentId: string) => {
-    setCurrentParts((prev) => ({
-      ...prev,
-      [category]: componentId,
-    }));
+  const handlePartChange = (category: string, selection: PartSelection) => {
+    setParts((prev) => ({ ...prev, [category]: selection }));
+    // Reset results when parts change
+    if (showResults) setShowResults(false);
   };
 
-  const handleBudgetChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value.replace(/[^0-9]/g, "");
-    setInputValue(value);
-    if (value) {
-      setBudget(parseInt(value, 10));
-    }
-  };
+  const selectedPartsCount = Object.values(parts).filter(
+    (p) => p && p.displayText.trim() !== ""
+  ).length;
 
   const handleAnalyze = () => {
-    const results = analyzeUpgrades(currentParts, budget);
+    const results = analyzeUpgrades(parts, budget);
     setRecommendations(results);
     setShowResults(true);
+
+    // Scroll to results
+    setTimeout(() => {
+      resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 100);
   };
 
   const totalCost = recommendations.reduce((sum, r) => sum + r.price, 0);
-  const selectedPartsCount = Object.values(currentParts).filter(Boolean).length;
 
   const priorityColors = {
     high: "bg-red-500/20 text-red-400 border-red-500/30",
@@ -288,67 +464,65 @@ export default function UpgradeAdvisorPage() {
       <Header />
 
       <main className="flex-grow">
-        {/* Hero Section */}
         <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+          {/* Hero */}
           <div className="text-center mb-12">
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
               Upgrade Advisor
             </h1>
             <p className="text-xl text-[var(--muted)] max-w-2xl mx-auto">
-              Tell us what&apos;s in your PC and your budget. We&apos;ll recommend the best upgrades for maximum performance gain.
+              Type in your current parts and budget. We&apos;ll tell you exactly what to upgrade for the biggest performance gain.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            {/* Current Parts Form */}
-            <div className="rounded-2xl border border-[var(--card-border)] bg-[var(--card-bg)] p-6">
-              <h2 className="text-xl font-bold text-white mb-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* Parts Input - 2 columns */}
+            <div className="lg:col-span-2 rounded-2xl border border-[var(--card-border)] bg-[var(--card-bg)] p-6">
+              <h2 className="text-xl font-bold text-white mb-2">
                 Your Current Parts
               </h2>
               <p className="text-sm text-[var(--muted)] mb-6">
-                Select the components you currently have. Leave empty if you don&apos;t have that part or want us to recommend one.
+                Start typing to search. If your exact part isn&apos;t listed, just type its name.
               </p>
 
-              <div className="space-y-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-5">
                 {categoryOrder.map((category) => (
                   <div key={category}>
-                    <label className="block text-sm font-medium text-[var(--muted)] mb-2">
+                    <label className="block text-sm font-medium text-[var(--muted)] mb-1.5">
                       {categoryLabels[category]}
                     </label>
-                    <select
-                      value={currentParts[category] || ""}
-                      onChange={(e) => handlePartChange(category, e.target.value)}
-                      className="w-full px-4 py-3 rounded-lg bg-[var(--background)] border border-[var(--card-border)] text-white focus:outline-none focus:border-[var(--accent)]"
-                    >
-                      <option value="">Select your {categoryLabels[category]}</option>
-                      {(componentsByCategory[category] || []).map((component) => (
-                        <option key={component.id} value={component.id}>
-                          {component.name}
-                        </option>
-                      ))}
-                      <option value="other">Other / Not Listed</option>
-                    </select>
+                    <AutocompleteInput
+                      category={category}
+                      value={parts[category] || { componentId: null, displayText: "" }}
+                      onChange={(sel) => handlePartChange(category, sel)}
+                    />
                   </div>
                 ))}
               </div>
             </div>
 
-            {/* Budget & Analyze */}
+            {/* Budget & Analyze - 1 column */}
             <div className="space-y-6">
               <div className="rounded-2xl border border-[var(--card-border)] bg-[var(--card-bg)] p-6">
-                <h2 className="text-xl font-bold text-white mb-6">
+                <h2 className="text-xl font-bold text-white mb-4">
                   Upgrade Budget
                 </h2>
 
-                <label className="block text-sm font-medium text-[var(--muted)] mb-2">
-                  How much do you want to spend?
-                </label>
-                <div className="flex items-center gap-4 mb-4">
+                <div className="flex items-center gap-3 mb-4">
                   <span className="text-2xl text-[var(--muted)]">$</span>
                   <input
                     type="text"
-                    value={inputValue}
-                    onChange={handleBudgetChange}
+                    value={budgetInput}
+                    onChange={(e) => {
+                      const val = e.target.value.replace(/[^0-9]/g, "");
+                      setBudgetInput(val);
+                      if (val) setBudget(parseInt(val, 10));
+                    }}
+                    onBlur={() => {
+                      const val = Math.min(Math.max(parseInt(budgetInput, 10) || 100, 100), 5000);
+                      setBudget(val);
+                      setBudgetInput(val.toString());
+                    }}
                     className="flex-1 text-3xl font-bold text-white bg-transparent border-none outline-none"
                     placeholder="500"
                   />
@@ -359,15 +533,15 @@ export default function UpgradeAdvisorPage() {
                   min="100"
                   max="3000"
                   step="50"
-                  value={budget}
+                  value={Math.min(budget, 3000)}
                   onChange={(e) => {
                     const value = parseInt(e.target.value, 10);
                     setBudget(value);
-                    setInputValue(value.toString());
+                    setBudgetInput(value.toString());
                   }}
                   className="w-full h-2 bg-[var(--background)] rounded-lg appearance-none cursor-pointer accent-[var(--accent)]"
                 />
-                <div className="flex justify-between text-sm text-[var(--muted)] mt-2">
+                <div className="flex justify-between text-xs text-[var(--muted)] mt-1">
                   <span>$100</span>
                   <span>$3,000</span>
                 </div>
@@ -378,16 +552,18 @@ export default function UpgradeAdvisorPage() {
                 disabled={selectedPartsCount === 0}
                 className={`w-full py-4 px-6 rounded-xl font-semibold text-lg transition-all ${
                   selectedPartsCount > 0
-                    ? "bg-[var(--accent)] hover:bg-[var(--accent-light)] text-black"
+                    ? "bg-[var(--accent)] hover:bg-[var(--accent-light)] text-black cursor-pointer active:scale-[0.98]"
                     : "bg-[var(--card-border)] text-[var(--muted)] cursor-not-allowed"
                 }`}
               >
-                Analyze My System
+                {selectedPartsCount > 0
+                  ? `Analyze ${selectedPartsCount} Part${selectedPartsCount > 1 ? "s" : ""}`
+                  : "Enter Your Parts Above"}
               </button>
 
-              {selectedPartsCount === 0 && (
-                <p className="text-sm text-center text-[var(--muted)]">
-                  Select at least one current part to get recommendations
+              {selectedPartsCount > 0 && !showResults && (
+                <p className="text-xs text-center text-[var(--muted)]">
+                  {selectedPartsCount} part{selectedPartsCount > 1 ? "s" : ""} entered
                 </p>
               )}
             </div>
@@ -395,7 +571,7 @@ export default function UpgradeAdvisorPage() {
 
           {/* Results */}
           {showResults && (
-            <div className="max-w-4xl mx-auto mt-12">
+            <div ref={resultsRef} className="max-w-4xl mx-auto mt-12 scroll-mt-8">
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-2xl font-bold text-white">
                   Upgrade Recommendations
@@ -405,6 +581,9 @@ export default function UpgradeAdvisorPage() {
                     <div className="text-sm text-[var(--muted)]">Total Cost</div>
                     <div className="text-xl font-bold text-white">
                       {formatPrice(totalCost)}
+                      <span className="text-sm font-normal text-[var(--muted)] ml-2">
+                        / {formatPrice(budget)} budget
+                      </span>
                     </div>
                   </div>
                 )}
@@ -445,18 +624,20 @@ export default function UpgradeAdvisorPage() {
                         </div>
                       </div>
 
-                      {rec.currentComponent && (
-                        <div className="flex items-center gap-2 text-sm text-[var(--muted)] mb-3">
-                          <span>Replacing:</span>
-                          <span className="text-white">{rec.currentComponent.name}</span>
-                          <span className="text-[var(--accent)]">→</span>
-                          <span className="text-green-400">{rec.performanceGain}</span>
-                        </div>
-                      )}
+                      <div className="flex items-center gap-2 text-sm text-[var(--muted)] mb-3">
+                        <span>Replacing:</span>
+                        <span className="text-white">
+                          {rec.currentComponent
+                            ? rec.currentComponent.name
+                            : rec.currentCustomName || "Current part"}
+                        </span>
+                        <span className="text-[var(--accent)]">→</span>
+                        <span className="text-green-400">{rec.performanceGain}</span>
+                      </div>
 
                       <p className="text-[var(--muted)]">{rec.reason}</p>
 
-                      {/* Quick Buy Links */}
+                      {/* Buy Links */}
                       <div className="flex flex-wrap gap-2 mt-4">
                         {rec.recommendedComponent.retailers
                           .filter((r) => r.inStock)
@@ -480,14 +661,13 @@ export default function UpgradeAdvisorPage() {
                 </div>
               ) : (
                 <div className="rounded-2xl border border-[var(--card-border)] bg-[var(--card-bg)] p-8 text-center">
-                  <div className="text-6xl mb-4">✨</div>
+                  <div className="text-5xl mb-4">&#x1f4aa;</div>
                   <h3 className="text-xl font-bold text-white mb-2">
-                    Your System is Already Great!
+                    No Upgrades Fit Your Budget
                   </h3>
                   <p className="text-[var(--muted)]">
-                    Based on your current parts and budget, we don&apos;t have any
-                    significant upgrade recommendations. Your system is already
-                    well-optimized for gaming!
+                    Your current parts are already top-tier, or upgrades exceed your budget.
+                    Try increasing your budget to see recommendations.
                   </p>
                 </div>
               )}
@@ -495,25 +675,14 @@ export default function UpgradeAdvisorPage() {
           )}
         </section>
 
-        {/* Back to Home */}
+        {/* Back */}
         <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-12">
           <Link
             href="/"
             className="inline-flex items-center gap-2 text-[var(--accent)] hover:text-[var(--accent-light)] transition-colors font-medium"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={2}
-              stroke="currentColor"
-              className="w-4 h-4"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
-              />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
             </svg>
             Back to All Builds
           </Link>
