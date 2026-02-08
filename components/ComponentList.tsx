@@ -55,7 +55,7 @@ function ComponentRow({ component, showDetails = false }: ComponentRowProps) {
               <div className="text-xs text-[var(--muted)] uppercase tracking-wide mb-0.5">
                 {categoryLabels[component.category]}
               </div>
-              <h4 className="font-semibold text-white truncate">
+              <h4 className="font-semibold text-white break-words">
                 {component.name}
               </h4>
               {hasOos && (

@@ -24,8 +24,9 @@ export default function TrustScore({
   return (
     <div className="flex items-center gap-2">
       <span
-        className={`inline-flex items-center rounded-full font-semibold ${sizeClasses[size]} ${colorClass} ${bgClass}`}
+        className={`inline-flex items-center gap-1.5 rounded-full font-semibold ${sizeClasses[size]} ${colorClass} ${bgClass}`}
       >
+        <span className="opacity-70">Trust:</span>
         {score}
       </span>
       {showLabel && (

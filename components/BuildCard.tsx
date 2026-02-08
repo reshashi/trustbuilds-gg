@@ -14,12 +14,6 @@ export default function BuildCard({ build }: BuildCardProps) {
     "4K": "bg-amber-500/20 text-amber-400",
   };
 
-  const difficultyColors = {
-    Easy: "text-green-400",
-    Medium: "text-yellow-400",
-    Hard: "text-red-400",
-  };
-
   return (
     <Link href={`/builds/${build.slug}`} className="group block">
       <div className="relative overflow-hidden rounded-2xl border border-[var(--card-border)] bg-[var(--card-bg)] p-6 transition-all duration-300 hover:border-[var(--accent)]/50 hover:shadow-lg hover:shadow-[var(--accent)]/5">
@@ -41,16 +35,7 @@ export default function BuildCard({ build }: BuildCardProps) {
               resolutionBadgeColors[build.targetResolution]
             }`}
           >
-            {build.targetResolution}
-          </span>
-          <span className="text-sm text-[var(--muted)]">
-            {build.targetFps} FPS
-          </span>
-          <span className="text-[var(--card-border)]">|</span>
-          <span
-            className={`text-sm ${difficultyColors[build.difficulty]}`}
-          >
-            {build.difficulty} Build
+            {build.targetResolution} @ {build.targetFps}fps
           </span>
         </div>
 

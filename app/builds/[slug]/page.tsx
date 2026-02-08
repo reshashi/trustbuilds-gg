@@ -56,12 +56,6 @@ export default async function BuildPage({ params }: BuildPageProps) {
     "4K": "bg-amber-500/20 text-amber-400 border-amber-500/30",
   };
 
-  const difficultyColors = {
-    Easy: "text-green-400",
-    Medium: "text-yellow-400",
-    Hard: "text-red-400",
-  };
-
   // Calculate aggregate trust factors (average of all components)
   const avgTrustFactors = {
     failureRate:
@@ -116,13 +110,6 @@ export default async function BuildPage({ params }: BuildPageProps) {
                     }`}
                   >
                     {build.targetResolution} @ {build.targetFps} FPS
-                  </span>
-                  <span
-                    className={`text-sm font-medium ${
-                      difficultyColors[build.difficulty]
-                    }`}
-                  >
-                    {build.difficulty} Build
                   </span>
                 </div>
 
@@ -208,16 +195,9 @@ export default async function BuildPage({ params }: BuildPageProps) {
                 Best For
               </h2>
               <p className="text-[var(--muted)] max-w-2xl">
-                {build.useCase}. This build is rated{" "}
-                <span className={difficultyColors[build.difficulty]}>
-                  {build.difficulty.toLowerCase()}
-                </span>{" "}
-                difficulty, meaning{" "}
-                {build.difficulty === "Easy"
-                  ? "even first-time builders can assemble it with confidence."
-                  : build.difficulty === "Medium"
-                  ? "some PC building experience is helpful but not required."
-                  : "experienced builders will get the most out of this configuration."}
+                {build.useCase}. This build targets {build.targetResolution} gaming
+                at {build.targetFps} FPS with high-reliability components selected
+                for long-term performance.
               </p>
             </div>
           </section>
